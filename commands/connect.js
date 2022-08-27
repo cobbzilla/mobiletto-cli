@@ -132,7 +132,6 @@ const cmd_connect = program.command('connect')
     .option('-f, --force', 'When creating a connection, if another connection has the same name, overwrite it')
     .argument('[json]', 'The path to a JSON file, or a literal JSON object to define the connection.\nIf omitted, interactive prompts will guide you through creating a connection')
     .action((json, options) => {
-        // console.log(`connect ${JSON.stringify(options)} json=${json}`)
         try {
             if (options.create) {
                 // ensure no other modes were specified

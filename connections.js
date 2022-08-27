@@ -88,7 +88,11 @@ const connectionNames = () => {
     return names
 }
 
-const getConnection = (name) => registry.get(name)
+const getConnection = (name) => {
+    const config = registry.get(name)
+    if (config) return config
+    throw new CliError(`getConnection: connection named '${name}' does not exist`)
+}
 
 const removeConnection = (name, force) => {
     if (!force &&!registry.has(name)) throw new CliError(`connection does not exist: ${name}`)
