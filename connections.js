@@ -1,6 +1,9 @@
 const Conf = require('conf')
 const chalk = require("chalk");
-const { mobiletto } = require("mobiletto");
+const {
+    mobiletto,
+    MobilettoNotFoundError, MobilettoError
+} = require("mobiletto");
 
 const schema = {}
 const registry = new Conf({ schema })
@@ -104,15 +107,31 @@ const removeAllConnections = () => registry.clear()
 const handleCliError = (e, program) => {
     if (e instanceof CliError) {
         program.error(e.message)
+    } else if (e instanceof MobilettoNotFoundError) {
+        program.error(chalk.redBright('Not Found: ') + chalk.whiteBright(e.message))
+    } else if (e instanceof MobilettoError) {
+        program.error(chalk.redBright('MobilettoError: ') + chalk.whiteBright(e.message))
     } else {
         throw e
     }
+}
+
+const mountAndPath = (path) => {
+    const slash = path.indexOf('/')
+    const mobi = slash === -1
+        ? path
+        : slash === path.length -1
+            ? path.substring(0, path.length - 1)
+            : path.substring(0, slash)
+    getConnection(mobi) // ensure connection is value
+    const p = path.substring(mobi.length + 1)
+    return { mount: mobi, path: p }
 }
 
 module.exports = {
     CONNECT_FIELDS, FIELD_TYPE_VALIDATORS,
     registerConnection, getConnection,
     removeConnection, removeAllConnections,
-    connect, connectionNames,
+    connect, connectionNames, mountAndPath,
     CliError, handleCliError
 }
