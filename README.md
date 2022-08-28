@@ -4,7 +4,6 @@ A command-line interface (CLI) for [mobiletto](https://www.npmjs.com/package/mob
 storage.
 
 # Contents
-* [Usage]
 * [Connections](#Connections)
   * [Create a connection](#Create-a-connection)
   * [List connections](#List-connections)
@@ -17,8 +16,6 @@ storage.
   * [Delete files](#Delete-files)
   * [View file metadata](#View-file-metadata)
   * [Mirror directories](#Mirror-directories)
-
-## Usage
 
 ## Connections
 All mobiletto storage is access through a connection.
