@@ -7,8 +7,8 @@ const program = new commander.Command()
 
 const cmd_rm = program.command('rm')
     .description('Remove files')
-    .option('-r, --recursive', 'remove files recursively')
-    .option('-f, --force', 'continue even when errors occur')
+    .option('-r, --recursive', 'Remove files recursively')
+    .option('-f, --force', 'Continue even when errors occur')
     .argument('<path>', 'The path to remove')
     .action((path, opts) => {
         try {

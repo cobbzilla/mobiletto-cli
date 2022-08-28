@@ -24,13 +24,16 @@ function CliError (message, err) {
 // noinspection EqualityComparisonWithCoercionJS
 const FIELD_TYPE_VALIDATORS = {
     boolean: (val) => {
-        if (val === 'true') return true
-        if (val === 'false') return true
+        if (val === 'true' || val === true) return true
+        if (val === 'false' || val === false) return false
         throw new CliError(`invalid boolean value, expected true or false: ${val}`)
     },
     integer: (val) => {
         if (!val || !/\d+/.test(val)) throw new CliError(`invalid integer: ${val}`)
         return +val
+    },
+    numeric: (val) => {
+        return typeof val !== 'undefined' && val !== null ? +val : null
     },
     char: (val) => {
         if (!val || val.length !== 1) throw new CliError(`invalid character (expected a single char): ${val}`)
@@ -49,7 +52,8 @@ const CONNECT_FIELDS = {
     },
     local: {
         key: { msg: 'Base directory' },
-        mode: { msg: 'File creation mode', default: '0o0600' }
+        fileMode: { msg: 'File creation mode', type: 'numeric', default: '0o0600' },
+        dirMode: { msg: 'Directory creation mode', type: 'numeric', default: '0o0700' }
     },
     s3: {
         key: { msg: 'AWS Access Key' },

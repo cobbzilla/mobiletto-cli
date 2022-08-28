@@ -9,7 +9,7 @@ const program = new commander.Command()
 
 const cmd_ls = program.command('ls')
     .description('List files')
-    .option('-r, --recursive', 'list files recursively')
+    .option('-r, --recursive', 'List files recursively')
     .option('-v, --verbose', 'Pretty-print the JSON results')
     .argument('<path>', 'The path to list')
     .action((path, opts) => {

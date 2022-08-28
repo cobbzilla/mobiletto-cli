@@ -14,6 +14,13 @@ PROMPT_TYPES = {
             skip () { return skipField(this, name, fieldConfig) }
         }
     },
+    numeric: (name, fieldConfig) => {
+        return {
+            type: 'input',
+            message: fieldMessage(fieldConfig),
+            skip () { return skipField(this, name, fieldConfig) }
+        }
+    },
     boolean: (name, fieldConfig) => {
         return {
             type: 'toggle',

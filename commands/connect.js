@@ -20,7 +20,9 @@ function assignField(field, config, fieldConfigs) {
     const value = config[field]
     let jsonValue
     if (typeof value === 'undefined' || value === null || value.length === 0) {
-        jsonValue = fieldConfig.default
+        jsonValue = fieldConfig.type
+            ? FIELD_TYPE_VALIDATORS[fieldConfig.type](fieldConfig.default)
+            : fieldConfig.default
     } else if (fieldConfig.type) {
         jsonValue = FIELD_TYPE_VALIDATORS[fieldConfig.type](value)
     } else {
@@ -104,8 +106,11 @@ function listConnections () {
     console.log(chalk.whiteBright(connectionNames().toString().replaceAll(',','\n')))
 }
 
-function dumpConnection (name) {
-    console.log(chalk.whiteBright(JSON.stringify(getConnection(name))))
+function dumpConnection (name, verbose) {
+    const output = verbose
+        ? JSON.stringify(getConnection(name), null, 2)
+        : JSON.stringify(getConnection(name))
+    console.log(chalk.whiteBright(output))
 }
 
 function rmConnection (name, force) {
@@ -127,6 +132,7 @@ const cmd_connect = program.command('connect')
     .option('-c, --create [name]', 'Create a connection. If `name` is omitted, the JSON is expected to have a "name" property')
     .option('-l, --list', 'List all available connections')
     .option('-d, --dump [name]', 'Dump full JSON configuration for a connection. ' + chalk.redBright('WARNING: Any secret keys in your config will be printed to stdout. Use with caution.'))
+    .option('-v, --verbose', 'Pretty-print output from -d / --dump command')
     .option('-r, --remove [name]', 'Delete a connection')
     .option('-R, --remove-all', 'Delete all connections')
     .option('-f, --force', 'When creating a connection, if another connection has the same name, overwrite it')
@@ -162,7 +168,7 @@ const cmd_connect = program.command('connect')
                     program.error(chalk.redBright('Cannot specify -R / --remove-all when dumping connection info'))
                 }
                 // dump
-                dumpConnection(options.dump)
+                dumpConnection(options.dump, options.verbose)
             } else if (options.remove) {
                 if (options.removeAll) {
                     program.error(chalk.redBright('Cannot specify -R / --remove-all when removing a single connection'))
