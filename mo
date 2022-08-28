@@ -1,4 +1,9 @@
 #!/bin/bash
 SCRIPT_DIR="$(cd "$(dirname "${0}")" && pwd)"
-cd "${SCRIPT_DIR}"
+TARGET_SCRIPT="$(readlink "${0}")"
+if [[ -n "${TARGET_SCRIPT}" ]] ; then
+  cd "${SCRIPT_DIR}/$(dirname "${TARGET_SCRIPT}")" || exit 1
+else
+  cd "${SCRIPT_DIR}" || exit 1
+fi
 yarn -s run mo "$@"

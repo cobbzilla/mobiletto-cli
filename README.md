@@ -3,6 +3,10 @@ mobiletto-cli
 A command-line interface (CLI) for [mobiletto](https://www.npmjs.com/package/mobiletto)
 storage.
 
+### Source
+* [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+* [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
 # Contents
 * [Connections](#Connections)
   * [Create a connection](#Create-a-connection)
@@ -18,7 +22,7 @@ storage.
   * [Mirror directories](#Mirror-directories)
 
 ## Connections
-All mobiletto storage is access through a connection.
+All mobiletto storage is accessed through a connection.
 
 Mobiletto currently supports connections to the local filesystem storage and Amazon S3 buckets.
 
