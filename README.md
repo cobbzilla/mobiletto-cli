@@ -28,15 +28,18 @@ storage.
 You can install and run `mobiletto-cli` via npm or directly from source.
 
 ### npm package
-    # install globally
+    # install globally with npm
     npm i -g mobiletto-cli
+
+    # install globally with yarn
+    yarn global add mobiletto-cli
 
     # Now the 'mo' command should be on your PATH
     mo -h
     mo --help
 
 ### From source
-To run from source, you'll need nodejs v16+
+To run from source, you'll need nodejs v16+ and yarn
 
     # Clone source and install dependencies
     git clone https://github.com/cobbzilla/mobiletto-cli.git
