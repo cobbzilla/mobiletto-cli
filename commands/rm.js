@@ -6,6 +6,7 @@ const chalk = require("chalk");
 const program = new commander.Command()
 
 const cmd_rm = program.command('rm')
+    .summary('Remove files')
     .description('Remove files')
     .option('-r, --recursive', 'Remove files recursively')
     .option('-f, --force', 'Continue even when errors occur')

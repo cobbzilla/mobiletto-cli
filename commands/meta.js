@@ -6,7 +6,8 @@ const chalk = require("chalk");
 const program = new commander.Command()
 
 const cmd_meta = program.command('meta')
-    .description('View file metadata')
+    .summary('View file metadata')
+    .description('File metadata includes size and last-modified time')
     .argument('<path>', 'The path to show metadata for')
     .option('-v, --verbose', 'Pretty-print the JSON results')
     .action((path, opts) => {

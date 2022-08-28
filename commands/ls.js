@@ -8,6 +8,7 @@ const {
 const program = new commander.Command()
 
 const cmd_ls = program.command('ls')
+    .summary('List files')
     .description('List files')
     .option('-r, --recursive', 'List files recursively')
     .option('-v, --verbose', 'Pretty-print the JSON results')

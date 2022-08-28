@@ -6,7 +6,8 @@ const { mountAndPath, connect, handleCliError } = require("../connections");
 const program = new commander.Command()
 
 const cmd_cp = program.command('cp')
-    .description('Mirror directories')
+    .summary('Mirror directories')
+    .description('Mirror directories between two mobiletto connections')
     .argument('<from>', 'Mirror from here')
     .argument('<to>', 'Mirror to here')
     .action(async (from, to) => {

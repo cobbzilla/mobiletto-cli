@@ -8,6 +8,10 @@ const COMMANDS = ['connect', 'ls', 'cp', 'rm', 'meta', 'mirror']
 const SUB_PROGRAMS = {}
 COMMANDS.forEach(cmd => SUB_PROGRAMS[cmd] = require(`./commands/${cmd}`))
 
+const SUB_COMMAND_HELP = COMMANDS.map(c => {
+    return `\t${chalk.whiteBright(c)} ${' '.repeat(12 - c.length)}${SUB_PROGRAMS[c].summary()}`
+}).toString().replaceAll(',', '\n')
+
 const HELP_PREFIX = '__~_help_~__';
 
 const program = new commander.Command()
@@ -33,6 +37,7 @@ const program = new commander.Command()
         subprogram.parse(['mo', ...args])
     })
     .showHelpAfterError()
+    .addHelpText('after', `\nUse a subcommand:\n${SUB_COMMAND_HELP}\n`)
 
 // hide help option if it is for a subcommand
 const args = process.argv
