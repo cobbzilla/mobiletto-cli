@@ -8,6 +8,9 @@ storage.
 * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
 
 # Contents
+* [Installation and usage](#Installation-and-usage)
+  * [npm package](#npm-package)
+  * [From source](#From-source)
 * [Connections](#Connections)
   * [Create a connection](#Create-a-connection)
   * [List connections](#List-connections)
@@ -20,6 +23,29 @@ storage.
   * [Delete files](#Delete-files)
   * [View file metadata](#View-file-metadata)
   * [Mirror directories](#Mirror-directories)
+
+## Installation and usage
+You can install and run `mobiletto-cli` via npm or directly from source.
+
+### npm package
+    # install globally
+    npm i -g mobiletto-cli
+
+    # Now the 'mo' command should be on your PATH
+    mo -h
+    mo --help
+
+### From source
+To run from source, you'll need nodejs v16+
+
+    # Clone source and install dependencies
+    git clone https://github.com/cobbzilla/mobiletto-cli.git
+    cd mobiletto-cli
+    yarn install
+
+    # Use the 'mo' command from the git repo
+    ./mo -h
+    ./mo --help
 
 ## Connections
 All mobiletto storage is accessed through a connection.
