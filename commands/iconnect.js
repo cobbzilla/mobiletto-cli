@@ -1,6 +1,7 @@
-const { prompt } = require('enquirer')
+const Enquirer = require('enquirer');
+const enquirer = new Enquirer();
 
-const { CONNECT_FIELDS, CliError } = require('../connections')
+const { CONNECT_FIELDS, SPECIAL_FIELD_GROUPS, CliError } = require('../connections')
 
 function fieldMessage(fieldConfig) {
     return fieldConfig.msg + (fieldConfig.default ? ` (default is ${fieldConfig.default})` : '')
@@ -10,37 +11,29 @@ PROMPT_TYPES = {
     integer: (name, fieldConfig) => {
         return {
             type: 'numeral',
-            message: fieldMessage(fieldConfig),
-            skip () { return skipField(this, name, fieldConfig) }
+            message: fieldMessage(fieldConfig)
         }
     },
     numeric: (name, fieldConfig) => {
         return {
             type: 'input',
-            message: fieldMessage(fieldConfig),
-            skip () { return skipField(this, name, fieldConfig) }
+            message: fieldMessage(fieldConfig)
         }
     },
     boolean: (name, fieldConfig) => {
         return {
             type: 'toggle',
-            message: fieldMessage(fieldConfig),
-            skip () { return skipField(this, name, fieldConfig) }
+            enabled: true,
+            disabled: false,
+            message: fieldMessage(fieldConfig)
         }
     },
     char: (name, fieldConfig) => {
         return {
             type: 'input',
-            message: fieldMessage(fieldConfig),
-            skip () { return skipField(this, name, fieldConfig) }
+            message: fieldMessage(fieldConfig)
         }
     }
-}
-
-function skipField (enq, name, fieldConfig) {
-    if (!fieldConfig.when) return false
-    const val = enq.enquirer.answers[fieldConfig.when]
-    return typeof val === 'undefined' || val === 'false' || !val
 }
 
 function promptForField (name, fieldConfig) {
@@ -48,15 +41,14 @@ function promptForField (name, fieldConfig) {
         return {
             type: 'input',
             name,
-            message: fieldMessage(fieldConfig),
-            skip () { return skipField(this, name, fieldConfig) }
+            message: fieldMessage(fieldConfig)
         }
     }
     return PROMPT_TYPES[fieldConfig.type](name, fieldConfig)
 }
 
 async function interactiveConnect (name) {
-    return prompt([
+    return enquirer.prompt([
         {
             type: 'input',
             name: 'name',
@@ -67,7 +59,7 @@ async function interactiveConnect (name) {
             name: 'type',
             type: 'select',
             message: 'Connect to:',
-            choices: Object.keys(CONNECT_FIELDS).filter(n => n !== 'all')
+            choices: Object.keys(CONNECT_FIELDS).filter(n => !SPECIAL_FIELD_GROUPS.includes(n))
         }
     ]).then(async (nameAndType) => {
         if (!nameAndType.type) throw new CliError(`no connection type provided`)
@@ -78,8 +70,22 @@ async function interactiveConnect (name) {
                 configQuestions.push(promptForField(f, fieldConfigs[f]))
             })
         })
-        const configAnswers = await prompt(configQuestions)
-        return Object.assign({}, nameAndType, configAnswers)
+        const configAnswers = await enquirer.prompt(configQuestions)
+        const enableEncryption = await enquirer.prompt([{
+            name: 'encryption',
+            type: 'toggle',
+            message: 'Enable encryption?'
+        }])
+        let cryptAnswers = {}
+        if (enableEncryption.encryption) {
+            const encFields = CONNECT_FIELDS.encryption
+            const cryptQuestions = []
+            Object.keys(encFields).forEach(f => {
+                cryptQuestions.push(promptForField(f, encFields[f]))
+            })
+            cryptAnswers = await enquirer.prompt(cryptQuestions)
+        }
+        return Object.assign({}, nameAndType, configAnswers, cryptAnswers)
     })
 }
 

@@ -44,11 +44,12 @@ const FIELD_TYPE_VALIDATORS = {
 const CONNECT_FIELDS = {
     all: {
         readOnly: { msg: 'Mount as read-only?', type: 'boolean', default: false },
-        encryption: { msg: 'Enable encryption?', type: 'boolean', default: false },
-        encryptionKey: { msg: 'Encryption key', when: 'encryption' },
-        encryptionIV: { msg: 'Encryption IV', when: 'encryption', default: null },
-        encryptionAlgo: { msg: 'Encryption algorithm', when: 'encryption', default: 'aes-256-cbc' },
         cacheSize: { msg: 'Size of LRU cache for list results', type: 'integer', default: 100 }
+    },
+    encryption: {
+        encryptionKey: { msg: 'Encryption key' },
+        encryptionIV: { msg: 'Encryption IV', default: null },
+        encryptionAlgo: { msg: 'Encryption algorithm', default: 'aes-256-cbc' },
     },
     local: {
         key: { msg: 'Base directory' },
@@ -64,6 +65,7 @@ const CONNECT_FIELDS = {
         delimiter: { msg: 'Delimiter', default: '/', type: 'char' }
     }
 }
+const SPECIAL_FIELD_GROUPS =  ['all', 'encryption']
 
 const CONNECTIONS = {}
 
@@ -140,7 +142,7 @@ const mountAndPath = (path) => {
 }
 
 module.exports = {
-    CONNECT_FIELDS, FIELD_TYPE_VALIDATORS,
+    CONNECT_FIELDS, FIELD_TYPE_VALIDATORS, SPECIAL_FIELD_GROUPS,
     registerConnection, getConnection,
     removeConnection, removeAllConnections,
     connect, connectionNames, mountAndPath,
