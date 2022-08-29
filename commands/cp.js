@@ -42,7 +42,14 @@ const copyAcross = (fromConn, fromPath, toConn, toPath, verbose, force) => (obj)
                         // read from temp file -> write to mirror
                         if (verbose) { console.log(`cp: writing temp ${file} -> target ${destFullPath}`) }
                         const reader = fs.createReadStream(file)
-                        await toConn.write(destFullPath, reader)
+                        try {
+                            await toConn.write(destFullPath, reader)
+                        } catch (e) {
+                            const message = `cp: error copying file to ${destFullPath}`
+                            if (verbose) { console.log(chalk.redBright(message + `: ${e}`)) }
+                            if (force) return
+                            throw new CliError(message, e)
+                        }
                     },
                     (err) => {
                         const message = `cp: error copying file to ${destFullPath}`

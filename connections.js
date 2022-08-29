@@ -92,10 +92,10 @@ const connect = async (name) => {
             algo: config.encryptionAlgo,
         }
         : null
-    for (const cfg of ['iv', 'algo']) {
-        if (typeof encryption[cfg] !== 'undefined' && encryption[cfg].length === 0) {
-            delete encryption[cfg]
-        }
+    if (encryption) {
+        ['iv', 'algo'].forEach(cfg => {
+            if (typeof encryption[cfg] !== 'undefined' && encryption[cfg].length === 0) { delete encryption[cfg] }
+        })
     }
     CONNECTIONS[name] = await mobiletto(config.type, config.key, config.secret, config.opts, encryption)
     return CONNECTIONS[name]
