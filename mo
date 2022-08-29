@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 SCRIPT_DIR="$(cd "$(dirname "${0}")" && pwd)"
 TARGET_SCRIPT="$(readlink "${0}")"
-if [[ -n "${TARGET_SCRIPT}" ]] ; then
+if [ -n "${TARGET_SCRIPT}" ] ; then
   cd "${SCRIPT_DIR}/$(dirname "${TARGET_SCRIPT}")" || exit 1
 else
   cd "${SCRIPT_DIR}" || exit 1
