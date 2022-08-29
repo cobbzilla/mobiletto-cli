@@ -18,6 +18,7 @@ const program = new commander.Command()
     .command('mo')
     .description('CLI for mobiletto storage')
     .argument('[args...]')
+    .version(require('./package.json').version)
     .allowUnknownOption()
     .action((args) => {
         if (args.length === 0) {
