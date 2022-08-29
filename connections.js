@@ -83,7 +83,14 @@ const connect = async (name) => {
     if (CONNECTIONS[name]) return CONNECTIONS[name]
     const config = registry.get(name, null)
     if (!config) throw new CliError(`connect: no connection named '${name}' is defined`)
-    CONNECTIONS[name] = await mobiletto(config.type, config.key, config.secret, config.opts, config.encryption)
+    const encryption = config.encryption
+        ? {
+            key: config.encryptionKey,
+            iv: config.encryptionIV,
+            algo: config.encryptionAlgo,
+        }
+        : null
+    CONNECTIONS[name] = await mobiletto(config.type, config.key, config.secret, config.opts, encryption)
     return CONNECTIONS[name]
 }
 

@@ -77,7 +77,7 @@ async function createConnection (json, options) {
             }
         } else {
             fs.readFile(json, 'utf8', async (err, data) => {
-                if (err) { return handleCliError(e, program) }
+                if (err) { return handleCliError(err, program) }
                 config = JSON.parse(data)
                 try {
                     await _createConn(config, options)
