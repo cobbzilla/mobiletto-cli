@@ -20,7 +20,11 @@ const program = new commander.Command()
     .argument('[args...]')
     .version(require('./package.json').version)
     .allowUnknownOption()
-    .action((args) => {
+    .action((args, opts) => {
+        if (opts.version) {
+            console.log(this.version)
+            return
+        }
         if (args.length === 0) {
             program.error(chalk.redBright('no command provided'))
         }
