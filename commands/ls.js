@@ -9,7 +9,9 @@ const program = new commander.Command()
 
 const cmd_ls = program.command('ls')
     .summary('List files')
-    .description('List files')
+    .description('List files\n\n' +
+        'More info:\n' +
+        'https://github.com/cobbzilla/mobiletto-cli/blob/master/README.md#List-files')
     .option('-r, --recursive', 'List files recursively')
     .option('-v, --verbose', 'Pretty-print the JSON results')
     .argument('<path>', 'The path to list')

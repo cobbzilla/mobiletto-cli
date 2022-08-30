@@ -18,10 +18,11 @@ storage.
   * [Remove a connection](#Remove-a-connection)
   * [Remove all connections](#Remove-all-connections)
 * [Working with storage](#Working-with-storage)
-  * [List file](#List-files)
+  * [List files](#List-files)
+  * [Write a file to stdout](#Write-a-file-to-stdout)
   * [Copy files](#Copy-files)
   * [Delete files](#Delete-files)
-  * [View file metadata](#View-file-metadata)
+  * [View metadata](#View-metadata)
   * [Mirror directories](#Mirror-directories)
 
 ## Installation and usage
@@ -146,6 +147,9 @@ List files recursively:
     mo ls -r conn1/some/path
     mo ls --recursive conn1/some/path
 
+**Encrypted storage note**: Recursive listing is not yet supported for encrypted connections.
+You can only list one directory of files at a time.
+
 List files verbosely (pretty-print JSON):
 
     mo ls -v conn1/some/path
@@ -160,6 +164,15 @@ View help for `ls` command, describes all options:
 
     mo ls -h
     mo ls --help
+
+### Write a file to stdout
+The `cat` command will print a file to stdout:
+
+    mo cat conn1/some/file                         # print to terminal
+    mo cat conn1/some/file | some-other-command    # use in command pipeline
+
+In the true UNIX spirit *(yet certainly not the practice!)* mobiletto's `cat` command **takes no options**
+other than `-h`/`--help` to display helpful information.
 
 ### Copy files
 Copy a single file from one mobiletto to another:
@@ -201,8 +214,11 @@ Delete a directory and don't complain about any errors:
     mo rm -rf conn1/some/directory
     mo rm --recursive --force conn1/some/directory
 
-### View file metadata
-Mobiletto is able to report file size and last modified time, in addition to name and type.
+### View metadata
+It's often useful to know the metadata for a file, without downloading the whole file.
+
+Mobiletto is able to report the file size and last modified time, in addition to name and type.
+
 To view metadata:
 
     mo meta conn1/some/file.txt

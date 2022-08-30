@@ -126,9 +126,16 @@ function rmAllConnections () {
 
 const cmd_connect = program.command('connect')
     .summary('Define a connection to a mobiletto storage volume')
-    .description('Each connection must have a unique name.\n' +
-        'Connection details are saved in a per-user configuration location.\n' +
-        'If no options are provided, the -c / --create option is assumed.')
+    .description('Connection details are saved in a per-user configuration location\n\n' +
+        'Mobiletto uses the `conf` npm package to persist these connection details\n' +
+        ' * https://www.npmjs.com/package/conf\n\n' +
+        'Want to delete anything and everything?\n' +
+        'This approach is "as-good-as-uninstall" -- use the `-R` option to remove all\n' +
+        'connections, this deletes all the data stored by this tool. The rump file will\n' +
+        'contain an empty JSON object.\n\n' +
+        'If no options are provided, the -c / --create option is assumed\n\n' +
+        'More info:\n' +
+        'https://github.com/cobbzilla/mobiletto-cli/blob/master/README.md#Connections')
     .option('-c, --create [name]', 'Create a connection. If `name` is omitted, the JSON is expected to have a "name" property')
     .option('-l, --list', 'List all available connections')
     .option('-d, --dump [name]', 'Dump full JSON configuration for a connection. ' + chalk.redBright('WARNING: Any secret keys in your config will be printed to stdout. Use with caution.'))

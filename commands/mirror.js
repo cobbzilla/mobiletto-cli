@@ -7,7 +7,8 @@ const program = new commander.Command()
 
 const cmd_cp = program.command('cp')
     .summary('Mirror directories')
-    .description('Mirror directories between two mobiletto connections')
+    .description('Mirror directories between two mobiletto connections\n\n' +
+        'More info:\nhttps://github.com/cobbzilla/mobiletto-cli/blob/master/README.md#Mirror-directories')
     .argument('<from>', 'Mirror from here')
     .argument('<to>', 'Mirror to here')
     .action(async (from, to) => {

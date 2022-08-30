@@ -72,7 +72,9 @@ const copyAcross = (fromConn, fromPath, toConn, toPath, verbose, force) => (obj)
 }
 const cmd_cp = program.command('cp')
     .summary('Copy files')
-    .description('Copy files from one mobiletto connection to another')
+    .description('Copy files from one mobiletto connection to another\n\n' +
+        'More info:\n' +
+        'https://github.com/cobbzilla/mobiletto-cli/blob/master/README.md#Copy-files')
     .option('-r, --recursive', 'Copy files recursively')
     .option('-f, --force', 'Continue even when errors occur')
     .option('-v, --verbose', 'Verbose output')

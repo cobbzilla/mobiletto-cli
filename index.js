@@ -4,7 +4,7 @@ const chalk = require('chalk')
 
 const { handleCliError } = require("./connections");
 
-const COMMANDS = ['connect', 'ls', 'cp', 'rm', 'meta', 'mirror']
+const COMMANDS = ['connect', 'ls', 'cat', 'cp', 'rm', 'meta', 'mirror']
 const SUB_PROGRAMS = {}
 COMMANDS.forEach(cmd => SUB_PROGRAMS[cmd] = require(`./commands/${cmd}`))
 

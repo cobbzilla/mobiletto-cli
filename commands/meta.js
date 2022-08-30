@@ -7,7 +7,9 @@ const program = new commander.Command()
 
 const cmd_meta = program.command('meta')
     .summary('View file metadata')
-    .description('File metadata includes size and last-modified time')
+    .description('File metadata includes size and last-modified time\n\n' +
+        'More info:\n' +
+        'https://github.com/cobbzilla/mobiletto-cli/blob/master/README.md#View-metadata')
     .argument('<path>', 'The path to show metadata for')
     .option('-v, --verbose', 'Pretty-print the JSON results')
     .action((path, opts) => {
