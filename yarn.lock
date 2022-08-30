@@ -2676,7 +2676,7 @@ mimic-fn@^3.0.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-3.1.0.tgz#65755145bbf3e36954b949c16450427451d5ca74"
   integrity sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ==
 
-mobiletto@^1.0.43:
+mobiletto@^1.0.44:
   version "1.0.44"
   resolved "https://registry.yarnpkg.com/mobiletto/-/mobiletto-1.0.44.tgz#a53eeb8cd8ddc2042866c37116f6d43a97edb819"
   integrity sha512-5bvpU/SdKezAbGbKHinAS/ErjKS1KltVYVS3K0WwcNP1Z4WjeixFU/c4AoHkCOWIemGH8KTWb7gR8LrTAQ76HQ==
