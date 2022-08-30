@@ -14,19 +14,17 @@ const SUB_COMMAND_HELP = COMMANDS.map(c => {
 
 const HELP_PREFIX = '__~_help_~__';
 
+const VERSION = require('./package.json').version;
+
 const program = new commander.Command()
     .command('mo')
-    .description('CLI for mobiletto storage')
+    .description(`CLI for mobiletto storage\nVersion ${VERSION}`)
     .argument('[args...]')
-    .version(require('./package.json').version)
+    .version(VERSION)
     .allowUnknownOption()
-    .action((args, opts) => {
-        if (opts.version) {
-            console.log(this.version)
-            return
-        }
+    .action((args) => {
         if (args.length === 0) {
-            program.error(chalk.redBright('no command provided'))
+            program.error(chalk.redBright('No command provided'))
         }
         const subcommand = args[0]
         const subprogram = SUB_PROGRAMS[subcommand]
@@ -42,7 +40,7 @@ const program = new commander.Command()
         subprogram.parse(['mo', ...args])
     })
     .showHelpAfterError()
-    .addHelpText('after', `\nUse a subcommand:\n${SUB_COMMAND_HELP}\n`)
+    .addHelpText('after', `\nUse a command:\n${SUB_COMMAND_HELP}\n`)
 
 // hide help option if it is for a subcommand
 const args = process.argv
