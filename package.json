@@ -3,16 +3,22 @@
   "version": "1.0.20",
   "description": "CLI for mobiletto",
   "main": "index.js",
-  "keywords": ["storage", "s3", "simple", "filesystem", "cli"],
+  "keywords": [
+    "storage",
+    "s3",
+    "simple",
+    "filesystem",
+    "cli"
+  ],
   "homepage": "https://github.com/cobbzilla/mobiletto-cli",
   "author": "Jonathan Cobb <udo9jqld@duck.com> (https://github.com/cobbzilla)",
   "funding": {
-    "type" : "patreon",
-    "url" : "https://www.patreon.com/cobbzilla"
+    "type": "patreon",
+    "url": "https://www.patreon.com/cobbzilla"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/cobbzilla/mobiletto-cli"
+    "type": "git",
+    "url": "https://github.com/cobbzilla/mobiletto-cli"
   },
   "license": "Apache-2.0",
   "scripts": {
@@ -31,7 +37,7 @@
     "commander": "^9.4.0",
     "conf": "^10.2.0",
     "enquirer": "^2.3.6",
-    "mobiletto": "^1.0.42",
+    "mobiletto": "^1.0.43",
     "randomstring": "^1.2.2"
   }
 }
