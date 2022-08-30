@@ -1,9 +1,9 @@
 const Conf = require('conf')
-const chalk = require("chalk");
+const chalk = require("chalk")
 const {
     mobiletto,
     MobilettoNotFoundError, MobilettoError
-} = require("mobiletto");
+} = require("mobiletto")
 
 const schema = {}
 const registry = new Conf({ schema })
@@ -43,8 +43,12 @@ const FIELD_TYPE_VALIDATORS = {
 
 const CONNECT_FIELDS = {
     all: {
-        readOnly: { msg: 'Mount as read-only?', type: 'boolean', default: false },
-        cacheSize: { msg: 'Size of LRU cache for list results', type: 'integer', default: 100 }
+        readOnly: { msg: 'Mount as read-only?', type: 'boolean', default: false }
+    },
+    redis: {
+        redisHost: { msg: 'Redis host', default: '127.0.0.1' },
+        redisPort: { msg: 'Redis port', type: 'integer', default: 6379 },
+        redisPrefix: { msg: 'Redis key prefix', default: '__mobiletto_' }
     },
     encryption: {
         encryptionKey: { msg: 'Encryption key' },
@@ -65,7 +69,7 @@ const CONNECT_FIELDS = {
         delimiter: { msg: 'Delimiter', default: '/', type: 'char' }
     }
 }
-const SPECIAL_FIELD_GROUPS =  ['all', 'encryption']
+const SPECIAL_FIELD_GROUPS =  ['all', 'redis', 'encryption']
 
 const CONNECTIONS = {}
 

@@ -1,5 +1,6 @@
-const Enquirer = require('enquirer');
-const enquirer = new Enquirer();
+const Enquirer = require('enquirer')
+const enquirer = new Enquirer()
+const chalk = require("chalk")
 
 const { CONNECT_FIELDS, SPECIAL_FIELD_GROUPS, CliError } = require('../connections')
 
@@ -71,6 +72,21 @@ async function interactiveConnect (name) {
             })
         })
         const configAnswers = await enquirer.prompt(configQuestions)
+        const enableRedis = await enquirer.prompt([{
+            name: 'redis',
+            message: `Enable redis caching ${chalk.greenBright('(highly recommended)')} ?`,
+            type: 'toggle',
+            initial: true
+        }])
+        let redisAnswers = {}
+        if (enableRedis.redis) {
+            const redisFields = CONNECT_FIELDS.redis
+            const redisQuestions = []
+            Object.keys(redisFields).forEach(f => {
+                redisQuestions.push(promptForField(f, redisFields[f]))
+            })
+            redisAnswers = await enquirer.prompt(redisQuestions)
+        }
         const enableEncryption = await enquirer.prompt([{
             name: 'encryption',
             type: 'toggle',
@@ -85,7 +101,7 @@ async function interactiveConnect (name) {
             })
             cryptAnswers = await enquirer.prompt(cryptQuestions)
         }
-        return Object.assign({}, nameAndType, configAnswers, cryptAnswers)
+        return Object.assign({}, nameAndType, configAnswers, redisAnswers, cryptAnswers)
     })
 }
 

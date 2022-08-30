@@ -56,6 +56,13 @@ async function _createConn (config, options) {
         }
         : null
     config.encryption = encryption ? encryption : null
+    if (config.redis) {
+        config.opts.redisConfig = {
+            host: config.redisHost || '127.0.0.1',
+            port: +config.redisPort || 6379,
+            prefix: config.redisPrefix || '_mobiletto__'
+        }
+    }
     try {
         await registerConnection(config.name, config, options.force)
         console.log(`Connection '${config.name}' successfully registered`)
