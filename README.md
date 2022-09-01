@@ -3,6 +3,8 @@ mobiletto-cli
 A command-line interface (CLI) for [mobiletto](https://www.npmjs.com/package/mobiletto)
 storage.
 
+Mobiletto supports connections to Amazon S3, Backblaze B2, and local filesystems.
+
 ### Source
 * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
 * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
@@ -60,7 +62,7 @@ Connections are specified by a JSON object that looks like this:
 
     {
         "name": "name-of-connection",
-        "type": "local-or-s3",
+        "type": "s3",            # one of "s3", "b2", or "local"
         "opts": {
             "readOnly": false,   # optional, default false
             "cacheSize": 100,    # optional, 
