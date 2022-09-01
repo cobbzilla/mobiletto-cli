@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const commander = require('commander')
 const chalk = require('chalk')
-const { mountAndPath, connect, handleCliError } = require("../connections");
+const { mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 
 const program = new commander.Command()
 
@@ -28,6 +28,7 @@ const cmd_cp = program.command('cp')
                         (results.errors > 0 ? chalk.redBright('errors: ') : chalk.whiteBright('errors: ')) +
                         results.errors + '\n')
                 })
+                .finally(cleanup)
         } catch (e) {
             handleCliError(e, program)
         }

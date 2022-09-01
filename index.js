@@ -2,7 +2,7 @@
 const commander = require('commander')
 const chalk = require('chalk')
 
-const { handleCliError } = require("./connections");
+const { handleCliError } = require("./connections")
 
 const COMMANDS = ['connect', 'ls', 'cat', 'cp', 'rm', 'meta', 'mirror']
 const SUB_PROGRAMS = {}

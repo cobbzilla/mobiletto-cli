@@ -5,10 +5,17 @@ const chalk = require("chalk")
 const { CONNECT_FIELDS, SPECIAL_FIELD_GROUPS, CliError } = require('../connections')
 
 function fieldMessage(fieldConfig) {
-    return fieldConfig.msg + (fieldConfig.default ? ` (default is ${fieldConfig.default})` : '')
+    return fieldConfig.msg + (fieldConfig.default ? chalk.greenBright(` (default is ${fieldConfig.default})`) : '')
 }
 
 PROMPT_TYPES = {
+    password: (name, fieldConfig) => {
+        return {
+            type: 'password',
+            name,
+            message: fieldMessage(fieldConfig)
+        }
+    },
     integer: (name, fieldConfig) => {
         return {
             type: 'numeral',

@@ -6,7 +6,7 @@ const randomstring = require('randomstring')
 const commander = require('commander')
 const { M_FILE } = require('mobiletto')
 const chalk = require("chalk")
-const { mountAndPath, handleCliError, connect, CliError} = require("../connections")
+const { mountAndPath, handleCliError, connect, CliError, cleanup } = require("../connections")
 
 const program = new commander.Command()
 
@@ -57,10 +57,11 @@ const copyAcross = (fromConn, fromPath, toConn, toPath, verbose, force) => (obj)
                         if (force) return
                         throw new CliError(message, err)
                     })
-                .finally(() => {
+                .finally(async () => {
                     fs.rm(file, (err) => {
                         if (err) { console.error(chalk.redBright(`Error deleting temp file: ${file}: ${err}`)) }
                     })
+                    await cleanup()
                 })
         } catch (e) {
             if (verbose) {

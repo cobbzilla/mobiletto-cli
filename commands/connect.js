@@ -6,7 +6,7 @@ const {
     CONNECT_FIELDS, FIELD_TYPE_VALIDATORS,
     registerConnection, connectionNames, getConnection,
     removeConnection, removeAllConnections,
-    CliError, handleCliError
+    CliError, handleCliError, cleanup
 } = require('../connections')
 const { interactiveConnect } = require('./iconnect')
 
@@ -41,7 +41,7 @@ async function _createConn (config, options) {
     }
     if (!config.name) throw new CliError(`createConnection: invalid JSON: "name" property is required`)
     if (!config.type) throw new CliError(`createConnection: invalid JSON: "type" property is required`)
-    config.opts = {}
+    config.opts = Object.assign({}, config.opts ? config.opts: {})
     const configGroups = [CONNECT_FIELDS.all, CONNECT_FIELDS[config.type]]
     configGroups.forEach(fieldConfigs => {
         Object.keys(fieldConfigs).forEach(field => {
@@ -65,6 +65,7 @@ async function _createConn (config, options) {
     }
     try {
         await registerConnection(config.name, config, options.force)
+        await cleanup()
         console.log(`Connection '${config.name}' successfully registered`)
     } catch (e) {
         handleCliError(e, program)

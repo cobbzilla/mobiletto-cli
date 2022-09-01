@@ -1,7 +1,7 @@
 const Conf = require('conf')
 const chalk = require("chalk")
 const {
-    mobiletto,
+    mobiletto, closeRedis,
     MobilettoNotFoundError, MobilettoError
 } = require("mobiletto")
 
@@ -23,6 +23,7 @@ function CliError (message, err) {
 
 // noinspection EqualityComparisonWithCoercionJS
 const FIELD_TYPE_VALIDATORS = {
+    password: val => val,
     boolean: (val) => {
         if (val === 'true' || val === true) return true
         if (val === 'false' || val === false) return false
@@ -51,7 +52,7 @@ const CONNECT_FIELDS = {
         redisPrefix: { msg: 'Redis key prefix', default: '__mobiletto_' }
     },
     encryption: {
-        encryptionKey: { msg: 'Encryption key' },
+        encryptionKey: { msg: 'Encryption key', type: 'password' },
         encryptionIV: { msg: 'Encryption IV', default: null },
         encryptionAlgo: { msg: 'Encryption algorithm', default: 'aes-256-cbc' },
     },
@@ -61,11 +62,19 @@ const CONNECT_FIELDS = {
         dirMode: { msg: 'Directory creation mode', type: 'numeric', default: '0o0700' }
     },
     s3: {
-        key: { msg: 'AWS Access Key' },
-        secret: { msg: 'AWS Secret Key' },
+        key: { msg: 'AWS Access Key', type: 'password' },
+        secret: { msg: 'AWS Secret Key', type: 'password' },
         bucket: { msg: 'Bucket name' },
         region: { msg: 'AWS Region', default: 'us-east-1' },
         prefix: { msg: 'Prefix', default: ''},
+        delimiter: { msg: 'Delimiter', default: '/', type: 'char' }
+    },
+    b2: {
+        key: { msg: 'Key ID', type: 'password' },
+        secret: { msg: 'Application Key', type: 'password' },
+        bucket: { msg: 'Bucket ID (not name)' },
+        prefix: { msg: 'Prefix', default: ''},
+        partSize: { msg: 'Part size ' + chalk.greenBright('empty to autodetect'), default: null },
         delimiter: { msg: 'Delimiter', default: '/', type: 'char' }
     }
 }
@@ -150,9 +159,14 @@ const mountAndPath = (path) => {
     return { mount: mobi, path: p }
 }
 
+const cleanup = async () => await closeRedis().then(
+    () => {},
+    (e) => { console.warn(`cleanup: error closing redis: ${e}`)}
+)
+
 module.exports = {
     CONNECT_FIELDS, FIELD_TYPE_VALIDATORS, SPECIAL_FIELD_GROUPS,
-    registerConnection, getConnection,
+    registerConnection, getConnection, cleanup,
     removeConnection, removeAllConnections,
     connect, connectionNames, mountAndPath,
     CliError, handleCliError

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const commander = require('commander')
-const {mountAndPath, connect, handleCliError} = require("../connections");
+const {mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 const chalk = require("chalk");
 
 const program = new commander.Command()
@@ -31,6 +31,8 @@ const cmd_meta = program.command('meta')
                     (err) => {
                         if (err) { handleCliError(err, program) }
                     })
+                .finally(cleanup)
+
         } catch (e) {
             handleCliError(e, program)
         }
