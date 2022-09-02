@@ -51,7 +51,7 @@ for (let i = 3 ; i < args.length; i++) {
 }
 
 try {
-    program.parse(process.argv)
+    program.parse(args)
 } catch (e) {
     handleCliError(e, program)
 }
