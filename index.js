@@ -15,10 +15,11 @@ const SUB_COMMAND_HELP = COMMANDS.map(c => {
 const HELP_PREFIX = '__~_help_~__';
 
 const VERSION = require('./package.json').version;
+const MOBILETTO_VERSION = require('./node_modules/mobiletto/package.json').version
 
 const program = new commander.Command()
     .command('mo')
-    .description(`CLI for mobiletto storage\nVersion ${VERSION}`)
+    .description(`CLI for mobiletto storage\n\nVersions:\n  mobiletto-cli ${VERSION}\n  mobiletto ${MOBILETTO_VERSION}`)
     .argument('[args...]')
     .version(VERSION)
     .allowUnknownOption()
