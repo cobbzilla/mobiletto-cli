@@ -9,7 +9,10 @@
     "b2",
     "simple",
     "filesystem",
-    "cli"
+    "cli",
+    "tool",
+    "mobiletto",
+    "mobiletto-cli"
   ],
   "homepage": "https://github.com/cobbzilla/mobiletto-cli",
   "author": "Jonathan Cobb <udo9jqld@duck.com> (https://github.com/cobbzilla)",
@@ -38,7 +41,7 @@
     "commander": "^9.4.0",
     "conf": "^10.2.0",
     "enquirer": "^2.3.6",
-    "mobiletto": "^1.1.9",
+    "mobiletto": "^1.1.10",
     "randomstring": "^1.2.2",
     "wtfnode": "^0.9.1"
   }
