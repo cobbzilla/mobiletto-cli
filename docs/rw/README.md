@@ -6,7 +6,7 @@ mobiletto-umukiriya
  Mobiletto ishyigikira guhuza na Amazon S3, Backblaze B2, hamwe na sisitemu yaho.
 
  # Soma ibi mu rundi rurimi
- Iyi nyandiko README.md yarahinduwe, binyuze kuri [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), muri
+ Iyi nyandiko README.md yarahinduwe, binyuze kuri [hokeylisation](https://github.com/cobbzilla/hokeylization), muri
  ** [ururimi rwose rushyigikiwe na Google Translate](https://cloud.google.com/translate/docs/ururimi)! **
 
  Nzi neza ko bidatunganye, ariko nizere ko biruta ubusa!
@@ -50,11 +50,9 @@ mobiletto-umukiriya
  * mutange igitekerezo cyo gusobanura neza, cyangwa uburyo inyandiko igomba guhindurwa neza
  * ** Urakoze! **
 
- ### Inkomoko
- * [mobiletto-umukiriya kuri GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-umukiriya kuri npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Ibirimo
+ * [Inkomoko](# Inkomoko)
+ * [Inkunga n'inkunga](# Inkunga-na-Inkunga)
  * [Kwinjiza no gukoresha](# Kwinjiza-no-gukoresha)
  * [pake ya npm](# npm-pack)
  * [Biturutse ku isoko](# Kuva-Inkomoko)
@@ -71,6 +69,22 @@ mobiletto-umukiriya
  * [Gusiba dosiye](# Gusiba-dosiye)
  * [Reba metadata](# Reba-metadata)
  * [Ububiko bw'indorerwamo](# Indorerwamo-Ububiko)
+
+ ### Inkomoko
+ * [mobiletto-umukiriya kuri GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-umukiriya kuri npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Inkunga ninkunga
+ Ndagerageza kuba umuhanga ufungura isoko yumwuga. Nakoraga
+ inganda za software imyaka myinshi, natangiye ibigo byatsinze ndabigurisha mubigo bya leta.
+ Mperutse kubura akazi, kandi rwose nta kindi gikorwa mfite ku murongo
+
+ Ngiye rero kugerageza kwandika software ifasha ndebe niba ibyo bikora
+
+ Niba ukunda gukoresha iyi software, ndagushimira byimazeyo na
+ ntoya [umusanzu wa buri kwezi ukoresheje Patreon](https://www.patreon.com/cobbzilla)
+
+ * Urakoze! *
 
  ## Kwinjiza no gukoresha
  Urashobora kwinjizamo no gukoresha `mobiletto-cli` ukoresheje npm cyangwa biturutse kumasoko.
@@ -282,7 +296,7 @@ mobiletto-umukiriya
 
     mo mirror conn1/some/subdir conn2
 
- Kugaragaza indorerezi muyindi nyobora:
+ Kugaragaza indorerezi mu bundi buyobozi:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

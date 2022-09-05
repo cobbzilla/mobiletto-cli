@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto inasaidia miunganisho kwa Amazon S3, Backblaze B2, na mifumo ya faili ya ndani.
 
  # Soma hii kwa lugha nyingine
- Hati hii ya README.md imetafsiriwa, kupitia [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), hadi
+ Hati hii ya README.md imetafsiriwa, kupitia [hokeylization](https://github.com/cobbzilla/hokeylization), hadi
  **[kila lugha inayotumika na Google Tafsiri](https://cloud.google.com/translate/docs/languages)!**
 
  Nina hakika sio kamili, lakini natumai ni bora kuliko chochote!
@@ -50,11 +50,9 @@ mobiletto-cli
  * tafadhali toa pendekezo la tafsiri bora zaidi, au jinsi maandishi yanapaswa kupangwa vizuri
  * **Asante!**
 
- ### Chanzo
- * [mobiletto-cli kwenye GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Yaliyomo
+ * [Chanzo](#Chanzo)
+ * [Msaada na Ufadhili](#Msaada-na-Ufadhili)
  * [Usakinishaji na matumizi](#Usakinishaji-na-utumiaji)
  * [npm package](#npm-furushi)
  * [Kutoka chanzo](#Kutoka-chanzo)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Futa faili](#Futa-faili)
  * [Angalia metadata](#Tazama-metadata)
  * [Daraja za kioo](#saraka za Kioo)
+
+ ### Chanzo
+ * [mobiletto-cli kwenye GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Msaada na Ufadhili
+ Ninajaribu kuwa mtaalamu wa kuunda programu huria. Nimekuwa nikifanya kazi ndani
+ tasnia ya programu kwa miaka mingi, nimeanzisha kampuni zilizofanikiwa na kuziuza kwa kampuni za umma.
+ Hivi majuzi nilipoteza kazi yangu, na kwa kweli sina kazi nyingine yoyote iliyopangwa
+
+ Kwa hivyo nitajaribu kuandika programu muhimu na kuona ikiwa hiyo inafanya kazi
+
+ Ikiwa unafurahiya kutumia programu hii, ningeshukuru kwa dhati hata kwa
+ ndogo zaidi [mchango wa kila mwezi kupitia Patreon](https://www.patreon.com/cobbzilla)
+
+ *Asante!*
 
  ## Ufungaji na matumizi
  Unaweza kusakinisha na kuendesha `mobiletto-cli` kupitia npm au moja kwa moja kutoka kwa chanzo.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Vioo saraka
- Kuakisi ni zaidi ya kesi maalum ya `cp` , ni amri tofauti ya mobiletto ambayo hufunika
+ Kuakisi ni zaidi ya kisa maalum cha `cp` , ni amri tofauti ya mobiletto ambayo hufunika
  operesheni ya nakala; inaendelea hata makosa yanapotokea, na kufuatilia hesabu ya mafanikio na makosa.
 
  Kuakisi kila kitu kutoka kwa conn1 hadi conn2:

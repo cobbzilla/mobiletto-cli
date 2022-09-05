@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto na-akwado njikọ Amazon S3, Backblaze B2 na sistemụ faịlụ mpaghara.
 
  # Gụọ nke a n'asụsụ ọzọ
- Atụgharịrị asụsụ README.md akwụkwọ a, site na [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ka ọ bụrụ
+ Atụgharịrị asụsụ README.md akwụkwọ a, site na [hokeylization](https://github.com/cobbzilla/hokeylization), ka ọ bụrụ
  **[Google Translate na-akwado asụsụ ọ bụla](https://cloud.google.com/translate/docs/languages)!**
 
  Eji m n'aka na ọ zughị oke, mana enwere m olileanya na ọ ka mma karịa ihe ọ bụla!
@@ -50,11 +50,9 @@ mobiletto-cli
  * jiri obiọma nye ntụnye nke ntụgharị asụsụ ka mma, ma ọ bụ ka esi ahazi ederede nke ọma
  * **Daalụ!**
 
- ### Isi mmalite
- * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # ọdịnaya
+ * [Isi Iyi](#Isi Iyi)
+ * [Nkwado na Ego](#Nkwado-na Ego)
  * [Nwụnye na ojiji](#Installation-and-usage)
  * [npm](#npm-ngwugwu)
  * [Site na isi mmalite](#Site na isi mmalite)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Hichapụ faịlụ](#Hichapụ-faịlụ)
  * [Lelee metadata](#View-metadata)
  * [akwụkwọ ndekọ aha](#Mirror-directories)
+
+ ### Isi mmalite
+ * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Nkwado na ego
+ Ana m agbali ịbụ ọkachamara mmepe ngwanrọ mepere emepe. Anọ m na-arụ ọrụ
+ ụlọ ọrụ ngwanrọ ruo ọtụtụ afọ, amalitela m ụlọ ọrụ na-aga nke ọma ma ree ha ụlọ ọrụ ọha.
+ N’oge na-adịbeghị anya, a chụrụ m n’ọrụ, enweghịkwa m ọrụ ọ bụla e debere n’ahịrị
+
+ Ya mere, m ga-agbalị ide software na-enyere aka hụ ma ọ na-arụ ọrụ
+
+ Ọ bụrụ na ị na-enwe mmasị iji nke a software, M ga-ezi obi ekele maka ọbụna
+ kacha nta [onyinye kwa ọnwa site na Patreon](https://www.patreon.com/cobbzilla)
+
+ *Daalụ!*
 
  ## Nwụnye na ojiji
  Ị nwere ike iwunye ma mee `mobiletto-cli` site na npm ma ọ bụ ozugbo site na isi mmalite.
@@ -230,7 +244,7 @@ mobiletto-cli
 
     mo cp conn1/some/path/to/file conn2/some/dest/path/file2
 
- Detuo ndekọ ndekọ aha ugboro ugboro:
+ Detuo akwụkwọ ndekọ aha ugboro ugboro:
 
     mo cp -r conn1/some/directory conn2/some/dest/
 

@@ -6,7 +6,7 @@ symudoltto-cli
  Mae Mobiletto yn cefnogi cysylltiadau ag Amazon S3, Backblaze B2, a systemau ffeiliau lleol.
 
  # Darllenwch hwn mewn iaith arall
- Mae'r ddogfen README.md hon wedi'i chyfieithu, trwy [ `hokeylization` ]( https://github.com/cobbzilla/hokeylization ), i mewn i
+ Mae'r ddogfen README.md hon wedi'i chyfieithu, trwy [hokeylization](https://github.com/cobbzilla/hokeylization), i mewn i
  **[pob iaith a gefnogir gan Google Translate]( https://cloud.google.com/translate/docs/languages)!**
 
  Rwy'n sicr nad yw'n berffaith, ond gobeithio ei fod yn well na dim!
@@ -50,11 +50,9 @@ symudoltto-cli
  * cynigiwch yn garedig awgrym o well cyfieithiad, neu sut y dylid fformatio'r testun yn gywir
  * **Diolch!**
 
- ### Ffynhonnell
- * [mobiletto-cli ar GitHub]( https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ar npm]( https://www.npmjs.com/package/mobiletto-cli)
-
  # Cynnwys
+ * [Ffynhonnell](#Ffynhonnell)
+ * [Cymorth a Chyllido](#Cymorth-a-Cyllid)
  * [Gosod a defnyddio](# Gosod-a-defnydd)
  * [pecyn npm](#npm-pecyn)
  * [O'r ffynhonnell](#O'r ffynhonnell)
@@ -71,6 +69,22 @@ symudoltto-cli
  * [Dileu ffeiliau](# Dileu-ffeiliau)
  * [Gweld metadata](#View-metadata)
  * [cyfeirlyfrau drych](#Mirror-directories)
+
+ ### Ffynhonnell
+ * [mobiletto-cli ar GitHub]( https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ar npm]( https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Cefnogaeth a Chyllid
+ Rwy'n ceisio bod yn ddatblygwr meddalwedd ffynhonnell agored proffesiynol. Rwyf wedi bod yn gweithio yn
+ y diwydiant meddalwedd ers blynyddoedd lawer, rwyf wedi dechrau cwmnïau llwyddiannus ac wedi eu gwerthu i gwmnïau cyhoeddus.
+ Yn ddiweddar collais fy swydd, ac nid oes gennyf unrhyw waith arall wedi'i drefnu
+
+ Felly rydw i'n mynd i geisio ysgrifennu meddalwedd defnyddiol a gweld a yw hynny'n gweithio
+
+ Os ydych chi'n mwynhau defnyddio'r feddalwedd hon, byddwn yn ddiolchgar iawn am hyd yn oed y
+ lleiaf [cyfraniad misol trwy Patreon]( https://www.patreon.com/cobbzilla)
+
+ *Diolch!*
 
  ## Gosod a defnyddio
  Gallwch osod a rhedeg `mobiletto-cli` trwy npm neu'n uniongyrchol o'r ffynhonnell.

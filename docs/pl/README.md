@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto obsługuje połączenia z Amazon S3, Backblaze B2 i lokalnymi systemami plików.
 
  # Przeczytaj to w innym języku
- Ten dokument README.md został przetłumaczony przez [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) na
+ Ten dokument README.md został przetłumaczony przez [hokeylization](https://github.com/cobbzilla/hokeylization) na
  **[każdy język obsługiwany przez Tłumacza Google](https://cloud.google.com/translate/docs/languages)!**
 
  Jestem pewien, że nie jest idealny, ale mam nadzieję, że to lepsze niż nic!
@@ -50,11 +50,9 @@ mobiletto-cli
  * uprzejmie zasugeruj lepsze tłumaczenie, czyli jak tekst powinien być odpowiednio sformatowany
  * **Dziękuję Ci!**
 
- ### Źródło
- * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Zawartość
+ * [Źródło](#Źródło)
+ * [Wsparcie i finansowanie](#Wsparcie i finansowanie)
  * [Instalacja i użytkowanie](#Instalacja-i-użytkowanie)
  * [pakiet npm](#pakiet-npm)
  * [Od źródła](#Od-źródła)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Usuń pliki](#Usuń-pliki)
  * [Wyświetl metadane](#Wyświetl metadane)
  * [Katalogi lustrzane](#Katalogi lustrzane)
+
+ ### Źródło
+ * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Wsparcie i finansowanie
+ Próbuję zostać profesjonalnym programistą open source. pracowałem w
+ od wielu lat w branży oprogramowania, zakładałem odnoszące sukcesy firmy i sprzedawałem je spółkom publicznym.
+ Ostatnio straciłam pracę i właściwie nie mam żadnej innej pracy w kolejce
+
+ Więc spróbuję napisać pomocne oprogramowanie i zobaczę, czy to działa
+
+ Jeśli lubisz korzystać z tego oprogramowania, będę szczerze wdzięczny nawet za
+ najmniejsza [miesięczna składka przez Patreon](https://www.patreon.com/cobbzilla)
+
+ *Dziękuję Ci!*
 
  ## Instalacja i użytkowanie
  Możesz zainstalować i uruchomić `mobiletto-cli` przez npm lub bezpośrednio ze źródeł.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Katalogi lustrzane
- Mirroring to coś więcej niż specjalny przypadek `cp` , to osobne polecenie mobiletto, które otacza
+ Odbicie lustrzane jest czymś więcej niż specjalnym przypadkiem `cp` , jest to osobne polecenie mobiletto, które otacza
  operacja kopiowania; działa nawet w przypadku wystąpienia błędów i śledzi liczbę sukcesów i błędów.
 
  Aby odzwierciedlić wszystko od conn1 do conn2:

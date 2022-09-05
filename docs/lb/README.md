@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ënnerstëtzt Verbindunge mat Amazon S3, Backblaze B2, a lokal Dateiesystemer.
 
  # Liest dëst an enger anerer Sprooch
- Dëst README.md Dokument gouf iwwersat, iwwer [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), an
+ Dëst README.md Dokument gouf iwwersat, iwwer [hokeylization](https://github.com/cobbzilla/hokeylization), an
  **[all Sprooch ënnerstëtzt vu Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ech si sécher datt et net perfekt ass, awer ech hoffen et ass besser wéi näischt!
@@ -50,11 +50,9 @@ mobiletto-cli
  * bitt frëndlech e Virschlag fir eng besser Iwwersetzung un, oder wéi den Text richteg formatéiert soll sinn
  * **Merci!**
 
- ### Quell
- * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Inhalter
+ * [Source](#Source)
+ * [Support a Finanzéierung](#Support-a-Finanzéierung)
  * [Installatioun a Benotzung](#Installatioun-a-Benotzung)
  * [npm Package](#npm-Package)
  * [Vun der Quell](# Vun der Quell)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Dateien läschen](# Läschen-Dateien)
  * [View Metadaten](#View-Metadaten)
  * [Spigel Verzeichnungen](#Spigel-Verzeichnungen)
+
+ ### Quell
+ * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Ënnerstëtzung a Finanzéierung
+ Ech probéieren e professionnelle Open Source Software Entwéckler ze sinn. Ech hu geschafft an
+ der Software Industrie fir vill Joren, Ech hunn erfollegräich Betriber ugefaangen a verkaf hinnen un ëffentlech Firmen.
+ Viru kuerzem hunn ech meng Aarbecht verluer, an ech hu wierklech keng aner Aarbecht opgestallt
+
+ Also ech probéieren hëllefräich Software ze schreiwen a kucken ob dat funktionnéiert
+
+ Wann Dir genéisst dës Software ze benotzen, Ech wier éierlech dankbar fir souguer de
+ klengste [monatlecht Bäitrag iwwer Patreon](https://www.patreon.com/cobbzilla)
+
+ *Merci!*
 
  ## Installatioun a Benotzung
  Dir kënnt `mobiletto-cli` iwwer npm oder direkt vun der Quell installéieren a lafen.

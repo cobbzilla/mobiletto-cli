@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto admite conexións a Amazon S3, Backblaze B2 e sistemas de ficheiros locais.
 
  # Le isto noutro idioma
- Este documento README.md foi traducido, a través de [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), a
+ Este documento README.md foi traducido, a través de [hokeylization](https://github.com/cobbzilla/hokeylization), a
  **[todos os idiomas admitidos por Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Estou seguro de que non é perfecto, pero espero que sexa mellor que nada!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Ofrecer amablemente unha suxestión dunha mellor tradución, ou como o texto debe estar formateado correctamente
  * **Grazas!**
 
- ### Fonte
- * [mobiletto-cli en GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli en npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Contidos
+ * [Fonte](#Fonte)
+ * [Apoio e financiamento](#Support-and-Funding)
  * [Instalación e uso](#Instalación-e-uso)
  * [paquete npm](#npm-package)
  * [Da fonte](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Borrar ficheiros](#Delete-files)
  * [Ver metadatos](#Ver-metadatos)
  * [Directorios de espello](#directorios de espello)
+
+ ### Fonte
+ * [mobiletto-cli en GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli en npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Apoio e financiamento
+ Estou tentando ser un programador profesional de software de código aberto. Estiven traballando
+ da industria do software durante moitos anos, comecei empresas exitosas e vendínllas a empresas públicas.
+ Recentemente perdín o meu traballo, e realmente non teño ningún outro traballo preparado
+
+ Entón, vou tentar escribir un software útil e ver se funciona
+
+ Se che gusta usar este software, estaríalle sinceramente agradecido
+ máis pequena [contribución mensual a través de Patreon](https://www.patreon.com/cobbzilla)
+
+ *Grazas!*
 
  ## Instalación e uso
  Pode instalar e executar `mobiletto-cli` a través de npm ou directamente desde a fonte.
@@ -197,12 +211,12 @@ mobiletto-cli
  **Nota de almacenamento cifrado**: a lista recursiva aínda non é compatible con conexións cifradas.
  Só pode listar un directorio de ficheiros á vez.
 
- Enumere os ficheiros de forma detallada (JSON bastante impreso):
+ Enumere os ficheiros detalladamente (JSON moi impreso):
 
     mo ls -v conn1/some/path
     mo ls --verbose conn1/some/path
 
- Lista os ficheiros de forma recursiva e detallada:
+ Lista de ficheiros de forma recursiva e detallada:
 
     mo ls -vr conn1/some/path
     mo ls --verbose --recursive conn1/some/path
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Espello de directorios
  A duplicación é máis que un caso especial de `cp` , é un comando mobiletto separado que envolve o
- operación de copia; continúa aínda que se produzan erros e fai un seguimento dun reconto de éxitos e erros.
+ operación de copia; continúa incluso cando se producen erros e fai un seguimento dun reconto de éxitos e erros.
 
  Para reflectir todo desde conn1 a conn2:
 

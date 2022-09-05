@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto palaiko ryšius su Amazon S3, Backblaze B2 ir vietinėmis failų sistemomis.
 
  # Skaitykite tai kita kalba
- Šis README.md dokumentas per [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) buvo išverstas į
+ Šis README.md dokumentas per [hokeylization](https://github.com/cobbzilla/hokeylization) buvo išverstas į
  **[Visos kalbos palaikomos „Google“ vertėjo](https://cloud.google.com/translate/docs/languages)!**
 
  Esu tikras, kad tai nėra tobula, bet tikiuosi, kad tai geriau nei nieko!
@@ -50,11 +50,9 @@ mobiletto-cli
  * maloniai pasiūlykite geresnio vertimo pasiūlymą arba kaip tinkamai suformatuoti tekstą
  * **Ačiū!**
 
- ### Šaltinis
- * [mobiletto-cli „GitHub“](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Turinys
+ * [Šaltinis](#Šaltinis)
+ * [Parama ir finansavimas](#Support-and-Funding)
  * [Įdiegimas ir naudojimas](#Installation-and-usage)
  * [npm paketas](#npm-package)
  * [Iš šaltinio](#Iš šaltinio)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Ištrinti failus](#Delete-files)
  * [Peržiūrėti metaduomenis](#View-metadata)
  * [Mirror directories](#Mirror-directories)
+
+ ### Šaltinis
+ * [mobiletto-cli „GitHub“](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Parama ir finansavimas
+ Stengiuosi būti profesionali atvirojo kodo programinės įrangos kūrėja. Esu dirbęs
+ programinės įrangos pramonėje daugelį metų įkūriau sėkmingas įmones ir pardaviau jas valstybinėms įmonėms.
+ Neseniai netekau darbo, o kitų darbų tikrai neturiu
+
+ Taigi aš pabandysiu parašyti naudingą programinę įrangą ir pažiūrėti, ar ji veikia
+
+ Jei jums patinka naudotis šia programine įranga, būčiau nuoširdžiai dėkingas net už
+ mažiausias [mėnesinis įnašas per Patreon](https://www.patreon.com/cobbzilla)
+
+ *Ačiū!*
 
  ## Diegimas ir naudojimas
  Galite įdiegti ir paleisti `mobiletto-cli` naudodami npm arba tiesiai iš šaltinio.

@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ondersteunt verbindingen met Amazon S3, Backblaze B2 en lokale bestandssystemen.
 
  # Lees dit in een andere taal
- Dit README.md-document is via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) vertaald in
+ Dit README.md-document is via [hokeylization](https://github.com/cobbzilla/hokeylization) vertaald in
  **[elke taal ondersteund door Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ik weet zeker dat het niet perfect is, maar ik hoop dat het beter is dan niets!
@@ -50,11 +50,9 @@ mobiletto-cli
  * graag een suggestie voor een betere vertaling, of hoe de tekst correct moet worden opgemaakt
  * **Dank je!**
 
- ### Bron
- * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Inhoud
+ * [Bron](#Bron)
+ * [Ondersteuning en financiering](#Ondersteuning en financiering)
  * [Installatie en gebruik](#Installatie-en-gebruik)
  * [npm-pakket](#npm-pakket)
  * [Van bron](#Van bron)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Bestanden verwijderen](#Delete-bestanden)
  * [Metadata bekijken](#View-metadata)
  * [Spiegelmappen](#Spiegel-mappen)
+
+ ### Bron
+ * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Ondersteuning en financiering
+ Ik probeer een professionele open source softwareontwikkelaar te worden. ik heb gewerkt in
+ jarenlang in de software-industrie, heb ik succesvolle bedrijven gestart en verkocht aan openbare bedrijven.
+ Onlangs verloor ik mijn baan, en ik heb niet echt ander werk op de planning
+
+ Dus ik ga proberen nuttige software te schrijven en kijken of dat werkt
+
+ Als u deze software graag gebruikt, zou ik u oprecht dankbaar zijn, zelfs voor de
+ kleinste [maandelijkse bijdrage via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Dank je!*
 
  ## Installatie en gebruik
  U kunt `mobiletto-cli` installeren en uitvoeren via npm of rechtstreeks vanaf de broncode.

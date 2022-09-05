@@ -6,7 +6,7 @@ mobiletto-cli
  A Mobiletto támogatja az Amazon S3, a Backblaze B2 és a helyi fájlrendszerek csatlakozását.
 
  # Olvassa el ezt egy másik nyelven
- Ezt a README.md dokumentumot [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) nyelvre fordították le
+ Ezt a README.md dokumentumot a [hokeylization](https://github.com/cobbzilla/hokeylization) segítségével lefordították nyelvre
  **[a Google Fordító által támogatott minden nyelv](https://cloud.google.com/translate/docs/languages)!**
 
  Biztos vagyok benne, hogy nem tökéletes, de remélem, jobb a semminél!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Kérem, tegyen javaslatot jobb fordításra, vagy a szöveg helyes formázására
  * **Köszönöm!**
 
- ### Forrás
- * [mobiletto-cli a GitHubon](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Tartalom
+ * [Forrás](#Forrás)
+ * [Támogatás és finanszírozás](#Support-and-Funding)
  * [Telepítés és használat](#Installation-and-usage)
  * [npm-csomag](#npm-csomag)
  * [Forrásból](#Forrásból)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Fájlok törlése](#Delete-files)
  * [Metaadatok megtekintése](#View-metadata)
  * [Könyvtárak tükrözése](#Tükör-könyvtárak)
+
+ ### Forrás
+ * [mobiletto-cli a GitHubon](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Támogatás és finanszírozás
+ Megpróbálok professzionális nyílt forráskódú szoftverfejlesztő lenni. ben dolgoztam
+ A szoftveriparban évek óta sikeres cégeket alapítottam, amelyeket állami cégeknek adtam el.
+ Nemrég elvesztettem a munkámat, és nem igazán van más dolgom
+
+ Tehát megpróbálok hasznos szoftvereket írni, és megnézem, működik-e
+
+ Ha szívesen használja ezt a szoftvert, őszintén hálás lennék még a
+ legkisebb [havi hozzájárulás a Patreonon keresztül](https://www.patreon.com/cobbzilla)
+
+ *Köszönöm!*
 
  ## Telepítés és használat
  Telepítheti és futtathatja a `mobiletto-cli` az npm-en keresztül vagy közvetlenül a forrásból.

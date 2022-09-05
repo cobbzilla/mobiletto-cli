@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto 支持与 Amazon S3、Backblaze B2 和本地文件系统的连接。
 
  # 用另一种语言阅读
-此 README.md 文档已通过 [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) 翻译成
+此 README.md 文档已通过 [hokeylization](https://github.com/cobbzilla/hokeylization) 翻译成
 **[谷歌翻译支持的所有语言](https://cloud.google.com/translate/docs/languages)！**
 
 我敢肯定它并不完美，但我希望它总比没有好！
@@ -50,12 +50,10 @@ mobiletto-cli
  * 请提供更好的翻译建议，或文本应如何正确格式化
 * **谢谢！**
 
- ＃＃＃ 资源
-* [github上的mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
- * [npm 上的 mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
-
  ＃ 内容
-* [安装和使用](#Installation-and-usage)
+* [来源](#来源)
+ * [支持和资助](#Support-and-Funding)
+ * [安装和使用](#Installation-and-usage)
  * [npm 包](#npm 包)
  * [来自源](#From-source)
  * [连接数]（#连接数）
@@ -71,6 +69,22 @@ mobiletto-cli
  * [删除文件](#Delete-files)
  * [查看元数据](#View-metadata)
  * [镜像目录](#Mirror-directories)
+
+ ＃＃＃ 资源
+* [github上的mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
+ * [npm 上的 mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## 支持和资金
+我正在努力成为一名专业的开源软件开发人员。我一直在工作
+从事软件行业多年，我创办了成功的公司，并把它们卖给了上市公司。
+最近我失业了，我真的没有其他工作要做
+
+所以我将尝试编写有用的软件，看看是否可行
+
+如果您喜欢使用此软件，我将由衷感谢
+最小的 [通过 Patreon 的每月贡献](https://www.patreon.com/cobbzilla)
+
+ *谢谢！*
 
  ##安装和使用
 您可以通过 npm 或直接从源代码安装和运行`mobiletto-cli` 。

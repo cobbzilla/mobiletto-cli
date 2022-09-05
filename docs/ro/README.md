@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto acceptă conexiuni la Amazon S3, Backblaze B2 și sistemele de fișiere locale.
 
  # Citiți asta într-o altă limbă
- Acest document README.md a fost tradus, prin [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), în
+ Acest document README.md a fost tradus, prin [hokeylization](https://github.com/cobbzilla/hokeylization), în
  **[fiecare limbă acceptată de Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Sunt sigur că nu este perfect, dar sper că este mai bine decât nimic!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Vă rugăm să oferiți o sugestie pentru o traducere mai bună sau cum ar trebui să fie formatat corect textul
  * **Mulțumesc!**
 
- ### Sursă
- * [mobiletto-cli pe GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli pe npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Cuprins
+ * [Sursa](#Sursa)
+ * [Suport și finanțare](#Support-and-Funding)
  * [Instalare și utilizare](#Instalare-și-utilizare)
  * [pachet npm](#npm-pachet)
  * [De la sursă](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Șterge fișiere](#Delete-files)
  * [Vedeți metadatele](#View-metadata)
  * [Directoare în oglindă](#Directoare în oglindă)
+
+ ### Sursă
+ * [mobiletto-cli pe GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli pe npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Sprijin și finanțare
+ Încerc să fiu un dezvoltator profesionist de software open source. Am lucrat în
+ industria software de mulți ani, am început companii de succes și le-am vândut companiilor publice.
+ Recent mi-am pierdut locul de muncă și nu prea am nicio altă lucrare la rând
+
+ Așa că voi încerca să scriu un software util și să văd dacă funcționează
+
+ Dacă vă place să utilizați acest software, v-aș fi sincer recunoscător chiar și pentru
+ cea mai mică [contribuție lunară prin Patreon](https://www.patreon.com/cobbzilla)
+
+ *Mulțumesc!*
 
  ## Instalare și utilizare
  Puteți instala și rula `mobiletto-cli` prin npm sau direct din sursă.

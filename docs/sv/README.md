@@ -6,7 +6,7 @@ mobiltto-cli
  Mobiletto stöder anslutningar till Amazon S3, Backblaze B2 och lokala filsystem.
 
  # Läs detta på ett annat språk
- Detta README.md-dokument har översatts, via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), till
+ Detta README.md-dokument har översatts, via [hokeylization](https://github.com/cobbzilla/hokeylization), till
  **[alla språk som stöds av Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Jag är säker på att det inte är perfekt, men jag hoppas att det är bättre än ingenting!
@@ -50,11 +50,9 @@ mobiltto-cli
  * kom gärna med ett förslag på en bättre översättning eller hur texten bör formateras korrekt
  * **Tack!**
 
- ### Källa
- * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Innehåll
+ * [Källa](#Källa)
+ * [Support and Funding](#Support-and-Funding)
  * [Installation och användning](#Installation-and-usage)
  * [npm-paket](#npm-paket)
  * [Från källa](#Från-källa)
@@ -71,6 +69,22 @@ mobiltto-cli
  * [Ta bort filer](#Delete-files)
  * [Visa metadata](#Visa-metadata)
  * [Mirror-kataloger](#Mirror-kataloger)
+
+ ### Källa
+ * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Stöd och finansiering
+ Jag försöker bli en professionell mjukvaruutvecklare med öppen källkod. Jag har jobbat i
+ mjukvaruindustrin i många år har jag startat framgångsrika företag och sålt dem till offentliga företag.
+ Nyligen förlorade jag mitt jobb, och jag har egentligen inget annat arbete på gång
+
+ Så jag ska försöka skriva användbar programvara och se om det fungerar
+
+ Om du gillar att använda den här programvaran skulle jag vara uppriktigt tacksam för även den
+ minsta [månadsbidrag via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Tack!*
 
  ## Installation och användning
  Du kan installera och köra `mobiletto-cli` via npm eller direkt från källan.

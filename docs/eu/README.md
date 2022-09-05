@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto-k Amazon S3, Backblaze B2 eta tokiko fitxategi-sistemetarako konexioak onartzen ditu.
 
  # Irakurri hau beste hizkuntza batean
- README.md dokumentu hau [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) bidez itzuli da.
+ README.md dokumentu hau [hokeylization](https://github.com/cobbzilla/hokeylization) bidez itzuli da.
  **[Google Translate-k onartzen duen hizkuntza guztietan](https://cloud.google.com/translate/docs/languages)!**
 
  Ziur nago ez dela perfektua, baina espero dut ezer baino hobea izatea!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Mesedez, eskaini itzulpen hobeago baten iradokizuna, edo testua nola formateatu behar den
  * **Eskerrik asko!**
 
- ### Iturria
- * [mobiletto-cli GitHub-en](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli npm-n](https://www.npmjs.com/package/mobiletto-cli)
-
  # Edukiak
+ * [Iturria](#Iturria)
+ * [Laguntza eta finantzaketa](#Support-and-Funding)
  * [Instalazioa eta erabilera](#Instalazioa eta erabilera)
  * [npm paketea](#npm-package)
  * [Iturburutik](#Iturburutik)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Ezabatu fitxategiak](#Delete-fitxategiak)
  * [Ikusi metadatuak](#View-metadata)
  * [Ispilu direktorioa](#Ispilu-direktorioak)
+
+ ### Iturria
+ * [mobiletto-cli GitHub-en](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli npm-n](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Laguntza eta finantzaketa
+ Kode irekiko software garatzaile profesionala izaten saiatzen ari naiz. lanean aritu naiz
+ urte askotan softwarearen industrian, enpresa arrakastatsuak sortu eta enpresa publikoei saldu ditut.
+ Duela gutxi lana galdu nuen, eta ez daukat beste lanik prest
+
+ Beraz, software lagungarria idazten saiatuko naiz eta ea funtzionatzen duen
+
+ Software hau erabiltzea gustatzen bazaizu, benetan eskertuko nuke
+ txikiena [Patreon bidezko hileko ekarpena](https://www.patreon.com/cobbzilla)
+
+ *Eskerrik asko!*
 
  ## Instalazioa eta erabilera
  `mobiletto-cli` instalatu eta exekutatu dezakezu npm bidez edo zuzenean iturburutik.
@@ -264,7 +278,7 @@ mobiletto-cli
  ### Ikusi metadatuak
  Askotan erabilgarria da fitxategi baten metadatuak ezagutzea, fitxategi osoa deskargatu gabe.
 
- Mobilettok fitxategiaren tamainaren eta azken aldaketaren orduaren berri eman dezake, izenaz eta motaz gain.
+ Mobiletto-k fitxategiaren tamainaren eta azken aldaketaren denboraren berri eman dezake, izenaz eta motaz gain.
 
  Metadatuak ikusteko:
 
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Ispilu direktorioak
  `cp` -ren kasu berezi bat baino gehiago da, mobiletto komando bereizia da.
- kopia eragiketa; akatsak gertatzen direnean ere jarraitzen du, eta arrakasta eta akatsen kopuruaren jarraipena egiten du.
+ kopia eragiketa; akatsak gertatzen direnean ere jarraitzen du eta arrakasta eta akatsen kopuruaren jarraipena egiten du.
 
  Conn1etik conn2ra dena islatzeko:
 

@@ -6,7 +6,7 @@ mobiletto-cli
  E lagolagoina e Mobiletto feso'ota'iga i le Amazon S3, Backblaze B2, ma faila faila i le lotoifale.
 
  # Faitau lenei i se isi gagana
- Ua faaliliuina lenei pepa README.md, e ala i le [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), i totonu
+ O lenei README.md pepa ua faaliliuina, e ala i le [hokeylization](https://github.com/cobbzilla/hokeylization), i totonu
  **[gagana uma e lagolagoina e Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ou te mautinoa e le atoatoa, ae ou te faʻamoemoe e sili atu nai lo le leai!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ofo mai ma le agalelei se fautuaga o se faaliliuga e sili atu, po o le auala e tatau ona faatulaga lelei ai le tusitusiga
  * **Faafetai!**
 
- ### Punavai
- * [mobiletto-cli i le GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # I totonu
+ * [Source](#Source)
+ * [Lagolago ma le Faatupeina](#Support-and-Funding)
  * [Fa'apipi'i ma fa'aoga](#Fa'apipi'i-ma-fa'aoga)
  * [npm package](#npm-package)
  * [Mai puna](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Tape faila](#Delete-faila)
  * [Va'ai metadata](#View-metadata)
  * [Fa'ata fa'atonuga](#Fa'ata-fa'atonuga)
+
+ ### Punavai
+ * [mobiletto-cli i le GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Lagolago ma Faatupeina
+ O lo'o ou taumafai e avea a'u ma se tagata fa'apolofesa fa'apolofesa fa'apolofesa matala. Sa ou galue i totonu
+ le pisinisi faakomepiuta mo le tele o tausaga, ua ou amataina kamupani manuia ma faatau atu i kamupani lautele.
+ Talu ai nei na ou leiloa ai laʻu galuega, ma e leai lava se isi galuega o loʻo faʻatulagaina
+
+ O lea o le a ou taumafai e tusi le polokalama fesoasoani ma vaai pe aoga
+
+ Afai e te fiafia e faʻaaoga lenei polokalama, ou te matua faʻafetai lava mo le
+ aupito itiiti [saomea faalemasina e ala i Patreon](https://www.patreon.com/cobbzilla)
+
+ *Faafetai!*
 
  ## Fa'apipi'i ma fa'aoga
  E mafai ona e faʻapipiʻi ma taʻavale `mobiletto-cli` e ala ile npm pe tuusaʻo mai le puna.
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Fa'ata fa'atonuga
  Mirroring e sili atu nai lo se tulaga faʻapitoa o le `cp` , o se faʻatonuga mobiletto ese e afifi ai le
- galuega kopi; e fa'aauau e tusa lava pe tutupu ni mea sese, ma siaki le faitau aofa'i o manuia ma mea sese.
+ galuega kopi; e fa'aauau pea e tusa lava pe tutupu ni mea sese, ma siaki le faitau aofa'i o manuia ma mea sese.
 
  Fa'ata mea uma mai le conn1 i le conn2:
 

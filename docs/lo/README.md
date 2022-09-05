@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ສະຫນັບສະຫນູນການເຊື່ອມຕໍ່ກັບ Amazon S3, Backblaze B2, ແລະລະບົບໄຟລ໌ທ້ອງຖິ່ນ.
 
  # ອ່ານນີ້ເປັນພາສາອື່ນ
- ເອກະສານ README.md ນີ້ໄດ້ຖືກແປ, ຜ່ານ [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ເຂົ້າໄປໃນ
+ ເອກະສານ README.md ນີ້ໄດ້ຖືກແປ, ຜ່ານ [hokeylization](https://github.com/cobbzilla/hokeylization), ເຂົ້າໄປໃນ
  **[ທຸກພາສາທີ່ຮອງຮັບໂດຍ Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  ຂ້ອຍແນ່ໃຈວ່າມັນບໍ່ສົມບູນແບບ, ແຕ່ຂ້ອຍຫວັງວ່າມັນຈະດີກ່ວາບໍ່ມີຫຍັງ!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ຂໍສະເໜີຄຳແນະນຳການແປທີ່ດີກວ່າ, ຫຼືວ່າຂໍ້ຄວາມຄວນຖືກຈັດຮູບແບບແນວໃດໃຫ້ຖືກຕ້ອງ
  * **ຂອບ​ໃຈ!**
 
- ### ທີ່ມາ
- * [mobiletto-cli ໃນ GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ສຸດ npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # ເນື້ອໃນ
+ * [ແຫຼ່ງຂໍ້ມູນ](#ແຫຼ່ງຂໍ້ມູນ)
+ * [ການ​ສະ​ຫນັບ​ສະ​ຫນູນ​ແລະ​ການ​ສະ​ຫນອງ​ທຶນ​](#Support-and-Funding​)
  * [ການ​ຕິດ​ຕັ້ງ​ແລະ​ການ​ນໍາ​ໃຊ້​](# ການ​ຕິດ​ຕັ້ງ​ແລະ​ການ​ນໍາ​ໃຊ້​)
  * [npm package](#npm-package)
  * [ຈາກແຫຼ່ງ](#ຈາກແຫຼ່ງ)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [ລຶບໄຟລ໌](#Delete-files)
  * [ເບິ່ງ metadata](#View-metadata)
  * [Mirror directories](#Mirror-directories)
+
+ ### ທີ່ມາ
+ * [mobiletto-cli ໃນ GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ສຸດ npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## ສະໜັບສະໜູນ ແລະ ສະໜອງທຶນ
+ ຂ້ອຍພະຍາຍາມເປັນຜູ້ພັດທະນາຊອບແວ open source ມືອາຊີບ. ຂ້ອຍໄດ້ເຮັດວຽກຢູ່ໃນ
+ ອຸດສາຫະກໍາຊອບແວສໍາລັບເວລາຫຼາຍປີ, ຂ້າພະເຈົ້າໄດ້ເລີ່ມຕົ້ນບໍລິສັດສົບຜົນສໍາເລັດແລະຂາຍໃຫ້ເຂົາເຈົ້າກັບບໍລິສັດສາທາລະນະ.
+ ຫວ່າງ​ມໍ່ໆ​ມາ​ນີ້, ຂ້າ​ພະ​ເຈົ້າ​ໄດ້​ສູນ​ເສຍ​ວຽກ​ເຮັດ​ງານ​ທຳ, ແລະ​ຂ້າ​ພະ​ເຈົ້າ​ກໍ​ບໍ່​ມີ​ວຽກ​ງານ​ອື່ນ​ຕິດ​ຕາມ
+
+ ດັ່ງນັ້ນຂ້ອຍຈະພະຍາຍາມຂຽນຊອບແວທີ່ເປັນປະໂຫຍດແລະເບິ່ງວ່າມັນເຮັດວຽກຫຼືບໍ່
+
+ ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ມີ​ຄວາມ​ສຸກ​ການ​ນໍາ​ໃຊ້​ຊອບ​ແວ​ນີ້​, ຂ້າ​ພະ​ເຈົ້າ​ຈະ​ມີ​ຄວາມ​ກະ​ຕັນ​ຍູ​ຢ່າງ​ຈິງ​ໃຈ​ສໍາ​ລັບ​ການ​ເຖິງ​ແມ່ນ​ວ່າ​
+ ນ້ອຍສຸດ [ການປະກອບສ່ວນລາຍເດືອນຜ່ານ Patreon](https://www.patreon.com/cobbzilla)
+
+ *ຂອບ​ໃຈ!*
 
  ## ການຕິດຕັ້ງແລະການນໍາໃຊ້
  ທ່ານສາມາດຕິດຕັ້ງແລະດໍາເນີນການ `mobiletto-cli` ຜ່ານ npm ຫຼືໂດຍກົງຈາກແຫຼ່ງ.

@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ڪنيڪشن کي سپورٽ ڪري ٿو Amazon S3، Backblaze B2، ۽ مقامي فائل سسٽم.
 
  # ھي پڙھو ٻي ٻولي ۾
- هي README.md دستاويز ترجمو ڪيو ويو آهي، ذريعي [ `hokeylization` ](https://github.com/cobbzilla/hokeylization)، ۾
+ هي README.md دستاويز ترجمو ڪيو ويو آهي، ذريعي [hokeylization](https://github.com/cobbzilla/hokeylization)، ۾
  **[گوگل ترجمي جي مدد سان هر ٻولي](https://cloud.google.com/translate/docs/languages)!**
 
  مون کي پڪ آهي ته اهو مڪمل ناهي، پر مون کي اميد آهي ته اهو ڪجهه به نه کان بهتر آهي!
@@ -50,11 +50,9 @@ mobiletto-cli
  * مھرباني ڪري بھتر ترجمي جي تجويز پيش ڪريو، يا متن کي ڪيئن صحيح شڪل ۾ ھجڻ گھرجي
  * **توهان جي مهرباني!**
 
- ### ذريعو
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # مواد
+ * [ذريعو](#ذريعو)
+ * [مدد ۽ فنڊنگ](#سپورٽ ۽ فنڊنگ)
  * [انسٽاليشن ۽ استعمال](# تنصيب ۽ استعمال)
  * [npm پيڪيج](#npm-پيڪيج)
  * [ذريعو کان](#ذريعو)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [فائلون حذف ڪريو](#Delete-files)
  * [ميٽا ڊيٽا ڏسو](#View-metadata)
  * [آئيني ڊاريڪٽري](#ميرر-ڊائريڪٽريز)
+
+ ### ذريعو
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## سپورٽ ۽ فنڊنگ
+ مان هڪ پروفيشنل اوپن سورس سافٽ ويئر ڊولپر ٿيڻ جي ڪوشش ڪري رهيو آهيان. ۾ ڪم ڪري چڪو آهيان
+ سافٽ ويئر انڊسٽري ڪيترن ئي سالن تائين، مون ڪامياب ڪمپنيون شروع ڪيون آهن ۽ انهن کي عوامي ڪمپنين کي وڪرو ڪيو آهي.
+ تازو مون پنهنجي نوڪري وڃائي ڇڏيو، ۽ مون وٽ حقيقت ۾ ڪو ٻيو ڪم نه آهي
+
+ تنهن ڪري مان ڪوشش ڪرڻ وارو آهيان مددگار سافٽ ويئر لکڻ ۽ ڏسو ته اهو ڪم ڪري ٿو
+
+ جيڪڏهن توهان هن سافٽ ويئر کي استعمال ڪندي لطف اندوز ڪيو، ته مان توهان جي لاء پڻ شڪرگذار ٿيندس
+ سڀ کان ننڍو [ماهوار حصو Patreon ذريعي](https://www.patreon.com/cobbzilla)
+
+ *توهان جي مهرباني!*
 
  ## تنصيب ۽ استعمال
  توهان انسٽال ڪري سگهو ٿا ۽ هلائي سگهو ٿا `mobiletto-cli` ذريعي npm يا سڌو ذريعو مان.

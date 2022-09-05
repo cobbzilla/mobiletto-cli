@@ -6,7 +6,7 @@ mobiletto-cli
  Sinusuportahan ng Mobiletto ang mga koneksyon sa Amazon S3, Backblaze B2, at mga lokal na filesystem.
 
  # Basahin ito sa ibang wika
- Ang dokumentong README.md na ito ay isinalin, sa pamamagitan ng [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), sa
+ Itong README.md na dokumento ay isinalin, sa pamamagitan ng [hokeylization](https://github.com/cobbzilla/hokeylization), sa
  **[bawat wikang sinusuportahan ng Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Natitiyak kong hindi ito perpekto, ngunit umaasa ako na ito ay mas mahusay kaysa sa wala!
@@ -50,11 +50,9 @@ mobiletto-cli
  * mabait na mag-alok ng isang mungkahi ng isang mas mahusay na pagsasalin, o kung paano ang teksto ay dapat na maayos na na-format
  * **Salamat!**
 
- ### Pinagmulan
- * [mobiletto-cli sa GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli sa npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Nilalaman
+ * [Source](#Source)
+ * [Suporta at Pagpopondo](#Support-and-Funding)
  * [Pag-install at paggamit](#Installation-and-usage)
  * [npm package](#npm-package)
  * [Mula sa pinagmulan](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Delete files](#Delete-files)
  * [Tingnan ang metadata](#View-metadata)
  * [Mirror directories](#Mirror-directories)
+
+ ### Pinagmulan
+ * [mobiletto-cli sa GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli sa npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Suporta at Pagpopondo
+ Sinusubukan kong maging isang propesyonal na open source software developer. Ako ay nagtatrabaho sa
+ sa industriya ng software sa loob ng maraming taon, sinimulan ko ang mga matagumpay na kumpanya at ibinenta ang mga ito sa mga pampublikong kumpanya.
+ Kamakailan ay nawalan ako ng trabaho, at wala talaga akong ibang trabahong naka-line up
+
+ Kaya't susubukan kong magsulat ng kapaki-pakinabang na software at tingnan kung gumagana iyon
+
+ Kung masiyahan ka sa paggamit ng software na ito, taos-puso akong nagpapasalamat kahit na ang
+ pinakamaliit [buwanang kontribusyon sa pamamagitan ng Patreon](https://www.patreon.com/cobbzilla)
+
+ *Salamat!*
 
  ## Pag-install at paggamit
  Maaari mong i-install at patakbuhin `mobiletto-cli` pamamagitan ng npm o direkta mula sa pinagmulan.

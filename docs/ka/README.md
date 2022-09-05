@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto მხარს უჭერს კავშირებს Amazon S3-თან, Backblaze B2-თან და ადგილობრივ ფაილურ სისტემებთან.
 
  # წაიკითხეთ ეს სხვა ენაზე
- ეს README.md დოკუმენტი ითარგმნა [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) მეშვეობით
+ ეს README.md დოკუმენტი ითარგმნა [hokeylization](https://github.com/cobbzilla/hokeylization) მეშვეობით
  **[Google Translate-ის მიერ მხარდაჭერილი ყველა ენა](https://cloud.google.com/translate/docs/languages)!**
 
  დარწმუნებული ვარ, რომ ეს არ არის სრულყოფილი, მაგრამ იმედი მაქვს, რომ ეს უკეთესია, ვიდრე არაფერი!
@@ -50,11 +50,9 @@ mobiletto-cli
  * გთხოვთ, შესთავაზოთ უკეთესი თარგმანის შეთავაზება, ან როგორ უნდა იყოს ტექსტის სწორად ფორმატირება
  * **Გმადლობთ!**
 
- ### წყარო
- * [mobiletto-cli GitHub-ზე](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli npm-ზე](https://www.npmjs.com/package/mobiletto-cli)
-
  # შიგთავსი
+ * [წყარო](#წყარო)
+ * [მხარდაჭერა და დაფინანსება](#Support-and-Funding)
  * [ინსტალაცია და გამოყენება](#Installation-and-usage)
  * [npm პაკეტი](#npm-პაკეტი)
  * [წყაროდან](#წყაროდან)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [ფაილების წაშლა](#Delete-files)
  * [მეტამონაცემების ნახვა](#View-metadata)
  * [Mirror Directories](#Mirror-directories)
+
+ ### წყარო
+ * [mobiletto-cli GitHub-ზე](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli npm-ზე](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## მხარდაჭერა და დაფინანსება
+ მე ვცდილობ ვიყო პროფესიონალი ღია კოდის პროგრამული უზრუნველყოფის შემქმნელი. მე ვმუშაობდი
+ პროგრამული უზრუნველყოფის ინდუსტრიაში მრავალი წელია, დავიწყე წარმატებული კომპანიები და გავყიდე ისინი საჯარო კომპანიებში.
+ ცოტა ხნის წინ სამსახური დავკარგე და სხვა სამუშაო ნამდვილად არ მაქვს
+
+ ასე რომ, მე ვაპირებ დავწერო სასარგებლო პროგრამული უზრუნველყოფა და ვნახო, მუშაობს თუ არა
+
+ თუ გსიამოვნებთ ამ პროგრამული უზრუნველყოფის გამოყენება, გულწრფელად მადლობელი ვიქნები თუნდაც ამისთვის
+ ყველაზე პატარა [თვიური შენატანი Patreon-ის მეშვეობით](https://www.patreon.com/cobbzilla)
+
+ *Გმადლობთ!*
 
  ## ინსტალაცია და გამოყენება
  შეგიძლიათ დააინსტალიროთ და გაუშვათ `mobiletto-cli` ის საშუალებით ან პირდაპირ წყაროდან.
@@ -278,7 +292,7 @@ mobiletto-cli
 
     mo mirror conn1 conn2
 
- ქვედირექტორის ასახვა:
+ ქვედირექტორიის ასახვა:
 
     mo mirror conn1/some/subdir conn2
 

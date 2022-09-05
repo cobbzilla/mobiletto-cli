@@ -6,7 +6,7 @@ mobiletto-müşderi
  Mobiletto Amazon S3, Backblaze B2 we ýerli faýl ulgamlaryna birikmeleri goldaýar.
 
  # Muny başga dilde okaň
- Bu README.md resminamasy [" `hokeylization` "](https://github.com/cobbzilla/hokeylization) üsti bilen terjime edildi
+ Bu README.md resminamasy [hokeylization](https://github.com/cobbzilla/hokeylization) arkaly terjime edildi
  ** [Google Translate tarapyndan goldanýan her dil](https://cloud.google.com/translate/docs/languages)! **
 
  Kämil däldigine ynanýaryn, ýöne hiç zatdan gowudyr diýip umyt edýärin!
@@ -50,11 +50,9 @@ mobiletto-müşderi
  * has gowy terjime ýa-da tekstiň nädip formatlanmalydygy barada teklip hödürläň
  * **Sagbol!**
 
- ### Çeşme
- * [GitHub-da mobiletto-müşderi](https://github.com/cobbzilla/mobiletto-cli)
- * [npm-de mobiletto-müşderi](https://www.npmjs.com/package/mobiletto-cli)
-
  # Mazmuny
+ * [Çeşme](# Çeşme)
+ * [Goldaw we maliýeleşdirmek](# Goldaw we maliýeleşdirmek)
  * [Gurmak we ulanmak](# Gurmak we ulanmak)
  * [npm paket](# npm-paket)
  * [Çeşmeden](# Çeşmeden)
@@ -71,6 +69,22 @@ mobiletto-müşderi
  * [Faýllary öçürmek](# Faýllary öçürmek)
  * [Metadatalary görmek](# View-metadata)
  * [Aýna kataloglary](# Aýna-kataloglar)
+
+ ### Çeşme
+ * [GitHub-da mobiletto-müşderi](https://github.com/cobbzilla/mobiletto-cli)
+ * [npm-de mobiletto-müşderi](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Goldaw we maliýeleşdirmek
+ Professional açyk çeşme programma üpjünçisi bolmaga synanyşýaryn. Men işleýärin
+ programma üpjünçiligi pudagy köp ýyl bäri üstünlikli kompaniýalara başladym we olary jemgyýetçilik kompaniýalaryna satdym.
+ Recentlyakynda işimi ýitirdim, hatara düzülen başga işim ýok
+
+ Şonuň üçin peýdaly programma üpjünçiligini ýazmaga synanyşaryn we munuň işleýändigini ýa-da ýokdugyny görerin
+
+ Bu programma üpjünçiligini ulanmagy halaýan bolsaňyz, hatda tüýs ýürekden minnetdar bolardym
+ iň kiçi [Patreonyň üsti bilen aýlyk goşant](https://www.patreon.com/cobbzilla)
+
+ *Sagbol!*
 
  ## Gurmak we ulanmak
  " `mobiletto-cli` " -ni npm ýa-da göni çeşmeden gurup we işledip bilersiňiz.
@@ -271,7 +285,7 @@ mobiletto-müşderi
     mo meta conn1/some/file.txt
 
  ### Aýna kataloglary
- Aýna aýlamak "cp" -iň aýratyn ýagdaýyndan başga-da, bu aýratyn bir `cp` buýrugy
+ Aýna aýlamak, "cp" -iň aýratyn ýagdaýyndan başga-da, ony gurşap alýan aýratyn `cp` buýrugy
  göçürmek; ýalňyşlyklar ýüze çykanda-da dowam edýär we üstünlikleriň we ýalňyşlyklaryň sanyny yzarlaýar.
 
  “Conn1” -den “con2” -e çenli hemme zady aýna etmek üçin:

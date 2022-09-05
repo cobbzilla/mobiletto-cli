@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto waxay taageertaa isku xirka Amazon S3, Backblaze B2, iyo nidaamyada faylalka maxalliga ah.
 
  # Ku akhri luqad kale
- Dukumeentigan README.md waxa lagu turjumay, iyada oo loo marayo [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), galay
+ Dukumeentigan README.md waxa lagu turjumay, iyada oo loo marayo [hokeylization](https://github.com/cobbzilla/hokeylization), galay
  **[Luqadda kasta oo ay taageerto Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Waan hubaa inaysan qummanayn, laakiin waxaan rajeynayaa inay ka fiican tahay waxba!
@@ -50,11 +50,9 @@ mobiletto-cli
  * si naxariis leh u soo jeedi soo jeedin tarjumaad ka wanaagsan, ama sida qoraalka si habboon loo qaabeeyey
  * **Mahadsanid!**
 
- ### Source
- * [mobiletto-cli ku yaal GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli onpm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Nuxurka
+ * [Isha](#Isha)
+ * [Taageerada iyo Maalgelinta](#Taageerada-iyo Maalgelinta)
  * [Rakibaadda iyo isticmaalka](#Rakibaadda-iyo-isticmaalka)
  * [xirmo npm](#npm-package)
  * [Isha](#Laga soo bilaabo-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Tirtir faylasha](#Delete-files)
  * [Arag xogta badan](#View-metadata)
  * [Hagaha muraayadaha](#Muraayadaha-hagaha)
+
+ ### Source
+ * [mobiletto-cli ku yaal GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli onpm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Taageerada iyo Maalgelinta
+ Waxaan isku dayayaa inaan noqdo horumariye il furan oo xirfad leh. waan ka shaqaynayay
+ warshadaha software-ka sanado badan, waxaan bilaabay shirkado guuleysta waxaanan ka iibiyay shirkado dadweyne.
+ Dhowaan shaqadeydii waa iga luntay, runtiina shaqo kale oo safan ma jirto
+
+ Markaa waxaan isku dayi doonaa inaan qoro software waxtar leh oo aan eego inay taasi shaqaynayso
+
+ Haddii aad ku raaxaysato isticmaalka software-kan, waxaan si daacad ah ugu mahadcelin lahaa xitaa kuwan
+ ugu yar [wax ku darsiga billaha ah ee loo maro Patreon](https://www.patreon.com/cobbzilla)
+
+ *Mahadsanid!*
 
  ## Rakibaadda iyo isticmaalka
  Waxaad ku rakibi kartaa oo ku socodsiin kartaa `mobiletto-cli` adigoo isticmaalaya npm ama si toos ah isha.
@@ -282,7 +296,7 @@ mobiletto-cli
 
     mo mirror conn1/some/subdir conn2
 
- Si aad u milicsato hage-hoosaadyo hage-hoosaad kale:
+ Si aad u milicsato hage-hoosaadyo loo geliyo haga-hoosaad kale:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

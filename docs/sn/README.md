@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto inotsigira zvinongedzo kuAmazon S3, Backblaze B2, uye emuno mafaera masisitimu.
 
  # Verenga izvi mune mumwe mutauro
- Gwaro iri README.md rakashandurwa, kuburikidza ne[ `hokeylization` ](https://github.com/cobbzilla/hokeylization), kupinda
+ Gwaro iri README.md rakashandurwa, kuburikidza ne[hokeylization](https://github.com/cobbzilla/hokeylization), kupinda
  **[mitauro yese inotsigirwa neGoogle Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ndine chokwadi kuti haina kukwana, asi ndinovimba iri nani pane hapana!
@@ -50,11 +50,9 @@ mobiletto-cli
  * nemutsa ipa zano reshanduro iri nani, kana kuti mashoko acho anofanira kurongwa zvakanaka sei
  * **Ndatenda!**
 
- ### Source
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Zviri mukati
+ * [Kwakabva](#Mabviro)
+ * [Kutsigira uye Mari](#Kutsigira-uye-Mari)
  * [Kuiswa uye kushandiswa](#Kuisa-uye-kushandisa)
  * [npm package](#npm-package)
  * [Kubva kunobva](#Kubva-kwakabva)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Bvisa mafaera](#Delete-mafaira)
  * [Ona metadata](#Tarisa-metadata)
  * [Mirror madhairekitori](#Mirror-dhairekitori)
+
+ ### Source
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tsigiro uye Mari
+ Ndiri kuyedza kuve nyanzvi yakavhurika sosi software yekuvandudza. Ndanga ndichishanda mu
+ indasitiri yemasoftware kwemakore mazhinji, ndakatanga makambani akabudirira uye ndikaatengesa kumakambani eruzhinji.
+ Munguva ichangopfuura ndakarasikirwa nebasa rangu, uye handina chaizvoizvo rimwe basa ripi neripi rakarongwa
+
+ Saka ndichaedza kunyora software inobatsira uye kuona kana izvo zvinoshanda
+
+ Kana iwe uchinakidzwa nekushandisa iyi software, ndingazotenda nemoyo wese kunyangwe iyo
+ diki [mupiro wepamwedzi nePatreon](https://www.patreon.com/cobbzilla)
+
+ *Ndatenda!*
 
  ## Kuiswa uye kushandiswa
  Unogona kuisa uye kumhanya `mobiletto-cli` kuburikidza npm kana zvakananga kubva kunobva.

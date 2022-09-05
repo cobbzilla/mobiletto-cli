@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto podporuje pripojenia k Amazon S3, Backblaze B2 a lokálnym súborovým systémom.
 
  # Prečítajte si to v inom jazyku
- Tento dokument README.md bol preložený prostredníctvom [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) do
+ Tento dokument README.md bol preložený prostredníctvom [hokeylizácie](https://github.com/cobbzilla/hokeylization) do
  **[každý jazyk podporovaný Prekladačom Google](https://cloud.google.com/translate/docs/languages)!**
 
  Som si istý, že to nie je dokonalé, ale dúfam, že je to lepšie ako nič!
@@ -50,11 +50,9 @@ mobiletto-cli
  * láskavo ponúknite návrh na lepší preklad alebo ako by mal byť text správne naformátovaný
  * **Ďakujem!**
 
- ### Zdroj
- * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Obsah
+ * [Source](#Source)
+ * [Support and Funding](#Support-and-Funding)
  * [Inštalácia a použitie](#Inštalácia a použitie)
  * [npm balík](#npm-balík)
  * [Zo zdroja](#Zo zdroja)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Odstrániť súbory](#Delete-files)
  * [Zobraziť metadáta](#View-metadata)
  * [Zrkadlové adresáre](#Mirror-directories)
+
+ ### Zdroj
+ * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Podpora a financovanie
+ Snažím sa byť profesionálnym vývojárom open source softvéru. Pracoval som v
+ v softvérovom priemysle som zakladal úspešné spoločnosti a predal ich verejným spoločnostiam.
+ Nedávno som prišiel o prácu a vlastne nemám žiadnu inú prácu
+
+ Takže skúsim napísať užitočný softvér a uvidím, či to funguje
+
+ Ak radi používate tento softvér, bol by som vám úprimne vďačný aj za to
+ najmenší [mesačný príspevok cez Patreon](https://www.patreon.com/cobbzilla)
+
+ *Ďakujem!*
 
  ## Inštalácia a použitie
  `mobiletto-cli` môžete nainštalovať a spustiť cez npm alebo priamo zo zdroja.

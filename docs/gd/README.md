@@ -6,7 +6,7 @@ mobiletto-cli
  Bidh Mobiletto a’ toirt taic do cheanglaichean ri Amazon S3, Backblaze B2, agus siostaman faidhle ionadail.
 
  # Leugh seo ann an cànan eile
- Chaidh an sgrìobhainn README.md seo eadar-theangachadh, tro [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), gu
+ Chaidh an sgrìobhainn README.md seo eadar-theangachadh, tro [hokeylization](https://github.com/cobbzilla/hokeylization), gu
  **[a h-uile cànan le taic bho Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Tha mi cinnteach nach eil e foirfe, ach tha mi an dòchas gu bheil e nas fheàrr na dad!
@@ -50,11 +50,9 @@ mobiletto-cli
  * thoir gu coibhneil moladh air eadar-theangachadh nas fheàrr, no mar a bu chòir an teacsa a bhith air a chruth ceart
  * **Tapadh leat!**
 
- ### Stòr
- * [mobiletto-cli air GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli air npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Susbaint
+ * [Stòr](#Stòr)
+ * [Taic is Maoineachadh](#Taic-is-Maoineachadh)
  * [Stàladh agus cleachdadh](# Installation-and-use)
  * [pasgan npm](#npm-package)
  * [Bhon stòr](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Sguab às na faidhlichean](#Delete-files)
  * [Seall meata-dàta](#View-metadata)
  * [clàran sgàthan](#Mirror-directories)
+
+ ### Stòr
+ * [mobiletto-cli air GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli air npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Taic agus Maoineachadh
+ Tha mi a’ feuchainn ri bhith nam leasaiche bathar-bog còd fosgailte proifeasanta. Tha mi air a bhith ag obair ann
+ ann an gnìomhachas bathar-bog airson grunn bhliadhnaichean, tha mi air companaidhean soirbheachail a thòiseachadh agus air an reic ri companaidhean poblach.
+ O chionn ghoirid chaill mi an obair agam, agus gu dearbh chan eil obair sam bith eile agam
+
+ Mar sin tha mi a’ dol a dh’fheuchainn ri bathar-bog feumail a sgrìobhadh agus faicinn a bheil sin ag obair
+
+ Ma tha e a’ còrdadh riut a bhith a’ cleachdadh a’ bhathar-bog seo, bhithinn fada nur comain airson eadhon an
+ as lugha [tabhartas mìosail tro Patreon](https://www.patreon.com/cobbzilla)
+
+ *Tapadh leat!*
 
  ## Stàladh agus cleachdadh
  Faodaidh tu `mobiletto-cli` a stàladh agus a ruith tro npm no gu dìreach bhon stòr.
@@ -230,7 +244,7 @@ mobiletto-cli
 
     mo cp conn1/some/path/to/file conn2/some/dest/path/file2
 
- Dèan lethbhreac ath-chuairteach air eòlaire:
+ Dèan lethbhreac ath-chuairteach de eòlaire:
 
     mo cp -r conn1/some/directory conn2/some/dest/
 

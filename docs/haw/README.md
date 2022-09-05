@@ -6,7 +6,7 @@ mobiletto-cli
  Kākoʻo ʻo Mobiletto i nā pilina me Amazon S3, Backblaze B2, a me nā ʻōnaehana faila kūloko.
 
  # E heluhelu i kēia ma ka ʻōlelo ʻē aʻe
- Ua unuhi ʻia kēia palapala README.md, ma o [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), i loko
+ Ua unuhi ʻia kēia palapala README.md, ma o [hokeylization](https://github.com/cobbzilla/hokeylization), i loko
  **[kākoʻo ʻia kēlā me kēia ʻōlelo e ka Unuhi Google](https://cloud.google.com/translate/docs/languages)!**
 
  Ua maopopo iaʻu ʻaʻole ia i hemolele, akā manaʻo wau ʻoi aku ka maikaʻi ma mua o ka ʻole!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ʻoluʻolu e hāʻawi i ka manaʻo o kahi unuhi ʻoi aku ka maikaʻi, a i ʻole pehea e hoʻopili pono ʻia ai ka kikokikona
  * **Mahalo!**
 
- ### Puna
- * [mobiletto-cli ma GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ma npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Maʻiʻo
+ * [Source](#Source)
+ * [Kōkoʻo a me ke kālā](#Support-and-Funding)
  * [Hoʻokomo a hoʻohana](#Hoʻokomo-a-hoʻohana)
  * [pūʻolo npm]( pūʻolo # npm)
  * [Mai kumu](#Mai-kumu)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Hoʻopau i nā faila](#Delete-faila)
  * [Nānā i ka metadata](#View-metadata)
  * [Mirror directories](#Mirror-directories)
+
+ ### Puna
+ * [mobiletto-cli ma GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ma npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Kākoʻo a me ke kālā
+ Ke hoʻāʻo nei au e lilo i mea hoʻomohala polokalamu open source. Ua hana au i loko
+ ka ʻoihana polokalamu no nā makahiki he nui, ua hoʻomaka wau i nā hui kūleʻa a kūʻai aku iā lākou i nā hui lehulehu.
+ I kēia mau lā ua nalowale kaʻu hana, a ʻaʻohe aʻu hana ʻē aʻe i laina
+
+ No laila e hoʻāʻo wau e kākau i nā polokalamu kōkua a ʻike inā pono ia
+
+ Inā hauʻoli ʻoe i ka hoʻohana ʻana i kēia polokalamu, e mahalo nui wau no ka
+ liʻiliʻi loa [koʻikoʻi o kēlā me kēia mahina ma o Patreon](https://www.patreon.com/cobbzilla)
+
+ *Mahalo!*
 
  ## Hoʻokomo a hoʻohana
  Hiki iā ʻoe ke hoʻouka a holo `mobiletto-cli` ma o npm a i ʻole pololei mai ke kumu.

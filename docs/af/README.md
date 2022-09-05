@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ondersteun verbindings met Amazon S3, Backblaze B2 en plaaslike lêerstelsels.
 
  # Lees dit in 'n ander taal
- Hierdie README.md-dokument is vertaal, via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), in
+ Hierdie README.md-dokument is vertaal, via [hokeylization](https://github.com/cobbzilla/hokeylization), in
  **[elke taal wat deur Google Translate ondersteun word](https://cloud.google.com/translate/docs/languages)!**
 
  Ek is seker dit is nie perfek nie, maar ek hoop dit is beter as niks!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Bied asseblief 'n voorstel van 'n beter vertaling, of hoe die teks behoorlik geformateer moet word
  * **Dankie!**
 
- ### Bron
- * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Inhoud
+ * [Bron](#Bron)
+ * [Ondersteuning en befondsing](#Ondersteuning-en-befondsing)
  * [Installasie en gebruik](#Installasie-en-gebruik)
  * [npm-pakket](#npm-pakket)
  * [Van bron](#Van bron)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Vee lêers uit](#Delete-files)
  * [Bekyk metadata](#Bekyk-metadata)
  * [Spieëlgidse](#Spieëlgidse)
+
+ ### Bron
+ * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Ondersteuning en befondsing
+ Ek probeer om 'n professionele oopbron sagteware-ontwikkelaar te wees. Ek het gewerk in
+ die sagteware-industrie vir baie jare, het ek suksesvolle maatskappye begin en dit aan openbare maatskappye verkoop.
+ Onlangs het ek my werk verloor, en ek het nie regtig enige ander werk in die ry nie
+
+ So ek gaan probeer om nuttige sagteware te skryf en kyk of dit werk
+
+ As jy dit geniet om hierdie sagteware te gebruik, sal ek opreg dankbaar wees vir selfs die
+ kleinste [maandelikse bydrae via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Dankie!*
 
  ## Installasie en gebruik
  Jy kan `mobiletto-cli` installeer en laat loop via npm of direk vanaf die bron.

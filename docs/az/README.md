@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto Amazon S3, Backblaze B2 və yerli fayl sistemlərinə qoşulmaları dəstəkləyir.
 
  # Bunu başqa dildə oxuyun
- Bu README.md sənədi [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) vasitəsilə bu dilə tərcümə edilmişdir.
+ Bu README.md sənədi [hokeylization](https://github.com/cobbzilla/hokeylization) vasitəsilə tərcümə olunub
  **[Google Translate tərəfindən dəstəklənən bütün dillər](https://cloud.google.com/translate/docs/languages)!**
 
  Əminəm ki, mükəmməl deyil, amma ümid edirəm ki, heç nədən yaxşıdır!
@@ -50,11 +50,9 @@ mobiletto-cli
  * lütfən daha yaxşı tərcümə təklifi və ya mətnin düzgün formatlaşdırılması ilə bağlı təklif verin
  * **Çox sağ ol!**
 
- ### Mənbə
- * [GitHub-da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
- * [npm-də mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
-
  # Məzmun
+ * [Mənbə](#Mənbə)
+ * [Dəstək və Maliyyələşdirmə](#Dəstək və Maliyyələşdirmə)
  * [Quraşdırma və istifadə](#Quraşdırma və istifadə)
  * [npm paketi](#npm-paket)
  * [Mənbədən](#Mənbədən)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Faylları silin](#Delete-fayllar)
  * [Metadataya baxın](#View-metadata)
  * [Güzgü qovluqları](#Güzgü kataloqları)
+
+ ### Mənbə
+ * [GitHub-da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
+ * [npm-də mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Dəstək və Maliyyələşdirmə
+ Mən peşəkar açıq mənbə proqram təminatı tərtibatçısı olmağa çalışıram. məndə işləmişəm
+ Uzun illər proqram sektorunda müvəffəqiyyətli şirkətlər qurdum və onları açıq şirkətlərə satdım.
+ Bu yaxınlarda işimi itirdim və başqa işim yoxdur
+
+ Beləliklə, mən faydalı proqram yazmağa çalışacağam və bunun işlədiyini görəcəyəm
+
+ Bu proqramdan istifadə etməkdən zövq alırsınızsa, mən hətta bu proqrama görə də səmimi olaraq minnətdar olaram
+ ən kiçik [Patreon vasitəsilə aylıq töhfə](https://www.patreon.com/cobbzilla)
+
+ *Çox sağ ol!*
 
  ## Quraşdırma və istifadə
  Siz `mobiletto-cli` quraşdıra və işlədə bilərsiniz.

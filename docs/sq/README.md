@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto mbështet lidhjet me Amazon S3, Backblaze B2 dhe sistemet e skedarëve lokalë.
 
  # Lexojeni këtë në një gjuhë tjetër
- Ky dokument README.md është përkthyer, nëpërmjet [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), në
+ Ky dokument README.md është përkthyer, nëpërmjet [hokeylization](https://github.com/cobbzilla/hokeylization), në
  **[çdo gjuhë e mbështetur nga Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Jam i sigurt se nuk është perfekt, por shpresoj të jetë më mirë se asgjë!
@@ -50,11 +50,9 @@ mobiletto-cli
  * me mirësi ofroni një sugjerim për një përkthim më të mirë, ose se si teksti duhet të formatohet siç duhet
  * **Faleminderit!**
 
- ### Burimi
- * [mobiletto-cli në GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli në npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Përmbajtje
+ * [Burimi](#Burimi)
+ * [Mbështetje dhe financim](#Support-and-Funding)
  * [Instalimi dhe përdorimi](#Instalimi-dhe-përdorimi)
  * [paketë npm](#npm-paketë)
  * [Nga burimi](#Nga burimi)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Fshi skedarët](#Fshi skedarët)
  * [Shiko metadatat](#View-metadata)
  * [Direktoritë e pasqyrave](#Mirror-directories)
+
+ ### Burimi
+ * [mobiletto-cli në GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli në npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Mbështetje dhe financim
+ Po përpiqem të jem një zhvillues profesionist i softuerit me burim të hapur. Unë kam punuar në
+ në industrinë e softuerit për shumë vite, kam krijuar kompani të suksesshme dhe ua kam shitur kompanive publike.
+ Kohët e fundit kam humbur punën time dhe nuk kam asnjë punë tjetër të rreshtuar
+
+ Kështu që unë do të përpiqem të shkruaj softuer të dobishëm dhe të shikoj nëse funksionon
+
+ Nëse ju pëlqen të përdorni këtë softuer, do t'ju isha sinqerisht mirënjohës edhe për këtë
+ më i vogël [kontributi mujor nëpërmjet Patreon](https://www.patreon.com/cobbzilla)
+
+ *Faleminderit!*
 
  ## Instalimi dhe përdorimi
  Mund të instaloni dhe ekzekutoni `mobiletto-cli` nëpërmjet npm ose direkt nga burimi.
@@ -266,7 +280,7 @@ mobiletto-cli
 
  Mobiletto është në gjendje të raportojë madhësinë e skedarit dhe kohën e fundit të modifikuar, përveç emrit dhe llojit.
 
- Për të parë meta të dhënat:
+ Për të parë të dhënat meta:
 
     mo meta conn1/some/file.txt
 

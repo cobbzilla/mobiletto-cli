@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto dia manohana fifandraisana amin'ny Amazon S3, Backblaze B2, ary ny rafi-drakitra eo an-toerana.
 
  # Vakio amin'ny fiteny hafa ity
- Ity antontan-taratasy README.md ity dia nadika, tamin'ny alalan'ny [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ho amin'ny
+ Ity antontan-taratasy README.md ity dia nadika, tamin'ny alàlan'ny [hokeylization](https://github.com/cobbzilla/hokeylization), ho amin'ny
  **[ny fiteny rehetra tohanan'ny Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  azoko antoka fa tsy tonga lafatra izany fa manantena aho fa tsara noho ny tsy misy!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Manomeza soso-kevitra amin-katsaram-panahy momba ny fandikan-teny tsara kokoa, na ny fomba tokony handrafetana ny lahatsoratra
  * **Misaotra anao!**
 
- ### Loharano
- * [mobiletto-cli amin'ny GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli amin'ny npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Votoaty
+ * [Loharano](#Source)
+ * [Fanohanana sy Famatsiam-bola](#Fanohanana-sy-Famatsiam-bola)
  * [Fametrahana sy fampiasana](#Fametrahana-sy-fampiasana)
  * [fonosana npm](fonosana #npm)
  * [Avy amin'ny loharano](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Delete files](#Delete-files)
  * [Jereo ny metadata](#View-metadata)
  * [Diritory fitaratra](#Directories-Mirror)
+
+ ### Loharano
+ * [mobiletto-cli amin'ny GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli amin'ny npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Fanohanana sy famatsiam-bola
+ Miezaka ny ho matihanina mpamorona rindrambaiko open source aho. Niasa tao aho
+ ny indostrian'ny rindrambaiko nandritra ny taona maro, nanomboka orinasa nahomby aho ary nivarotra azy ireo tamin'ny orinasam-panjakana.
+ Vao haingana aho no very asa, ary tsy manana asa hafa milahatra
+
+ Noho izany dia hanandrana manoratra rindrambaiko mahasoa aho ary hijery raha mety izany
+
+ Raha tianao ny mampiasa an'ity rindrambaiko ity, dia ho feno fankasitrahana aho na dia ny
+ kely indrindra [fanomezana isam-bolana amin'ny alàlan'ny Patreon](https://www.patreon.com/cobbzilla)
+
+ *Misaotra anao!*
 
  ## Fametrahana sy fampiasana
  Azonao atao ny mametraka sy mampandeha `mobiletto-cli` amin'ny alalan'ny npm na mivantana avy amin'ny loharano.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### lahatahiry fitaratra
- Mirroring dia mihoatra noho ny tranga manokana amin'ny `cp` , dia baiko mobiletto misaraka izay mameno ny
+ Mirroring dia mihoatra noho ny tranga manokana amin'ny `cp` , izany dia baiko mobiletto misaraka izay mandrakotra ny
  asa kopia; mitohy izany na dia misy lesoka aza, ary manara-maso ny isan'ny fahombiazana sy ny lesoka.
 
  Mba hijerena ny zava-drehetra manomboka amin'ny conn1 mankany conn2:

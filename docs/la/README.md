@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto subsidia nexus cum Amazonio S3, Backblaze B2, et spheraticorum localium.
 
  # Lege hoc in alia lingua
- Hoc README.md documentum translatum est, per [ `hokeylization` ](https://github.com/cobbzilla/hokeylizationem), in
+ Hoc README.md documentum translatum est, per [hokeylization](https://github.com/cobbzilla/hokeylization), in
  **[Omnis lingua a Google Translate](https://cloud.google.com/translate/docs/languages)!
 
  Perfectum certe non sum, sed spero melius quam nihil!
@@ -50,18 +50,16 @@ mobiletto-cli
  * benigne suggestionem praebeant translationis melioris vel quomodo textus debite formatus sit
  * **Gratias tibi!**
 
- ### Source
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [Mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Contents
+ * [Source](#Source)
+ * [Support and Funding](Support-and-Funding)
  * [Installation and usus](Installation-and-usus)
  * [npm sarcina](#npm-sarcina)
  * [Ex fonte].
  * [Connexiones](#Connexiones)
  * [Connexionem crea](connexionem # crea-a-)
  * [Coniunctiones List](# connexiones List)
- * [Config TUBER connexionem JSON](JSON-config-connexionem # Dump)
+ * [Config TUBER nexum JSON](JSON-config-connexionem-# Dump)
  * [Remove nexum](# Aufer-a-iunctio)
  *
  * [Opus cum repono](# Working-cum-repono)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Delere files](# Delete-files)
  * [Visum metadata].
  * [Speculum directoria](# Speculum-directiones)
+
+ ### Source
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [Mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Support et Donec
+ Conor esse professionalem fontem programmatum elit. I have been working in
+ industria programmatis multos annos feliciter societates incepi et eas societates publicas vendidi.
+ Nuper officium meum perdidi, et aliud opus non instruxit
+
+ Eo igitur experior utilium programmatum scribo et vide an opera sit
+
+ Si hoc programmate utendo frueris, gratus ero sincere pro etiam ipsis
+ minima [menstrua contributio per Patreon](https://www.patreon.com/cobbzilla)
+
+ *Gratias tibi!*
 
  ## Installation and usus
  Potes instituere et currere `mobiletto-cli` per npm vel immediate a fonte.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Speculum directoria
- Speculum plus quam speciale de `cp` , est mobiletto separatum mandatum quod adligat
+ Speculum plus quam speciale de `cp` , separatum est mandatum mobiletto quod adligat
  operatio exemplum; pergit etiam cum errores inveniunt, et prosperorum et errorum narrationem indagant.
 
  Ad speculum omnia ex conn1 in conn2:
@@ -282,7 +296,7 @@ mobiletto-cli
 
     mo mirror conn1/some/subdir conn2
 
- Speculum subdirectorium in aliud subdirectorium;
+ Speculum subdirectorium in aliud subdirectorium:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

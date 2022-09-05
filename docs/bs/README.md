@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto podržava veze na Amazon S3, Backblaze B2 i lokalne sisteme datoteka.
 
  # Pročitajte ovo na drugom jeziku
- Ovaj README.md dokument je preveden, putem [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), na
+ Ovaj README.md dokument je preveden, putem [hokeylization](https://github.com/cobbzilla/hokeylization), na
  **[svaki jezik podržan od strane Google prevodioca](https://cloud.google.com/translate/docs/languages)!**
 
  Siguran sam da nije savršeno, ali nadam se da je bolje nego ništa!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ljubazno ponudite prijedlog boljeg prijevoda, odnosno kako bi tekst trebao biti pravilno formatiran
  * **Hvala ti!**
 
- ### Izvor
- * [mobiletto-cli na GitHubu](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Sadržaj
+ * [Izvor](#Izvor)
+ * [Podrška i finansiranje](#Support-and-Funding)
  * [Instalacija i upotreba](#Instalacija-i-upotreba)
  * [npm paket](#npm-package)
  * [Iz izvora](#Iz izvora)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Izbriši fajlove](#Delete-files)
  * [Prikaži metapodatke](#View-metadata)
  * [Mirror direktoriji](#Mirror-directories)
+
+ ### Izvor
+ * [mobiletto-cli na GitHubu](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Podrška i finansiranje
+ Pokušavam biti profesionalni programer otvorenog koda. Ja sam radio u
+ softverskoj industriji dugi niz godina, pokrenuo sam uspješne kompanije i prodao ih javnim preduzećima.
+ Nedavno sam izgubio posao i nemam nikakav drugi posao u redu
+
+ Zato ću pokušati da napišem koristan softver i da vidim da li radi
+
+ Ako uživate u korištenju ovog softvera, bio bih vam iskreno zahvalan čak i za
+ najmanji [mjesečni doprinos putem Patreona](https://www.patreon.com/cobbzilla)
+
+ *Hvala ti!*
 
  ## Instalacija i upotreba
  Možete instalirati i pokrenuti `mobiletto-cli` putem npm-a ili direktno iz izvora.

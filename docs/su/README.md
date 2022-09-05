@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ngadukung sambungan ka Amazon S3, Backblaze B2, sareng sistem file lokal.
 
  # Baca ieu dina basa sanés
- Dokumén README.md ieu parantos ditarjamahkeun, ngalangkungan [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), kana
+ Dokumén README.md ieu parantos ditarjamahkeun, ngalangkungan [hokeylization](https://github.com/cobbzilla/hokeylization), kana
  **[sagala basa dirojong ku Google Tarjamah](https://cloud.google.com/translate/docs/languages)!**
 
  Kuring yakin éta teu sampurna, tapi kuring miharep éta leuwih hade tinimbang nanaon!
@@ -50,11 +50,9 @@ mobiletto-cli
  * punten nawiskeun usulan tarjamahan anu langkung saé, atanapi kumaha téks kedah diformat leres
  * **Hatur nuhun!**
 
- ### Sumber
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Eusi
+ * [Sumber](#Sumber)
+ * [Rojongan sareng Pembiayaan](#Rojongan-sareng-Dana)
  * [Pamasangan sareng panggunaan](#Instal-and-use)
  * [pakét npm](pakét #npm)
  * [Ti sumber](#Ti-sumber)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Hapus file](#Hapus-file)
  * [Témbongkeun metadata](#Témbongkeun-metadata)
  * [Diréktori Eunteung](#Diréktori-Eunteung)
+
+ ### Sumber
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Rojongan sareng Pembiayaan
+ Kuring nyobian janten pamekar software open source profésional. Kuring geus digawé di
+ industri software salila sababaraha taun, Kuring geus dimimitian pausahaan suksés jeung dijual ka pausahaan umum.
+ Anyar-anyar ieu kuring kaleungitan padamelan, sareng kuring henteu ngagaduhan padamelan anu sanés
+
+ Janten kuring badé nyobian nyerat parangkat lunak anu mangpaat sareng ningali upami éta jalanna
+
+ Upami anjeun resep ngagunakeun parangkat lunak ieu, kuring bakal nganuhunkeun tulus pikeun malah
+ pangleutikna [kontribusi bulanan via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Hatur nuhun!*
 
  ## Pamasangan sareng panggunaan
  Anjeun tiasa masang sareng ngajalankeun `mobiletto-cli` via npm atanapi langsung ti sumberna.

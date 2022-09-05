@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto støtter tilkoblinger til Amazon S3, Backblaze B2 og lokale filsystemer.
 
  # Les dette på et annet språk
- Dette README.md-dokumentet har blitt oversatt, via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), til
+ Dette README.md-dokumentet har blitt oversatt, via [hokeylization](https://github.com/cobbzilla/hokeylization), til
  **[alle språk som støttes av Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Jeg er sikker på at det ikke er perfekt, men jeg håper det er bedre enn ingenting!
@@ -50,11 +50,9 @@ mobiletto-cli
  * kom gjerne med et forslag til en bedre oversettelse, eller hvordan teksten bør formateres riktig
  * **Takk skal du ha!**
 
- ### Kilde
- * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Innhold
+ * [Kilde](#Kilde)
+ * [Support and Funding](#Support-and-Funding)
  * [Installasjon og bruk](#Installasjon-og-bruk)
  * [npm-pakke](#npm-pakke)
  * [Fra kilde](#Fra-kilde)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Slett filer](#Slett-filer)
  * [Se metadata](#Vis-metadata)
  * [Speilkataloger](#Speilkataloger)
+
+ ### Kilde
+ * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Støtte og finansiering
+ Jeg prøver å være en profesjonell programvareutvikler med åpen kildekode. Jeg har jobbet i
+ programvareindustrien i mange år, har jeg startet suksessfulle selskaper og solgt dem til offentlige selskaper.
+ Nylig mistet jeg jobben min, og jeg har egentlig ikke noe annet arbeid på rad
+
+ Så jeg skal prøve å skrive nyttig programvare og se om det fungerer
+
+ Hvis du liker å bruke denne programvaren, ville jeg være oppriktig takknemlig for selv
+ minste [månedlig bidrag via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Takk skal du ha!*
 
  ## Installasjon og bruk
  Du kan installere og kjøre `mobiletto-cli` via npm eller direkte fra kilden.

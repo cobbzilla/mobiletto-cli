@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto Amazon S3, Backblaze B2 සහ දේශීය ගොනු පද්ධති වෙත සම්බන්ධතා සඳහා සහය දක්වයි.
 
  # මෙය වෙනත් භාෂාවකින් කියවන්න
- මෙම README.md ලේඛනය [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) හරහා පරිවර්තනය කර ඇත.
+ මෙම README.md ලේඛනය [hokeylization](https://github.com/cobbzilla/hokeylization) හරහා පරිවර්තනය කර ඇත.
  **[Google Translate මඟින් සහාය දක්වන සෑම භාෂාවක්ම](https://cloud.google.com/translate/docs/languages)!**
 
  එය පරිපූර්ණ නොවන බව මට විශ්වාසයි, නමුත් එය කිසිවකට වඩා හොඳ යැයි මම බලාපොරොත්තු වෙමි!
@@ -50,11 +50,9 @@ mobiletto-cli
  * වඩා හොඳ පරිවර්තනයක් පිළිබඳ යෝජනාවක් කාරුණිකව ඉදිරිපත් කරන්න, නැතහොත් පෙළ නිසි ලෙස හැඩසවිය යුතු ආකාරය
  * **ඔබට ස්තුතියි!**
 
- ### මූලාශ්රය
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # අන්තර්ගතය
+ * [මූලාශ්රය](#මූලාශ්රය)
+ * [සහාය සහ අරමුදල්](#සහාය සහ අරමුදල්)
  * [ස්ථාපනය සහ භාවිතය](#ස්ථාපනය-සහ-භාවිතය)
  * [npm පැකේජය](#npm-පැකේජය)
  * [මූලාශ්‍රයෙන්](#මූලාශ්‍රයෙන්)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [ගොනු මකන්න](#මකන්න-ගොනු)
  * [පාර-දත්ත බලන්න](#View-metadata)
  * [මිරර් නාමාවලි](#Mirror-directories)
+
+ ### මූලාශ්රය
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## ආධාර සහ අරමුදල්
+ මම වෘත්තීය විවෘත කේත මෘදුකාංග සංවර්ධකයෙකු වීමට උත්සාහ කරමි. මම වැඩ කරලා තියෙනවා
+ වසර ගණනාවක් තිස්සේ මෘදුකාංග කර්මාන්තය, මම සාර්ථක සමාගම් ආරම්භ කර ඒවා පොදු සමාගම්වලට විකුණා ඇත.
+ මෑතකදී මට මගේ රැකියාව අහිමි වූ අතර, මට වෙනත් වැඩ පෙළගැසී නොමැත
+
+ ඒ නිසා මම ප්‍රයෝජනවත් මෘදුකාංගයක් ලිවීමට උත්සාහ කර එය ක්‍රියාත්මක වේද බලන්න
+
+ ඔබ මෙම මෘදුකාංගය භාවිතා කිරීමෙන් සතුටක් ලබන්නේ නම්, ඒ සඳහා පවා මම අවංකවම කෘතඥ වෙනවා
+ කුඩාම [Patreon හරහා මාසික දායකත්වය](https://www.patreon.com/cobbzilla)
+
+ *ඔබට ස්තුතියි!*
 
  ## ස්ථාපනය සහ භාවිතය
  ඔබට npm හරහා හෝ සෘජුවම මූලාශ්‍රයෙන් `mobiletto-cli` ස්ථාපනය කර ධාවනය කළ හැක.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### දර්පණ නාමාවලි
- `cp` හි විශේෂ අවස්ථාවකට වඩා වැඩි ය, එය වෙනම mobiletto විධානයක් වන අතර එය ආවරණය කරයි.
+ `cp` හි විශේෂ අවස්ථාවකට වඩා වැඩි ය, එය වෙනම mobiletto විධානයකි
  පිටපත් මෙහෙයුම; දෝෂ ඇති වූ විට පවා එය දිගටම පවතින අතර, සාර්ථකත්වයන් සහ දෝෂ ගණන නිරීක්ෂණය කරන්න.
 
  conn1 සිට conn2 දක්වා සියල්ල පිළිබිඹු කිරීමට:
@@ -282,7 +296,7 @@ mobiletto-cli
 
     mo mirror conn1/some/subdir conn2
 
- උප බහලුම තවත් උප බහලුමකට පිළිබිඹු කිරීමට:
+ උප බහලුමක් වෙනත් උප බහලුමකට පිළිබිඹු කිරීමට:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

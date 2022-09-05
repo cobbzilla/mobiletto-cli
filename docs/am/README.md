@@ -6,7 +6,7 @@ mobiletto-cli
  ሞባይልቶ ከአማዞን S3፣ Backblaze B2 እና አካባቢያዊ የፋይል ሲስተሞች ጋር ግንኙነቶችን ይደግፋል።
 
  # ይህንን በሌላ ቋንቋ ያንብቡ
- ይህ README.md ሰነድ በ[ `hokeylization` ](https://github.com/cobbzilla/hokeylization) በኩል ተተርጉሟል፣ ወደ
+ ይህ README.md ሰነድ በ[hokeylization](https://github.com/cobbzilla/hokeylization) በኩል ተተርጉሟል፣ ወደ
  **[ሁሉም ቋንቋ በGoogle ትርጉም ይደገፋል](https://cloud.google.com/translate/docs/languages)!**
 
  ፍጹም እንዳልሆነ እርግጠኛ ነኝ፣ ግን ከምንም የተሻለ እንደሚሆን ተስፋ አደርጋለሁ!
@@ -50,11 +50,9 @@ mobiletto-cli
  * የተሻለ ትርጉም ያለው ወይም ጽሑፉ እንዴት በትክክል መቀረጽ እንዳለበት በደግነት አስተያየት ይስጡ
  * **አመሰግናለሁ!**
 
- ### ምንጭ
- * [ሞባይልቶ-ክሊ በ GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [ሞባይልቶ-ክሊ በ npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # ይዘቶች
+ * [ምንጭ](#ምንጭ)
+ * [ድጋፍ እና የገንዘብ ድጋፍ](#ድጋፍ-እና-ገንዘብ)
  * [መጫን እና አጠቃቀም](#መጫኛ-እና-አጠቃቀም)
  * [npm ጥቅል](#npm-package)
  * [ከምንጭ](#ከምንጭ)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [ፋይሎችን ሰርዝ](#Delete-files)
  * [ሜታዳታ ይመልከቱ](#እይታ-ሜታዳታ)
  * [የመስታወት ማውጫዎች](#የመስታወት ማውጫዎች)
+
+ ### ምንጭ
+ * [ሞባይልቶ-ክሊ በ GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [ሞባይልቶ-ክሊ በ npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## ድጋፍ እና የገንዘብ ድጋፍ
+ ፕሮፌሽናል ክፍት ምንጭ ሶፍትዌር ገንቢ ለመሆን እየሞከርኩ ነው። ውስጥ እየሠራሁ ነበር
+ የሶፍትዌር ኢንዱስትሪው ለብዙ ዓመታት ስኬታማ ኩባንያዎችን ጀምሬ ለሕዝብ ኩባንያዎች ሸጫለሁ።
+ በቅርቡ ሥራ አጣሁ፣ እና ሌላ የተሠለፍኩት ሥራ የለኝም
+
+ ስለዚህ ጠቃሚ ሶፍትዌር ለመጻፍ እሞክራለሁ እና ያ እንደሚሰራ ለማየት እሞክራለሁ።
+
+ ይህን ሶፍትዌር መጠቀም ከወደዳችሁ፣ ለነገሩ እንኳን ከልብ አመስጋኝ ነኝ
+ ትንሹ [በፓትሪዮን በኩል ወርሃዊ መዋጮ](https://www.patreon.com/cobbzilla)
+
+ *አመሰግናለሁ!*
 
  ## መጫን እና አጠቃቀም
  `mobiletto-cli` ን በ npm ወይም በቀጥታ ከምንጭ መጫን እና ማሄድ ይችላሉ።

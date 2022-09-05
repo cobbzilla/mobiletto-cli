@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto hỗ trợ kết nối với Amazon S3, Backblaze B2 và các hệ thống tệp cục bộ.
 
  # Đọc sách này bằng ngôn ngữ khác
- Tài liệu README.md này đã được dịch qua [ `hokeylization` ](https://github.com/cobbzilla/hokeyption), sang
+ Tài liệu README.md này đã được dịch, qua [hokeyption](https://github.com/cobbzilla/hokeyption), sang
  ** [mọi ngôn ngữ được Google Dịch hỗ trợ](https://cloud.google.com/translate/docs/languages)! **
 
  Tôi chắc chắn rằng nó không hoàn hảo, nhưng tôi hy vọng nó còn hơn không!
@@ -50,11 +50,9 @@ mobiletto-cli
  * vui lòng đưa ra gợi ý về bản dịch tốt hơn hoặc cách văn bản phải được định dạng đúng
  * **Cảm ơn bạn!**
 
- ### Nguồn
- * [mobiletto-cli trên GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli trên npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Nội dung
+ * [Nguồn](# Nguồn)
+ * [Hỗ trợ và Tài trợ](# Hỗ trợ và Tài trợ)
  * [Cài đặt và sử dụng](# Cài đặt và sử dụng)
  * [gói npm](# gói-npm)
  * [Từ nguồn](# Từ nguồn)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Xóa tệp](# Xóa tệp)
  * [Xem siêu dữ liệu](# Siêu dữ liệu xem)
  * [Thư mục Mirror](# Thư mục Mirror)
+
+ ### Nguồn
+ * [mobiletto-cli trên GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli trên npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Hỗ trợ và Tài trợ
+ Tôi đang cố gắng trở thành một nhà phát triển phần mềm nguồn mở chuyên nghiệp. Tôi đã làm việc ở
+ ngành công nghiệp phần mềm trong nhiều năm, tôi đã thành lập các công ty thành công và bán chúng cho các công ty đại chúng.
+ Gần đây, tôi bị mất việc và tôi không thực sự có bất kỳ công việc nào khác.
+
+ Vì vậy, tôi sẽ thử viết phần mềm hữu ích và xem nó có hoạt động không
+
+ Nếu bạn thích sử dụng phần mềm này, tôi sẽ chân thành biết ơn vì
+ nhỏ nhất [đóng góp hàng tháng qua Patreon](https://www.patreon.com/cobbzilla)
+
+ *Cảm ơn bạn!*
 
  ## Cài đặt và sử dụng
  Bạn có thể cài đặt và chạy `mobiletto-cli` qua npm hoặc trực tiếp từ nguồn.

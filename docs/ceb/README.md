@@ -6,7 +6,7 @@ mobiletto-cli
  Gisuportahan sa Mobiletto ang mga koneksyon sa Amazon S3, Backblaze B2, ug mga lokal nga filesystem.
 
  # Basaha kini sa laing pinulongan
- Kining README.md nga dokumento gihubad, pinaagi sa [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ngadto sa
+ Kining README.md nga dokumento gihubad, pinaagi sa [hokeylization](https://github.com/cobbzilla/hokeylization), ngadto sa
  **[matag pinulongan gisuportahan sa Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Sigurado ko nga dili kini perpekto, apan nanghinaut ko nga kini mas maayo kaysa wala!
@@ -50,11 +50,9 @@ mobiletto-cli
  * malulotong maghatag ug sugyot sa mas maayong hubad, o kon sa unsang paagi ang teksto kinahanglang hustong maporma
  * **Salamat!**
 
- ### Tinubdan
- * [mobiletto-cli sa GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli sa npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Mga sulud
+ * [Source](#Source)
+ * [Pagsuporta ug Pagpondo](#Suporta-ug-Pagpondo)
  * [Pag-instalar ug paggamit](#Pag-instalar-ug-paggamit)
  * [npm package](#npm-package)
  * [Gikan sa gigikanan](#Gikan sa gigikanan)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Delete files](#Delete-files)
  * [Tan-awa ang metadata](#View-metadata)
  * [Mga direktoryo sa salamin](#Mga direktoryo sa salamin)
+
+ ### Tinubdan
+ * [mobiletto-cli sa GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli sa npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Suporta ug Pagpundo
+ Ako naningkamot nga mahimong usa ka propesyonal nga open source software developer. Nagtrabaho ko sa
+ ang industriya sa software sulod sa daghang katuigan, nagsugod ko og malampusong mga kompanya ug gibaligya kini sa mga publikong kompanya.
+ Bag-o lang nawad-an kog trabaho, ug wala na gyud koy laing trabaho nga nakalinya
+
+ Mao nga sulayan nako ang pagsulat sa makatabang nga software ug tan-awon kung kini molihok
+
+ Kung nalingaw ka sa paggamit niini nga software, ako kinasingkasing nga mapasalamaton bisan sa
+ pinakagamay [binulan nga kontribusyon pinaagi sa Patreon](https://www.patreon.com/cobbzilla)
+
+ *Salamat!*
 
  ## Pag-instalar ug paggamit
  Mahimo nimong i-install ug `mobiletto-cli` pinaagi sa npm o direkta gikan sa gigikanan.
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Mga direktoryo sa salamin
  Ang pagsalamin labaw pa sa usa ka espesyal nga kaso sa `cp` , kini usa ka bulag nga mando sa mobiletto nga nagputos sa
- operasyon sa pagkopya; nagpadayon kini bisan kung adunay mga sayup, ug pagsubay sa usa ka ihap sa mga kalampusan ug mga sayup.
+ operasyon sa kopya; nagpadayon kini bisan kung adunay mga sayup, ug pagsubay sa usa ka ihap sa mga kalampusan ug mga sayup.
 
  Aron i-mirror ang tanan gikan sa conn1 ngadto sa conn2:
 

@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto understøtter forbindelser til Amazon S3, Backblaze B2 og lokale filsystemer.
 
  # Læs dette på et andet sprog
- Dette README.md-dokument er via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) blevet oversat til
+ Dette README.md-dokument er blevet oversat via [hokeylization](https://github.com/cobbzilla/hokeylization), til
  **[alle sprog understøttet af Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Jeg er sikker på, at det ikke er perfekt, men jeg håber, det er bedre end ingenting!
@@ -50,11 +50,9 @@ mobiletto-cli
  * kom med et forslag til en bedre oversættelse, eller hvordan teksten skal formateres korrekt
  * **Tak skal du have!**
 
- ### Kilde
- * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Indhold
+ * [Kilde](#Kilde)
+ * [Support and Funding](#Support-and-Funding)
  * [Installation og brug](#Installation-and-usage)
  * [npm-pakke](#npm-pakke)
  * [Fra kilde](#Fra-kilde)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Slet filer](#Slet-filer)
  * [Se metadata](#Vis-metadata)
  * [Mirror-mapper](#Mirror-mapper)
+
+ ### Kilde
+ * [mobiletto-cli på GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli på npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Støtte og finansiering
+ Jeg forsøger at være en professionel open source softwareudvikler. Jeg har arbejdet i
+ softwareindustrien i mange år, har jeg startet succesrige virksomheder og solgt dem til offentlige virksomheder.
+ For nylig mistede jeg mit job, og jeg har ikke rigtig noget andet arbejde i kø
+
+ Så jeg vil prøve at skrive nyttig software og se om det virker
+
+ Hvis du kan lide at bruge denne software, ville jeg være oprigtigt taknemmelig for selv
+ mindste [månedligt bidrag via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Tak skal du have!*
 
  ## Installation og brug
  Du kan installere og køre `mobiletto-cli` via npm eller direkte fra kilden.

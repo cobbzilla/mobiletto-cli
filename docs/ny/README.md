@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto imathandizira kulumikizana ndi Amazon S3, Backblaze B2, ndi mafayilo am'deralo.
 
  # Werengani izi muchilankhulo china
- Chikalata cha README.md chamasuliridwa kudzera mu [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), kulowa
+ Chikalata cha README.md chamasuliridwa, kudzera pa [hokeylization](https://github.com/cobbzilla/hokeylization), ku
  **[chinenero chilichonse chimathandizidwa ndi Zomasulira za Google](https://cloud.google.com/translate/docs/languages)!**
 
  Ndikutsimikiza kuti sizabwino, koma ndikukhulupirira kuti nzabwino kuposa chilichonse!
@@ -50,11 +50,9 @@ mobiletto-cli
  * perekani mokoma mtima lingaliro la kumasulira kwabwinoko, kapena mmene malembawo ayenera kusanjidwira bwino
  * **Zikomo!**
 
- ### Gwero
- * [mobiletto-cli pa GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli pa npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Zamkatimu
+ * [Gwero](#Source)
+ * [Thandizo ndi Ndalama](#Thandizo-ndi-ndandalama)
  * [Kuyika ndi kugwiritsa ntchito](#Kuyika-ndi kugwiritsa ntchito)
  * [npm phukusi](#npm-phukusi)
  * [Kuchokera kugwero](#Kuchokera-gwero)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Chotsani mafayilo](#Chotsani-mafayilo)
  * [Onani metadata](#Onani-metadata)
  * [Kalozera wagalasi](#Mirror-directories)
+
+ ### Gwero
+ * [mobiletto-cli pa GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli pa npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ # Thandizo ndi Ndalama
+ Ndikuyesera kukhala katswiri wopanga mapulogalamu otseguka. Ndakhala ndikugwira ntchito ku
+ makampani opanga mapulogalamu kwa zaka zambiri, ndayambitsa makampani opambana ndikugulitsa kumakampani aboma.
+ Posachedwapa ndinachotsedwa ntchito, ndipo ndilibe ntchito ina iliyonse yotsatizana
+
+ Chifukwa chake ndiyesera kulemba mapulogalamu othandiza ndikuwona ngati izi zikugwira ntchito
+
+ Ngati mumakonda kugwiritsa ntchito pulogalamuyo, ndingayamikire kwambiri ngakhale
+ zing'onozing'ono [zopereka pamwezi kudzera pa Patreon](https://www.patreon.com/cobbzilla)
+
+ *Zikomo!*
 
  ## Kuyika ndi kugwiritsa ntchito
  Mutha kukhazikitsa ndikuyendetsa `mobiletto-cli` kudzera npm kapena mwachindunji kuchokera kugwero.
@@ -264,7 +278,7 @@ mobiletto-cli
  ### Onani metadata
  Nthawi zambiri zimakhala zothandiza kudziwa metadata ya fayilo, osatsitsa fayilo yonse.
 
- Mobiletto amatha kufotokoza kukula kwa fayilo ndi nthawi yomaliza yosinthidwa, kuwonjezera pa dzina ndi mtundu.
+ Mobiletto amatha kufotokoza kukula kwa fayilo ndi nthawi yosinthidwa, kuwonjezera pa dzina ndi mtundu.
 
  Kuti muwone metadata:
 
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Magalasi akalozera
  Mirroring ndi yoposa vuto lapadera la `cp` , ndi lamulo lapadera la mobiletto lomwe limakulunga
- ntchito kukopera; imapitilirabe ngakhale zolakwika zichitika, ndikutsata kuchuluka kwa zopambana ndi zolakwika.
+ ntchito kukopera; imapitilirabe ngakhale zolakwika zikuchitika, ndikutsata kuchuluka kwa zopambana ndi zolakwika.
 
  Kuwonetsa chilichonse kuchokera ku conn1 kupita ku conn2:
 
@@ -282,7 +296,7 @@ mobiletto-cli
 
     mo mirror conn1/some/subdir conn2
 
- Kuwonetsera gawo laling'ono mu subdirectory ina:
+ Kuwonetsera kagawo kakang'ono mu subdirectory ina:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

@@ -6,7 +6,7 @@ mobiletto-cli
  O Mobiletto oferece suporte a conexões com Amazon S3, Backblaze B2 e sistemas de arquivos locais.
 
  # Leia isso em outro idioma
- Este documento README.md foi traduzido, via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), para
+ Este documento README.md foi traduzido, via [hokeylization](https://github.com/cobbzilla/hokeylization), para
  **[todos os idiomas suportados pelo Google Tradutor](https://cloud.google.com/translate/docs/languages)!**
 
  Tenho certeza que não é perfeito, mas espero que seja melhor que nada!
@@ -50,11 +50,9 @@ mobiletto-cli
  * gentilmente oferecer uma sugestão de uma tradução melhor, ou como o texto deve ser formatado corretamente
  * **Obrigada!**
 
- ### Fonte
- * [mobiletto-cli no GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli no npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Conteúdo
+ * [Fonte](#Fonte)
+ * [Suporte e Financiamento](#Suporte-e-Financiamento)
  * [Instalação e uso](#Instalação-e-uso)
  * [pacote npm](#npm-package)
  * [Da fonte](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Excluir arquivos](#Delete-files)
  * [Ver metadados](#View-metadata)
  * [Diretórios de espelho](#diretórios de espelho)
+
+ ### Fonte
+ * [mobiletto-cli no GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli no npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Apoio e Financiamento
+ Estou tentando ser um desenvolvedor profissional de software de código aberto. eu tenho trabalhado em
+ na indústria de software por muitos anos, criei empresas de sucesso e as vendi para empresas públicas.
+ Recentemente eu perdi meu emprego, e eu realmente não tenho nenhum outro trabalho alinhado
+
+ Então, vou tentar escrever um software útil e ver se isso funciona
+
+ Se você gosta de usar este software, eu ficaria sinceramente grato até mesmo pelo
+ menor [contribuição mensal via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Obrigada!*
 
  ## Instalação e uso
  Você pode instalar e executar o `mobiletto-cli` via npm ou diretamente da fonte.
@@ -270,7 +284,7 @@ mobiletto-cli
 
     mo meta conn1/some/file.txt
 
- ### Espelhar diretórios
+ ### Diretórios de espelho
  O espelhamento é mais do que um caso especial de `cp` , é um comando mobiletto separado que envolve o
  operação de cópia; ele continua mesmo quando ocorrem erros e rastreia uma contagem de sucessos e erros.
 

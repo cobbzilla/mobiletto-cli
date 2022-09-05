@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto menyokong sambungan ke Amazon S3, Backblaze B2 dan sistem fail tempatan.
 
  # Baca ini dalam bahasa lain
- Dokumen README.md ini telah diterjemahkan, melalui [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ke dalam
+ Dokumen README.md ini telah diterjemahkan, melalui [hokeylization](https://github.com/cobbzilla/hokeylization), ke dalam
  **[setiap bahasa disokong oleh Terjemahan Google](https://cloud.google.com/translate/docs/languages)!**
 
  Saya pasti ia tidak sempurna, tetapi saya harap ia lebih baik daripada tiada!
@@ -50,11 +50,9 @@ mobiletto-cli
  * sila tawarkan cadangan terjemahan yang lebih baik, atau cara teks harus diformat dengan betul
  * **Terima kasih!**
 
- ### Sumber
- * [mobiletto-cli di GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli pada npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Kandungan
+ * [Sumber](#Source)
+ * [Sokongan dan Pembiayaan](#Sokongan-dan-Pembiayaan)
  * [Pemasangan dan penggunaan](#Pemasangan-dan-penggunaan)
  * [pakej npm](pakej #npm)
  * [Dari sumber](#Daripada-sumber)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Padam fail](#Padam fail)
  * [Lihat metadata](#Lihat-metadata)
  * [Direktori cermin](#Mirror-directories)
+
+ ### Sumber
+ * [mobiletto-cli di GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli pada npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Sokongan dan Pembiayaan
+ Saya cuba menjadi pembangun perisian sumber terbuka profesional. Saya telah bekerja di
+ industri perisian selama bertahun-tahun, saya telah memulakan syarikat yang berjaya dan menjualnya kepada syarikat awam.
+ Baru-baru ini saya kehilangan pekerjaan, dan saya tidak mempunyai sebarang kerja lain yang disediakan
+
+ Jadi saya akan cuba menulis perisian yang berguna dan melihat sama ada ia berfungsi
+
+ Jika anda gemar menggunakan perisian ini, saya akan sangat berterima kasih kerana
+ terkecil [sumbangan bulanan melalui Patreon](https://www.patreon.com/cobbzilla)
+
+ *Terima kasih!*
 
  ## Pemasangan dan penggunaan
  Anda boleh memasang dan menjalankan `mobiletto-cli` melalui npm atau terus daripada sumber.

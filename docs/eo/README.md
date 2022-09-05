@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto subtenas ligojn al Amazon S3, Backblaze B2 kaj lokaj dosiersistemoj.
 
  # Legu ĉi tion en alia lingvo
- Ĉi tiu dokumento README.md estis tradukita, per [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), en
+ Ĉi tiu dokumento README.md estis tradukita, per [hokeylization](https://github.com/cobbzilla/hokeylization), en
  **[ĉiu lingvo subtenata de Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Mi certas, ke ĝi ne estas perfekta, sed mi esperas, ke ĝi estas pli bona ol nenio!
@@ -50,11 +50,9 @@ mobiletto-cli
  * bonvolu proponi sugeston pri pli bona traduko, aŭ kiel la teksto estu taŭge formatita
  * **Dankon!**
 
- ### Fonto
- * [mobiletto-cli sur GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli sur npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Enhavo
+ * [Fonto](#Fonto)
+ * [Subteno kaj Financado](#Subteno-kaj-Fincado)
  * [Instalado kaj uzado](#Instalado-kaj-uzado)
  * [npm-pakaĵo](#npm-pakaĵo)
  * [El fonto](#De-fonto)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Forigi dosierojn](#Delete-dosieroj)
  * [Vidi metadatumojn](#Vidi-metadatumoj)
  * [Spegulaj dosierujoj](#Mirror-dosierujoj)
+
+ ### Fonto
+ * [mobiletto-cli sur GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli sur npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Subteno kaj Financado
+ Mi provas esti profesia liberkoda programisto. Mi laboris en
+ la programara industrio dum multaj jaroj, mi komencis sukcesajn kompaniojn kaj vendis ilin al publikaj kompanioj.
+ Lastatempe mi perdis mian laboron, kaj mi vere ne havas alian laboron vicigita
+
+ Do mi provos verki helpeman programaron kaj vidi ĉu tio funkcias
+
+ Se vi ĝuas uzi ĉi tiun programaron, mi estus sincere dankema eĉ pro la
+ plej malgranda [monata kontribuo per Patreon](https://www.patreon.com/cobbzilla)
+
+ *Dankon!*
 
  ## Instalado kaj uzado
  Vi povas instali kaj ruli `mobiletto-cli` per npm aŭ rekte de fonto.

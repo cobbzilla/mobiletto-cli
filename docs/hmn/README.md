@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto txhawb kev sib txuas rau Amazon S3, Backblaze B2, thiab cov ntaub ntawv hauv zos.
 
  # Nyeem qhov no ua lwm hom lus
- Cov ntaub ntawv README.md no tau raug muab txhais, ntawm [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), mus rau hauv
+ Cov ntaub ntawv README.md no tau raug muab txhais, ntawm [hokeylization](https://github.com/cobbzilla/hokeylization), rau hauv
  **[txhua hom lus txhawb nqa los ntawm Google Txhais](https://cloud.google.com/translate/docs/languages)!**
 
  Kuv paub tseeb tias nws tsis zoo tag nrho, tab sis kuv vam tias nws zoo dua tsis muaj dab tsi!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Ua siab zoo muab cov lus pom zoo ntawm kev txhais lus zoo dua, lossis yuav ua li cas cov ntawv yuav tsum raug formatted kom raug
  ** Ua tsaug!**
 
- ### Source
- * [mobiletto-cli ntawm GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ntawm npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Cov ntsiab lus
+ * [Source](#Source)
+ * [Support thiab Funding](#Support-and-Funding)
  * [Kev teeb tsa thiab kev siv](#Installation-and-usage)
  * [npm pob](#npm-pob)
  * [Los ntawm qhov chaw](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Delete files](#Delete-files)
  * [Saib metadata](#Saib-metadata)
  * [Daim iav directories](#Daim iav-directories)
+
+ ### Source
+ * [mobiletto-cli ntawm GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ntawm npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Kev them nyiaj yug thiab nyiaj txiag
+ Kuv tab tom sim ua tus kws tshaj lij qhib qhov software tsim tawm. Kuv tau ua haujlwm hauv
+ kev lag luam software tau ntau xyoo, kuv tau pib cov tuam txhab ua tiav thiab muag rau cov tuam txhab pej xeem.
+ Tsis ntev los no kuv poob kuv txoj haujlwm, thiab kuv tsis muaj lwm txoj haujlwm ua haujlwm
+
+ Yog li kuv yuav sim sau cov software pab tau thiab saib seb qhov ntawd ua haujlwm
+
+ Yog tias koj txaus siab rau siv cov software no, kuv yuav ua tsaug rau qhov txawm tias
+ tsawg tshaj plaws [kev pab nyiaj hli ntawm Patreon](https://www.patreon.com/cobbzilla)
+
+ * Ua tsaug!*
 
  ## Kev teeb tsa thiab kev siv
  Koj tuaj yeem nruab thiab khiav `mobiletto-cli` ntawm npm lossis ncaj qha los ntawm qhov chaw.
@@ -271,8 +285,8 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Daim iav directory
- Mirroring yog ntau tshaj li ib rooj plaub tshwj xeeb ntawm `cp` , nws yog ib tug cais mobiletto hais kom ua wraps lub
- luam ntawv ua haujlwm; nws txuas ntxiv txawm tias thaum muaj teeb meem tshwm sim, thiab taug qab ntau qhov kev ua tiav thiab qhov tsis raug.
+ Mirroring yog ntau tshaj li qhov tshwj xeeb ntawm `cp` , nws yog ib qho kev sib cais mobiletto hais kom qhwv lub
+ luam ntawv ua haujlwm; nws txuas ntxiv txawm tias thaum muaj teeb meem tshwm sim, thiab taug qab cov suav ntawm kev ua tiav thiab qhov tsis raug.
 
  Kom mirror txhua yam ntawm conn1 rau conn2:
 

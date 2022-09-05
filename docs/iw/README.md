@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto תומך בחיבורים לאמזון S3, Backblaze B2 ומערכות קבצים מקומיות.
 
  # קרא את זה בשפה אחרת
- מסמך README.md זה תורגם, באמצעות [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ל-
+ מסמך README.md זה תורגם, באמצעות [hokeylization](https://github.com/cobbzilla/hokeylization), ל-
  **[בכל שפה נתמכת על ידי Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  אני בטוח שזה לא מושלם, אבל אני מקווה שזה יותר טוב מכלום!
@@ -50,11 +50,9 @@ mobiletto-cli
  * אנא הציעו הצעה לתרגום טוב יותר, או כיצד יש לעצב את הטקסט כראוי
  * **תודה!**
 
- ### מקור
- * [mobiletto-cli ב-GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ב-npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # תוכן
+ * [מקור](#מקור)
+ * [תמיכה ומימון](#Support-and-Funding)
  * [התקנה ושימוש](#התקנה-ושימוש)
  * [חבילת npm](#npm-package)
  * [ממקור](#ממקור)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [מחק קבצים](#Delete-files)
  * [הצג מטא נתונים](#View-metadata)
  * [ספריות מראה](#ספריות מראה)
+
+ ### מקור
+ * [mobiletto-cli ב-GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ב-npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## תמיכה ומימון
+ אני מנסה להיות מפתח תוכנה מקצועי בקוד פתוח. עבדתי ב
+ בתעשיית התוכנה במשך שנים רבות, הקמתי חברות מצליחות ומכרתי אותן לחברות ציבוריות.
+ לאחרונה איבדתי את עבודתי, ואין לי באמת עבודה אחרת
+
+ אז אני הולך לנסות לכתוב תוכנה מועילה ולראות אם זה עובד
+
+ אם אתה נהנה להשתמש בתוכנה זו, אני אודה מקרב לב אפילו על
+ הקטן ביותר [תרומה חודשית דרך Patreon](https://www.patreon.com/cobbzilla)
+
+ *תודה!*
 
  ## התקנה ושימוש
  אתה יכול להתקין ולהפעיל `mobiletto-cli` באמצעות npm או ישירות מהמקור.

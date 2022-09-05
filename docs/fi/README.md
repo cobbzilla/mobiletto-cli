@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto tukee yhteyksiä Amazon S3:een, Backblaze B2:een ja paikallisiin tiedostojärjestelmiin.
 
  # Lue tämä toisella kielellä
- Tämä README.md-dokumentti on käännetty [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) kautta kielelle
+ Tämä README.md-dokumentti on käännetty [hokeylization]:n (https://github.com/cobbzilla/hokeylization) kautta kielelle
  **[kaikki Google-kääntäjän tukemat kielet](https://cloud.google.com/translate/docs/languages)!**
 
  Olen varma, että se ei ole täydellinen, mutta toivon, että se on parempi kuin ei mitään!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Ehdota ystävällisesti parempaa käännöstä tai tekstin oikeaa muotoilua
  * **Kiitos!**
 
- ### Lähde
- * [mobiletto-cli GitHubissa](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Sisältö
+ * [Lähde](#Source)
+ * [Tuki ja rahoitus](#Support-and-Funding)
  * [Asennus ja käyttö](#Installation-and-usage)
  * [npm-paketti](#npm-paketti)
  * [Lähteestä](#Lähteestä)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Poista tiedostot](#Delete-files)
  * [Näytä metatiedot](#View-metadata)
  * [Peilihakemistot](#Mirror-directories)
+
+ ### Lähde
+ * [mobiletto-cli GitHubissa](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tuki ja rahoitus
+ Yritän olla ammattimainen avoimen lähdekoodin ohjelmistokehittäjä. Olen ollut töissä
+ Ohjelmistoteollisuudessa useiden vuosien ajan, olen perustanut menestyviä yrityksiä ja myynyt niitä julkisille yrityksille.
+ Menetin hiljattain työpaikkani, eikä minulla oikeastaan ole muita töitä
+
+ Joten yritän kirjoittaa hyödyllisiä ohjelmistoja ja katsoa, toimiiko se
+
+ Jos pidät tämän ohjelmiston käyttämisestä, olisin vilpittömästi kiitollinen jopa
+ pienin [kuukausimaksu Patreonin kautta](https://www.patreon.com/cobbzilla)
+
+ *Kiitos!*
 
  ## Asennus ja käyttö
  Voit asentaa ja suorittaa `mobiletto-cli` :n npm:n kautta tai suoraan lähteestä.
@@ -230,7 +244,7 @@ mobiletto-cli
 
     mo cp conn1/some/path/to/file conn2/some/dest/path/file2
 
- Kopioi hakemisto rekursiivisesti:
+ Kopioi rekursiivisesti hakemisto:
 
     mo cp -r conn1/some/directory conn2/some/dest/
 
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Peilaa hakemistoja
- Peilaus on enemmän kuin `cp` :n erikoistapaus, se on erillinen mobiletto-komento, joka käärii
+ Peilaus on enemmän kuin `cp` :n erikoistapaus, se on erillinen mobiletto-komento, joka kääri
  kopioida toiminta; se jatkuu myös virheiden sattuessa ja seuraa onnistumisten ja virheiden määrää.
 
  Peilaaksesi kaiken conn1:stä conn2:een:

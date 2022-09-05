@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto jappoġġja konnessjonijiet ma 'Amazon S3, Backblaze B2, u sistemi ta' fajls lokali.
 
  # Aqra dan b'lingwa oħra
- Dan id-dokument README.md ġie tradott, permezz ta' [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), fi
+ Dan id-dokument README.md ġie tradott, permezz ta’ [hokeylization](https://github.com/cobbzilla/hokeylization), fi
  **[kull lingwa appoġġjata minn Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Jien ċert li mhuwiex perfett, imma nispera li huwa aħjar minn xejn!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ġentilment toffri suġġeriment għal traduzzjoni aħjar, jew kif it-test għandu jkun ifformattjat kif suppost
  * **Grazzi!**
 
- ### Sors
- * [mobiletto-cli fuq GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli fuq npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Kontenut
+ * [Sors](#Sors)
+ * [Appoġġ u Finanzjament](#Appoġġ-u-Finanzjament)
  * [Installazzjoni u użu](#Installazzjoni-u-użu)
  * [pakkett npm](#npm-pakkett)
  * [Mis-sors](#Mis-sors)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Ħassar fajls](#Ħassar-fajls)
  * [Ara l-metadejta](#Ara l-metadejta)
  * [Directorji tal-mera](#Direttorji-mera)
+
+ ### Sors
+ * [mobiletto-cli fuq GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli fuq npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Appoġġ u Finanzjament
+ Qed nipprova nkun żviluppatur professjonali ta' software open source. Ilni naħdem fiha
+ l-industrija tas-softwer għal ħafna snin, bdejt kumpaniji ta 'suċċess u biegħhom lil kumpaniji pubbliċi.
+ Dan l-aħħar tlift ix-xogħol tiegħi, u ma tantx għandi xogħol ieħor imħejji
+
+ Allura jien ser nipprova nikteb softwer utli u nara jekk dan jaħdem
+
+ Jekk inti tgawdi tuża dan is-software, inkun sinċerament grat anke għall-
+ l-iżgħar [kontribuzzjoni ta' kull xahar permezz ta' Patreon](https://www.patreon.com/cobbzilla)
+
+ *Grazzi!*
 
  ## Installazzjoni u użu
  Tista' tinstalla u tħaddem `mobiletto-cli` permezz ta' npm jew direttament mis-sors.
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Direttorji mera
  Mirroring huwa aktar minn każ speċjali ta `cp` , huwa kmand tal-mobiletto separat li jgeżwer il-
- operazzjoni ta' kopja; tkompli anke meta jseħħu żbalji, u ssegwi għadd ta 'suċċessi u żbalji.
+ operazzjoni ta' kopja; tkompli anke meta jseħħu żbalji, u jsegwu għadd ta 'suċċessi u żbalji.
 
  Biex tirrifletti kollox minn conn1 għal conn2:
 

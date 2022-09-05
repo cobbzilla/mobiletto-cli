@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto از اتصال به Amazon S3، Backblaze B2 و فایل سیستم های محلی پشتیبانی می کند.
 
  # این را به زبان دیگری بخوانید
- این سند README.md از طریق [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) به
+ این سند README.md از طریق [hokeylization](https://github.com/cobbzilla/hokeylization) به
  **[هر زبانی که توسط Google Translate پشتیبانی می‌شود](https://cloud.google.com/translate/docs/languages)!**
 
  من مطمئنم که کامل نیست، اما امیدوارم از هیچی بهتر باشد!
@@ -50,11 +50,9 @@ mobiletto-cli
  * لطفاً پیشنهادی برای ترجمه بهتر یا نحوه قالب بندی صحیح متن ارائه دهید
  * **متشکرم!**
 
- ### منبع
- * [mobiletto-cli در GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli در npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # فهرست
+ * [منبع](#منبع)
+ * [Support and Funding](#Support-and-Funding)
  * [نصب و استفاده](#نصب-و-استفاده)
  * [بسته npm](#npm-package)
  * [از منبع](#از منبع)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [حذف فایل ها](#Delete-files)
  * [مشاهده فراداده](#View-metadata)
  * [Mirror Directories](#Mirror-directories)
+
+ ### منبع
+ * [mobiletto-cli در GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli در npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## پشتیبانی و تامین مالی
+ من سعی می کنم یک توسعه دهنده نرم افزار متن باز حرفه ای باشم. من در حال کار بوده ام
+ در صنعت نرم افزار سال هاست که شرکت های موفقی راه اندازی کرده ام و آنها را به شرکت های دولتی فروخته ام.
+ اخیراً کارم را از دست داده‌ام و واقعاً کار دیگری ندارم
+
+ بنابراین من سعی می کنم نرم افزار مفید بنویسم و ببینم آیا کار می کند یا خیر
+
+ اگر از استفاده از این نرم افزار لذت می برید، من از صمیم قلب سپاسگزار خواهم بود
+ کوچکترین [کمک مالی ماهانه از طریق Patreon](https://www.patreon.com/cobbzilla)
+
+ *متشکرم!*
 
  ## نصب و استفاده
  می‌توانید `mobiletto-cli` از طریق npm یا مستقیماً از منبع نصب و اجرا کنید.
@@ -282,7 +296,7 @@ mobiletto-cli
 
     mo mirror conn1/some/subdir conn2
 
- برای انعکاس یک زیر شاخه به زیر شاخه دیگر:
+ برای انعکاس یک زیرشاخه به زیر شاخه دیگر:
 
     mo mirror conn1/some/subdir conn2/another/dir
 

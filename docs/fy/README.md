@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto stipet ferbiningen mei Amazon S3, Backblaze B2, en lokale bestânssystemen.
 
  # Lês dit yn in oare taal
- Dit README.md dokumint is oerset, fia [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), yn
+ Dit README.md dokumint is oerset, fia [hokeylization](https://github.com/cobbzilla/hokeylization), yn
  **[elke taal stipe troch Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ik bin der wis fan dat it net perfekt is, mar ik hoopje dat it better is as neat!
@@ -50,11 +50,9 @@ mobiletto-cli
  * biede freonlik in suggestje foar in bettere oersetting, of hoe't de tekst goed opmakke wurde moat
  * **Dankewol!**
 
- ### Boarne
- * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Ynhâld
+ * [Boarne](#Boarne)
+ * [Support and Funding](#Support-and-Funding)
  * [Ynstallaasje en gebrûk](#Ynstallaasje-en-gebrûk)
  * [npm-pakket](#npm-pakket)
  * [Fan boarne](#Fan-boarne)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [bestannen wiskje](#bestannen wiskje)
  * [Besjoch metadata](#View-metadata)
  * [Spiegelmappen](#Mirror-mappen)
+
+ ### Boarne
+ * [mobiletto-cli op GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli op npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Stipe en finansiering
+ Ik besykje in profesjonele ûntwikkelder fan iepen boarne software te wêzen. Ik haw wurke yn
+ de software yndustry foar in protte jierren, Ik haw begûn suksesfolle bedriuwen en ferkocht se oan iepenbiere bedriuwen.
+ Koartlyn bin ik myn baan kwytrekke, en ik haw eins gjin oar wurk opsteld
+
+ Dat ik sil besykje nuttige software te skriuwen en te sjen oft dat wurket
+
+ As jo genietsje fan in gebrûk dizze sêftguod, Ik soe wêze opnij tankber foar sels de
+ lytste [moanlikse bydrage fia Patreon](https://www.patreon.com/cobbzilla)
+
+ *Dankewol!*
 
  ## Ynstallaasje en gebrûk
  Jo kinne `mobiletto-cli` ynstallearje en útfiere fia npm of direkt fan boarne.

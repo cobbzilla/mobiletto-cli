@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto падтрымлівае падключэнне да Amazon S3, Backblaze B2 і лакальных файлавых сістэм.
 
  # Прачытайце гэта на іншай мове
- Гэты дакумент README.md быў перакладзены праз [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) на
+ Гэты дакумент README.md быў перакладзены праз [hokeylization](https://github.com/cobbzilla/hokeylization) на
  **[усе мовы, якія падтрымліваюцца Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Я ўпэўнены, што гэта не ідэальна, але я спадзяюся, што гэта лепш, чым нічога!
@@ -50,11 +50,9 @@ mobiletto-cli
  * калі ласка, прапануйце лепшы пераклад ці тое, як правільна афармляць тэкст
  * **Дзякуй!**
 
- ### Крыніца
- * [mobiletto-cli на GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli на npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Змест
+ * [Крыніца](#Крыніца)
+ * [Падтрымка і фінансаванне](#Support-and-Funding)
  * [Устаноўка і выкарыстанне](#Installation-and-usage)
  * [пакет npm](#npm-пакет)
  * [З крыніцы](#З крыніцы)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Выдаліць файлы](#Delete-files)
  * [Прагляд метададзеных](#View-metadata)
  * [Люстраныя каталогі](#Mirror-каталогі)
+
+ ### Крыніца
+ * [mobiletto-cli на GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli на npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Падтрымка і фінансаванне
+ Я спрабую быць прафесійным распрацоўшчыкам праграмнага забеспячэння з адкрытым зыходным кодам. Я працаваў у
+ У індустрыі праграмнага забеспячэння на працягу многіх гадоў я ствараў паспяховыя кампаніі і прадаваў іх публічным кампаніям.
+ Нядаўна я страціў працу, і ў мяне няма іншай працы
+
+ Таму я паспрабую напісаць карыснае праграмнае забеспячэнне і пагляджу, ці спрацуе гэта
+
+ Калі вам падабаецца карыстацца гэтай праграмай, я быў бы шчыра ўдзячны нават за
+ найменшы [штомесячны ўзнос праз Patreon](https://www.patreon.com/cobbzilla)
+
+ *Дзякуй!*
 
  ## Устаноўка і выкарыстанне
  Вы можаце ўсталяваць і запусціць `mobiletto-cli` праз npm або непасрэдна з крыніцы.

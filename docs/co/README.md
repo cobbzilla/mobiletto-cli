@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto supporta e cunnessione à Amazon S3, Backblaze B2, è sistemi di fugliale lucali.
 
  # Leghjite questu in un'altra lingua
- Stu documentu README.md hè statu traduttu, via [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), in
+ Stu documentu README.md hè statu traduttu, via [hokeylization](https://github.com/cobbzilla/hokeylization), in
  **[tutte lingue supportate da Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Sò sicuru chì ùn hè micca perfettu, ma spergu chì hè megliu cà nunda !
@@ -50,11 +50,9 @@ mobiletto-cli
  * Per piacè offre un suggerimentu di una traduzzione megliu, o cumu u testu deve esse furmatu bè
  * **Grazie!**
 
- ### Fonte
- * [mobiletto-cli su GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Cuntinutu
+ * [Source](#Source)
+ * [Supportu è Finanziamentu](#Supportu-è-Fundamentu)
  * [Installazione è usu](#Installazione è usu)
  * [npm package](#npm-package)
  * [Da a fonte](#Da a fonte)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Elimina i schedari](#Delete-files)
  * [Vede i metadati](#Vedi-metadata)
  * [Cartulari specchiu](#Cartolari specchiu)
+
+ ### Fonte
+ * [mobiletto-cli su GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Supportu è Finanziamentu
+ Aghju pruvatu à esse un sviluppatore prufessiunale di software open source. Aghju travagliatu in
+ l'industria di u software per parechji anni, aghju principiatu cumpagnie di successu è li vende à cumpagnie publica.
+ Recentemente aghju persu u mo travagliu, è ùn aghju micca veramente un altru travagliu in linea
+
+ Dunque, aghju da pruvà à scrive un software utile è vede s'ellu funziona
+
+ Se ti piace à utilizà stu software, saraghju sinceramente grati ancu per u
+ più chjucu [cuntribuzione mensuale via Patreon](https://www.patreon.com/cobbzilla)
+
+ *Grazie!*
 
  ## Installazione è usu
  Pudete installà è eseguisce `mobiletto-cli` via npm o direttamente da a fonte.
@@ -264,14 +278,14 @@ mobiletto-cli
  ### Vede i metadati
  Hè spessu utile per cunnosce i metadati per un schedariu, senza scaricà tuttu u schedariu.
 
- Mobiletto hè capaci di rapportà a dimensione di u schedariu è l'ultima volta mudificatu, in più di u nome è u tipu.
+ Mobiletto hè capaci di riportà a dimensione di u schedariu è l'ultima ora mudificata, in più di u nome è u tipu.
 
  Per vede i metadati:
 
     mo meta conn1/some/file.txt
 
  ### Mirror directory
- Mirroring hè più cà un casu speciale di `cp` , hè un cumandamentu mobiletto separatu chì avvolge u
+ Mirroring hè più cà un casu speciale di `cp` , hè un cumandamentu mobiletto separatu chì impacchetta u
  operazione di copia; cuntinueghja ancu quandu l'errori accadenu, è seguite un numeru di successi è errori.
 
  Per riflette tuttu da conn1 à conn2:

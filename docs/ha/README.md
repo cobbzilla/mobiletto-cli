@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto yana goyan bayan haɗin kai zuwa Amazon S3, Backblaze B2, da tsarin fayil na gida.
 
  # Karanta wannan a wani yare
- An fassara wannan takarda ta README.md, ta [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), zuwa
+ An fassara wannan takaddar README.md, ta [hokeylization](https://github.com/cobbzilla/hokeylization), zuwa
  **[kowane harshe yana da tallafin Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Na tabbata ba cikakke ba ne, amma ina fata ya fi komai kyau!
@@ -50,11 +50,9 @@ mobiletto-cli
  * a hankali ba da shawarar mafi kyawun fassarar, ko yadda ya kamata a tsara rubutun yadda ya kamata
  * **Na gode!**
 
- ### Source
- * [mobiletto-cli akan GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli akan npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Abubuwan ciki
+ * [Madogararsa](#Source)
+ * [Tallafawa da Kuɗi](#Taimako-da-Kudade)
  * [Shigar da amfani](#Shigar-da-amfani)
  * [kunshin npm](#npm-kunshin)
  * [Daga tushe](#Daga-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Goge fayiloli](#Delete-files)
  * [Duba metadata](#View-metadadata)
  * [Kundayen adireshi na madubi](#Mirror-directories)
+
+ ### Source
+ * [mobiletto-cli akan GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli akan npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tallafi da Kudi
+ Ina ƙoƙari in zama ƙwararren mai haɓaka tushen software. Na kasance ina aiki a ciki
+ masana'antar software tsawon shekaru da yawa, na fara kamfanoni masu nasara kuma na sayar da su ga kamfanonin jama'a.
+ Kwanan nan na rasa aiki, kuma ba ni da wani aiki a layi daya
+
+ Don haka zan gwada rubuta software mai taimako don ganin ko hakan yana aiki
+
+ Idan kuna jin daɗin amfani da wannan software, zan yi matukar godiya ga har ma da
+ mafi ƙanƙanta [gudunmawar wata-wata ta hanyar Patreon](https://www.patreon.com/cobbzilla)
+
+ *Na gode!*
 
  ## Shigarwa da amfani
  Kuna iya shigar da kunna `mobiletto-cli` ta npm ko kai tsaye daga tushe.
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### kundayen adireshi na madubi
  Mirroring ya fi wani lamari na musamman na `cp` , umarni ne na mobiletto daban wanda ke kunshe da
- aikin kwafi; yana ci gaba har ma lokacin da kurakurai suka faru, da kuma bin diddigin ƙididdiga na nasara da kurakurai.
+ aikin kwafi; yana ci gaba har ma lokacin da kurakurai suka faru, da bin diddigin ƙidayar nasara da kurakurai.
 
  Don madubi komai daga conn1 zuwa conn2:
 

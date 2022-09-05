@@ -6,7 +6,7 @@ mobiletto-cli
  Το Mobiletto υποστηρίζει συνδέσεις με το Amazon S3, το Backblaze B2 και τα τοπικά συστήματα αρχείων.
 
  # Διαβάστε αυτό σε άλλη γλώσσα
- Αυτό το έγγραφο README.md έχει μεταφραστεί, μέσω [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), σε
+ Αυτό το έγγραφο README.md έχει μεταφραστεί, μέσω [hokeylization](https://github.com/cobbzilla/hokeylization), σε
  **[κάθε γλώσσα που υποστηρίζεται από τη Μετάφραση Google](https://cloud.google.com/translate/docs/languages)!**
 
  Είμαι σίγουρος ότι δεν είναι τέλειο, αλλά ελπίζω να είναι καλύτερο από το τίποτα!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Προσφέρετε ευγενικά μια πρόταση για καλύτερη μετάφραση ή πώς το κείμενο πρέπει να μορφοποιηθεί σωστά
  * **Ευχαριστώ!**
 
- ### Πηγή
- * [mobiletto-cli στο GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli σε npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Περιεχόμενα
+ * [Πηγή](#Πηγή)
+ * [Υποστήριξη και Χρηματοδότηση](#Support-and-Funding)
  * [Εγκατάσταση και χρήση](#Installation-and-usage)
  * [πακέτο npm](#npm-πακέτο)
  * [Από πηγή](#Από-πηγή)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Διαγραφή αρχείων](#Delete-files)
  * [Προβολή μεταδεδομένων](#View-metadata)
  * [Mirror Directories](#Mirror-directories)
+
+ ### Πηγή
+ * [mobiletto-cli στο GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli σε npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Υποστήριξη και Χρηματοδότηση
+ Προσπαθώ να γίνω επαγγελματίας προγραμματιστής λογισμικού ανοιχτού κώδικα. Έχω εργαστεί σε
+ στη βιομηχανία λογισμικού εδώ και πολλά χρόνια, έχω ξεκινήσει επιτυχημένες εταιρείες και τις πούλησα σε δημόσιες εταιρείες.
+ Πρόσφατα έχασα τη δουλειά μου και δεν έχω καμία άλλη δουλειά στη σειρά
+
+ Θα προσπαθήσω λοιπόν να γράψω χρήσιμο λογισμικό και να δω αν λειτουργεί
+
+ Εάν σας αρέσει να χρησιμοποιείτε αυτό το λογισμικό, θα σας ήμουν ειλικρινά ευγνώμων ακόμη και για το
+ μικρότερη [μηνιαία συνεισφορά μέσω Patreon](https://www.patreon.com/cobbzilla)
+
+ *Ευχαριστώ!*
 
  ## Εγκατάσταση και χρήση
  Μπορείτε να εγκαταστήσετε και να εκτελέσετε το `mobiletto-cli` μέσω npm ή απευθείας από την πηγή.

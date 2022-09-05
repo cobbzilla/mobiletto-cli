@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto e ts'ehetsa likhokahano ho Amazon S3, Backblaze B2, le lits'ebetso tsa lifaele tsa lehae.
 
  # Bala sena ka puo e 'ngoe
- Tokomane ena ea README.md e fetoletsoe, ka ho sebelisa [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ho
+ Tokomane ena ea README.md e fetoletsoe, ka [hokeylization](https://github.com/cobbzilla/hokeylization), ho
  **[puo e nngwe le e nngwe e tshehetswa ke Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ke na le bonnete ba hore ha ea phethahala, empa ke ts'epa hore e betere ho feta letho!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ka mosa fana ka tlhahiso ea phetolelo e molemonyana, kapa hore na taba e ngotsoe joang ka tsela e nepahetseng
  * **Kea leboha!**
 
- ### Mohloli
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Litaba
+ * [Mohloli](#Mohloli)
+ * [Tšehetso le Lichelete](#Tšehetso-le-Lichelete)
  * [Kenyello le tšebeliso](#Kenya-le-tsebeliso)
  * [pakete ea npm](#npm-package)
  * [Ho tsoa mohloling](#Ho tsoa mohloling)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Hlakola lifaele](#Delete-file)
  * [Sheba lintlha](#Sheba-metadata)
  * [Libuka tsa seipone](#Mirror-directory)
+
+ ### Mohloli
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tšehetso le Lichelete
+ Ke leka ho ba setsebi sa software ea open source software. Ke ntse ke sebetsa
+ indasteri ea software ka lilemo tse ngata, ke qalile lik'hamphani tse atlehileng mme ka li rekisetsa lik'hamphani tsa sechaba.
+ Haufinyane tjena ke lahlehetsoe ke mosebetsi, 'me ha ho na mosebetsi o mong oo ke o lokiselitseng
+
+ Kahoo ke tla leka ho ngola software e thusang mme ke bone hore na e ea sebetsa
+
+ Haeba u natefeloa ke ho sebelisa software ena, ke tla leboha haholo bakeng sa eona
+ e nyane [monehelo oa khoeli le khoeli ka Patreon](https://www.patreon.com/cobbzilla)
+
+ *Kea leboha!*
 
  ## Ho kenya le tšebeliso
  O ka kenya le ho tsamaisa `mobiletto-cli` ka npm kapa ka kotloloho ho tsoa mohloling.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Likhokahano tsa seipone
- Mirroring e feta taba e khethehileng ea `cp` , ke taelo e arohaneng ea mobiletto e phuthelang
+ Mirroring e feta taba e khethehileng ea `cp` , ke taelo e arohaneng ea mobiletto e koahelang
  ts'ebetso ea kopo; e tsoela pele le ha liphoso li etsahala, 'me u latele palo ea likatleho le liphoso.
 
  Ho bonahatsa ntho e 'ngoe le e' ngoe ho tloha conn1 ho ea conn2:

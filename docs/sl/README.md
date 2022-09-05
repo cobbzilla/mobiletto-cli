@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto podpira povezave z Amazon S3, Backblaze B2 in lokalnimi datotečnimi sistemi.
 
  # Preberite to v drugem jeziku
- Ta dokument README.md je bil preveden prek [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) v
+ Ta dokument README.md je bil preveden prek [hokeylization](https://github.com/cobbzilla/hokeylization) v
  **[vsak jezik, ki ga podpira Google Prevajalnik](https://cloud.google.com/translate/docs/languages)!**
 
  Prepričan sem, da ni popolno, a upam, da je bolje kot nič!
@@ -50,11 +50,9 @@ mobiletto-cli
  * vljudno prosim za predlog boljšega prevoda oziroma kako naj bo besedilo pravilno oblikovano
  * **Hvala vam!**
 
- ### Vir
- * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Vsebina
+ * [Vir](#Vir)
+ * [Podpora in financiranje](#Podpora-in-financiranje)
  * [Namestitev in uporaba](#Namestitev-in-uporaba)
  * [paket npm](#npm-paket)
  * [Iz vira](#Iz vira)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Izbriši datoteke](#Delete-files)
  * [Ogled metapodatkov](#View-metadata)
  * [Zrcalni imeniki](#Mirror-directories)
+
+ ### Vir
+ * [mobiletto-cli na GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli na npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Podpora in financiranje
+ Poskušam biti profesionalni razvijalec odprtokodne programske opreme. Delal sem v
+ v industriji programske opreme že vrsto let ustanavljam uspešna podjetja in jih prodajam javnim podjetjem.
+ Pred kratkim sem izgubil službo in pravzaprav nimam nobenega drugega dela
+
+ Zato bom poskusil napisati uporabno programsko opremo in preveril, ali deluje
+
+ Če uživate v uporabi te programske opreme, bi vam bil iskreno hvaležen celo za
+ najmanjši [mesečni prispevek prek Patreona](https://www.patreon.com/cobbzilla)
+
+ *Hvala vam!*
 
  ## Namestitev in uporaba
  `mobiletto-cli` lahko namestite in zaženete prek npm ali neposredno iz vira.
@@ -272,7 +286,7 @@ mobiletto-cli
 
  ### Zrcalni imeniki
  Zrcaljenje je več kot poseben primer `cp` , je ločen ukaz mobiletto, ki ovije
- kopiranje; nadaljuje tudi, ko pride do napak, in sledi štetju uspehov in napak.
+ kopiranje; nadaljuje tudi, ko pride do napak, in sledi številu uspehov in napak.
 
  Za zrcaljenje vsega iz conn1 v conn2:
 

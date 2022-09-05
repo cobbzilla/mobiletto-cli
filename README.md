@@ -6,7 +6,7 @@ storage.
 Mobiletto supports connections to Amazon S3, Backblaze B2, and local filesystems.
 
 # Read this in another language
-This README.md document has been translated, via [`hokeylization`](https://github.com/cobbzilla/hokeylization), into
+This README.md document has been translated, via [hokeylization](https://github.com/cobbzilla/hokeylization), into
 **[every language supported by Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
 I'm certain it's not perfect, but I hope it's better than nothing!
@@ -49,11 +49,9 @@ When you create a new GitHub issue about a translation, please do:
 * kindly offer a suggestion of a better translation, or how the text should be properly formatted
 * **Thank you!**
 
-### Source
-* [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
-* [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
 # Contents
+* [Source](#Source)
+* [Support and Funding](#Support-and-Funding)
 * [Installation and usage](#Installation-and-usage)
   * [npm package](#npm-package)
   * [From source](#From-source)
@@ -70,6 +68,22 @@ When you create a new GitHub issue about a translation, please do:
   * [Delete files](#Delete-files)
   * [View metadata](#View-metadata)
   * [Mirror directories](#Mirror-directories)
+
+### Source
+* [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+* [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+## Support and Funding
+I am attempting to be a professional open source software developer. I have been working in
+the software industry for many years, I have started successful companies and sold them to public companies.
+Recently I lost my job, and I don't really have any other work lined up
+
+So I'm going to try writing helpful software and see if that works
+
+If you enjoy using this software, I would be sincerely grateful for even the
+smallest [monthly contribution via Patreon](https://www.patreon.com/cobbzilla)
+
+*Thank you!*
 
 ## Installation and usage
 You can install and run `mobiletto-cli` via npm or directly from source.

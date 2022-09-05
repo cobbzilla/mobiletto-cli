@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto admet connexions a Amazon S3, Backblaze B2 i sistemes de fitxers locals.
 
  # Llegeix això en un altre idioma
- Aquest document README.md s'ha traduït, mitjançant [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), a
+ Aquest document README.md s'ha traduït, mitjançant [hokeylization](https://github.com/cobbzilla/hokeylization), a
  **[cada idioma compatible amb Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Estic segur que no és perfecte, però espero que sigui millor que res!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Oferiu amablement un suggeriment d'una millor traducció o com s'hauria de formatar correctament el text
  * **Gràcies!**
 
- ### Font
- * [mobiletto-cli a GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli a npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Continguts
+ * [Font](#Font)
+ * [Suport i finançament](#Support-and-Funding)
  * [Instal·lació i ús](#Instal·lació-i-ús)
  * [paquet npm](#npm-package)
  * [De la font](#From-source)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Suprimeix fitxers](#Delete-files)
  * [Veure metadades](#View-metadata)
  * [Directoris mirall](#directoris mirall)
+
+ ### Font
+ * [mobiletto-cli a GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli a npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Suport i finançament
+ Estic intentant ser un desenvolupador professional de programari de codi obert. Hi he estat treballant
+ la indústria del programari durant molts anys, he creat empreses d'èxit i les he venut a empreses públiques.
+ Recentment he perdut la meva feina, i realment no tinc cap altra feina preparada
+
+ Així que intentaré escriure programari útil i veure si funciona
+
+ Si us agrada utilitzar aquest programari, us agrairia sincerament fins i tot
+ més petita [contribució mensual a través de Patreon](https://www.patreon.com/cobbzilla)
+
+ *Gràcies!*
 
  ## Instal·lació i ús
  Podeu instal·lar i executar `mobiletto-cli` mitjançant npm o directament des de la font.

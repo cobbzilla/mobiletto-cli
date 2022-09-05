@@ -6,7 +6,7 @@ mobiletto-cli
  I-Mobiletto ixhasa uqhagamshelo kwi-Amazon S3, i-Backblaze B2, kunye neenkqubo zefayile zendawo.
 
  # Funda oku ngolunye ulwimi
- Olu xwebhu README.md luguqulelwe, kusetyenziswa [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), kwi
+ Olu xwebhu README.md luguqulelwe, kusetyenziswa [hokeylization](https://github.com/cobbzilla/hokeylization), kwi
  **[lonke ulwimi luxhaswa yiToliki kaGoogle](https://cloud.google.com/translate/docs/languages)!**
 
  Ndiqinisekile ukuba ayifezekanga, kodwa ndiyathemba ukuba ingcono kunanto!
@@ -50,11 +50,9 @@ mobiletto-cli
  * ngobubele nikela icebiso lenguqulelo engcono, okanye indlela umbhalo ofanele ubhalwe ngokufanelekileyo
  * **Enkosi!**
 
- ### Umthombo
- * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Imixholo
+ * [Umthombo](#Umthombo)
+ * [Inkxaso kunye neNkxaso](#Inkxaso-kunye-neNkxaso-mali)
  * [Ufakelo kunye nokusetyenziswa](#Fakelo-kunye-usetyenziso)
  * [npm package](#npm-package)
  * [Ukusuka kumthombo](#Ukusuka-umthombo)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Cima iifayile](#Cima-iifayile)
  * [Jonga imetadata](#Jonga-imetadata)
  * [Izalathisi zesipili](#Mirror-directory)
+
+ ### Umthombo
+ * [mobiletto-cli on GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Inkxaso kunye neNkxaso
+ Ndizama ukuba ngumphuhlisi wesoftware ovulelekileyo. Bendisebenza ngaphakathi
+ ishishini lesoftware iminyaka emininzi, ndiqale iinkampani eziphumeleleyo kwaye ndazithengisa kwiinkampani zoluntu.
+ Kutshanje ndiye ndaphelelwa ngumsebenzi, yaye andinawo omnye umsebenzi endiwudwelisileyo
+
+ Ke ndiza kuzama ukubhala isoftware eluncedo kwaye ndibone ukuba iyasebenza na
+
+ Ukuba uyakonwabela ukusebenzisa le software, ndingabulela ngokungazenzisiyo nokuba
+ incinci [igalelo lenyanga ngePatreon](https://www.patreon.com/cobbzilla)
+
+ *Enkosi!*
 
  ## Ufakelo kunye nokusetyenziswa
  Ungafaka kwaye usebenzise `mobiletto-cli` nge-npm okanye ngokuthe ngqo kwimvelaphi.

@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto supporta connessioni ad Amazon S3, Backblaze B2 e filesystem locali.
 
  # Leggi questo in un'altra lingua
- Questo documento README.md è stato tradotto, tramite [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), in
+ Questo documento README.md è stato tradotto, tramite [hokeylization](https://github.com/cobbzilla/hokeylization), in
  **[ogni lingua supportata da Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Sono certa che non sia perfetto, ma spero sia meglio di niente!
@@ -50,11 +50,9 @@ mobiletto-cli
  * offrire gentilmente un suggerimento per una traduzione migliore o come formattare correttamente il testo
  * **Grazie!**
 
- ### Fonte
- * [mobiletto-cli su GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli su npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Contenuti
+ * [Fonte](#Fonte)
+ * [Supporto e finanziamento](#Supporto e finanziamento)
  * [Installazione e utilizzo](#Installazione e utilizzo)
  * [pacchetto npm](pacchetto #npm)
  * [Da fonte](#Da-fonte)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Elimina file](#Elimina-file)
  * [Visualizza metadati](#Visualizza-metadati)
  * [directory mirror](#directory mirror)
+
+ ### Fonte
+ * [mobiletto-cli su GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli su npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Supporto e finanziamento
+ Sto cercando di essere uno sviluppatore di software open source professionista. Ci ho lavorato
+ nell'industria del software per molti anni, ho avviato società di successo e le ho vendute a società pubbliche.
+ Recentemente ho perso il lavoro, e non ho altro in programma
+
+ Quindi proverò a scrivere un software utile e vedere se funziona
+
+ Se ti piace usare questo software, ti sarei sinceramente grato anche per il
+ il più piccolo [contributo mensile tramite Patreon](https://www.patreon.com/cobbzilla)
+
+ *Grazie!*
 
  ## Installazione e utilizzo
  Puoi installare ed eseguire `mobiletto-cli` tramite npm o direttamente dal sorgente.

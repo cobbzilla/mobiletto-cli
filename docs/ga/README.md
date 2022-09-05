@@ -6,7 +6,7 @@ soghluaistetto-cli
  Tacaíonn Mobiletto le naisc le Amazon S3, Backblaze B2, agus córais comhaid áitiúla.
 
  # Léigh é seo i dteanga eile
- Aistríodh an doiciméad README.md seo, trí [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), go
+ Aistríodh an doiciméad README.md seo, trí [hokeylization](https://github.com/cobbzilla/hokeylization), go
  **[gach teanga a dtacaíonn Google Translate léi]( https://cloud.google.com/translate/docs/languages)!**
 
  Tá mé cinnte nach bhfuil sé foirfe, ach tá súil agam go bhfuil sé níos fearr ná rud ar bith!
@@ -50,11 +50,9 @@ soghluaistetto-cli
  * go cineálta moladh a thabhairt faoi aistriúchán níos fearr, nó conas is ceart an téacs a fhormáidiú i gceart
  * **Go raibh maith agat!**
 
- ### Foinse
- * [mobiletto-cli ar GitHub]( https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ar npm]( https://www.npmjs.com/package/mobiletto-cli)
-
  # Ábhar
+ * [Foinse](#Foinse)
+ * [Tacaíocht agus Maoiniú](#Tacaíocht-agus-Maoiniú)
  * [Suiteáil agus úsáid](#Suiteáil-agus-úsáid)
  * [pacáiste npm](#npm-package)
  * [Ón bhfoinse](#Ón bhfoinse)
@@ -71,6 +69,22 @@ soghluaistetto-cli
  * [Scrios comhaid](#Scrios-comhaid)
  * [Féach ar mheiteashonraí](#View-metadata)
  * [Eolairí scáthán](#Mirror-directories)
+
+ ### Foinse
+ * [mobiletto-cli ar GitHub]( https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ar npm]( https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tacaíocht agus Maoiniú
+ Tá mé ag iarraidh a bheith i mo fhorbróir bogearraí foinse oscailte gairmiúil. Tá mé ag obair i
+ an tionscal bogearraí le blianta fada anuas, tá cuideachtaí rathúla tosaithe agam agus dhíol mé iad le cuideachtaí poiblí.
+ Chaill mé mo phost le déanaí, agus níl aon obair eile ar bun agam i ndáiríre
+
+ Mar sin táim chun iarracht a dhéanamh bogearraí cabhrach a scríobh agus féachaint an n-oibríonn sin
+
+ Má bhaineann tú taitneamh as na bogearraí seo a úsáid, bheinn buíoch ó chroí as fiú an
+ [ranníocaíocht mhíosúil trí Patreon](https://www.patreon.com/cobbzilla)
+
+ *Go raibh maith agat!*
 
  ## Suiteáil agus úsáid
  Is féidir leat `mobiletto-cli` a shuiteáil agus a rith trí npm nó go díreach ón bhfoinse.
@@ -256,7 +270,7 @@ soghluaistetto-cli
     mo rm -r conn1/some/directory
     mo rm --recursive conn1/some/directory
 
- Scrios eolaire agus ná gearán faoi aon earráidí:
+ Scrios eolaire agus ná déan gearán faoi aon earráidí:
 
     mo rm -rf conn1/some/directory
     mo rm --recursive --force conn1/some/directory

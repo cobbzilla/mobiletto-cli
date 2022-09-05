@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto toetab ühendusi Amazon S3, Backblaze B2 ja kohalike failisüsteemidega.
 
  # Lugege seda teises keeles
- See README.md dokument on tõlgitud [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) kaudu keelde
+ See README.md dokument on [hokeylization](https://github.com/cobbzilla/hokeylization) kaudu tõlgitud keelde
  **[Google'i tõlge toetab kõiki keeli](https://cloud.google.com/translate/docs/languages)!**
 
  Olen kindel, et see pole täiuslik, aga ma loodan, et see on parem kui mitte midagi!
@@ -50,11 +50,9 @@ mobiletto-cli
  * pakkuge lahkelt ettepanekut parema tõlke kohta või kuidas tekst tuleks õigesti vormistada
  * **Aitäh!**
 
- ### Allikas
- * [mobiletto-cli GitHubis](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Sisu
+ * [Allikas](#Allikas)
+ * [Toetus ja rahastamine](#Support-and-Funding)
  * [Paigaldamine ja kasutamine](#Installation-and-usage)
  * [npm-pakett](#npm-pakett)
  * [Allikast](#Allikast)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Kustuta failid](#Delete-files)
  * [Kuva metaandmed](#View-metadata)
  * [Peegelkataloogid](#Peegelkataloogid)
+
+ ### Allikas
+ * [mobiletto-cli GitHubis](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Toetus ja rahastamine
+ Üritan olla professionaalne avatud lähtekoodiga tarkvaraarendaja. Olen töötanud
+ tarkvaratööstuses aastaid, olen loonud edukaid ettevõtteid ja müünud neid riigiettevõtetele.
+ Hiljuti kaotasin töö ja muud tööd mul tegelikult ei ole
+
+ Nii et proovin kirjutada kasulikku tarkvara ja vaadata, kas see töötab
+
+ Kui teile meeldib seda tarkvara kasutada, oleksin isegi selle eest siiralt tänulik
+ väikseim [igakuine sissemakse Patreoni kaudu](https://www.patreon.com/cobbzilla)
+
+ *Aitäh!*
 
  ## Paigaldamine ja kasutamine
  Saate installida ja käivitada `mobiletto-cli` kaudu või otse allikast.

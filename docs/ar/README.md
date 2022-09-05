@@ -6,7 +6,7 @@ Mobiletto- كلي
  يدعم Mobiletto الاتصالات بأنظمة الملفات المحلية Amazon S3 و Backblaze B2.
 
  # اقرأ هذا بلغة أخرى
- تمت ترجمة هذا المستند README.md عبر [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) ، إلى
+ تمت ترجمة هذا المستند README.md عبر [hokeylization](https://github.com/cobbzilla/hokeylization) إلى
  ** [كل لغة تدعمها ترجمة Google](https://cloud.google.com/translate/docs/languages)! **
 
  أنا متأكد من أنها ليست مثالية ، لكني آمل أن تكون أفضل من لا شيء!
@@ -50,11 +50,9 @@ Mobiletto- كلي
  * يرجى تقديم اقتراح بترجمة أفضل ، أو كيفية تنسيق النص بشكل صحيح
  * **شكرًا لك!**
 
- ### مصدر
- * [mobiletto-cli على GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # محتويات
+ * [المصدر](# المصدر)
+ * [الدعم والتمويل](# دعم وتمويل)
  * [التثبيت والاستخدام](# التثبيت والاستخدام)
  * [حزمة npm](# حزمة npm)
  * [من المصدر](# من المصدر)
@@ -71,6 +69,22 @@ Mobiletto- كلي
  * [حذف الملفات](# حذف-الملفات)
  * [عرض البيانات الوصفية](# عرض البيانات الوصفية)
  * [أدلة المرآة](# أدلة المرآة)
+
+ ### مصدر
+ * [mobiletto-cli على GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## الدعم والتمويل
+ أحاول أن أكون مطور برامج محترف مفتوح المصدر. لقد كنت أعمل في
+ صناعة البرمجيات لسنوات عديدة ، لقد بدأت شركات ناجحة وقمت ببيعها لشركات عامة.
+ لقد فقدت وظيفتي مؤخرًا ، وليس لدي حقًا أي عمل آخر مرتب
+
+ لذلك سأحاول كتابة برنامج مفيد ومعرفة ما إذا كان ذلك يعمل
+
+ إذا كنت تستمتع باستخدام هذا البرنامج ، فسأكون ممتنًا بصدق حتى لـ
+ أصغر [مساهمة شهرية عبر Patreon](https://www.patreon.com/cobbzilla)
+
+ *شكرًا لك!*
 
  ## التثبيت والاستخدام
  يمكنك تثبيت وتشغيل `mobiletto-cli` عبر npm أو مباشرة من المصدر.
@@ -271,7 +285,7 @@ Mobiletto- كلي
     mo meta conn1/some/file.txt
 
  ### أدلة المرآة
- يعد الانعكاس أكثر من حالة خاصة لـ `cp` ، فهو أمر Mobiletto منفصل يلف ملف
+ الانعكاس هو أكثر من حالة خاصة لـ `cp` ، إنه أمر mobiletto المنفصل الذي يلف ملف
  عملية النسخ يستمر حتى عند حدوث أخطاء ، ويتتبع عدد النجاحات والأخطاء.
 
  لعكس كل شيء من conn1 إلى conn2:

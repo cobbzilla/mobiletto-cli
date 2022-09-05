@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto sipòte koneksyon ak Amazon S3, Backblaze B2, ak sistèm fichye lokal yo.
 
  # Li sa nan yon lòt lang
- Dokiman README.md sa a te tradui, atravè [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), nan
+ Dokiman README.md sa a te tradui, atravè [hokeylization](https://github.com/cobbzilla/hokeylization), nan
  **[chak lang Google Translate sipòte](https://cloud.google.com/translate/docs/languages)!**
 
  Mwen sèten li pa pafè, men mwen espere ke li pi bon pase anyen!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Tanpri ofri yon sijesyon pou yon pi bon tradiksyon, oswa ki jan tèks la ta dwe byen fòma
  * **Mèsi!**
 
- ### Sous
- * [mobiletto-cli sou GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli sou npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Kontni
+ * [Sous](#Sous)
+ * [Sipò ak Finansman](#Sipò-ak-Finansman)
  * [Enstalasyon ak itilizasyon](#Enstalasyon ak itilizasyon)
  * [npm package](#npm-package)
  * [Soti nan sous](#Soti nan sous)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Efase fichye](#Efase-fichye)
  * [View metadata](#View-metadata)
  * [Anyè glas](#Anyè glas)
+
+ ### Sous
+ * [mobiletto-cli sou GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli sou npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Sipò ak Finansman
+ Mwen eseye vin yon pwofesyonèl devlopè lojisyèl sous louvri. Mwen te travay nan
+ endistri a lojisyèl pou anpil ane, mwen te kòmanse konpayi siksè ak vann yo bay konpayi piblik yo.
+ Dènyèman mwen pèdi travay mwen, e mwen pa vrèman gen okenn lòt travay ki aliye
+
+ Se konsa, mwen pral eseye ekri lojisyèl itil epi wè si sa ap travay
+
+ Si ou renmen itilize lojisyèl sa a, mwen ta dwe sensèman rekonesan pou menm a
+ pi piti [kontribisyon chak mwa atravè Patreon](https://www.patreon.com/cobbzilla)
+
+ *Mèsi!*
 
  ## Enstalasyon ak itilizasyon
  Ou ka enstale epi kouri `mobiletto-cli` atravè npm oswa dirèkteman nan sous.

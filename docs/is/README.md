@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto styður tengingar við Amazon S3, Backblaze B2 og staðbundin skráarkerfi.
 
  # Lestu þetta á öðru tungumáli
- Þetta README.md skjal hefur verið þýtt, með [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), yfir á
+ Þetta README.md skjal hefur verið þýtt, með [hokeylization](https://github.com/cobbzilla/hokeylization), yfir á
  **[öll tungumál studd af Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  Ég er viss um að það er ekki fullkomið, en ég vona að það sé betra en ekkert!
@@ -50,11 +50,9 @@ mobiletto-cli
  * komdu með tillögu um betri þýðingu eða hvernig textinn ætti að vera rétt sniðinn
  * **Þakka þér fyrir!**
 
- ### Heimild
- * [mobiletto-cli á GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli á npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Innihald
+ * [Heimild](#Heimild)
+ * [Support and Funding](#Support-and-Funding)
  * [Uppsetning og notkun](#Uppsetning-og-notkun)
  * [npm pakki](#npm-pakki)
  * [Frá uppruna](#Frá uppruna)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Eyða skrám](#Delete-files)
  * [Skoða lýsigögn](#Skoða-lýsigögn)
  * [Speglaskrár](#Mirror-möppur)
+
+ ### Heimild
+ * [mobiletto-cli á GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli á npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Stuðningur og fjármögnun
+ Ég er að reyna að vera faglegur opinn hugbúnaðarframleiðandi. Ég hef verið að vinna í
+ hugbúnaðariðnaðinum í mörg ár, ég hef stofnað farsæl fyrirtæki og selt þau til opinberra fyrirtækja.
+ Nýlega missti ég vinnuna mína og ég er í rauninni ekki með neina aðra vinnu í röðinni
+
+ Svo ég ætla að prófa að skrifa gagnlegan hugbúnað og sjá hvort það virkar
+
+ Ef þú hefur gaman af því að nota þennan hugbúnað, væri ég innilega þakklátur fyrir jafnvel
+ minnsta [mánaðarlegt framlag í gegnum Patreon](https://www.patreon.com/cobbzilla)
+
+ *Þakka þér fyrir!*
 
  ## Uppsetning og notkun
  Þú getur sett upp og keyrt `mobiletto-cli` í gegnum npm eða beint frá uppruna.
@@ -230,7 +244,7 @@ mobiletto-cli
 
     mo cp conn1/some/path/to/file conn2/some/dest/path/file2
 
- Afritaðu afturvirkt möppu:
+ Afritaðu afturkvæmt möppu:
 
     mo cp -r conn1/some/directory conn2/some/dest/
 

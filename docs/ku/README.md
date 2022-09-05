@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto girêdanên bi Amazon S3, Backblaze B2, û pergalên pelên herêmî re piştgirî dike.
 
  # Vê bi zimanekî din bixwînin
- Ev belgeya README.md, bi rêya [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) hatiye wergerandin.
+ Ev belgeya README.md, bi rêya [hokeylization](https://github.com/cobbzilla/hokeylization) hatiye wergerandin.
  **[her ziman ji hêla Google Wergerê ve tê piştgirî kirin](https://cloud.google.com/translate/docs/languages)!**
 
  Ez bawer im ku ew ne bêkêmasî ye, lê ez hêvî dikim ku ew ji tunebûnê çêtir e!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Ji kerema xwe pêşniyarek wergerek çêtir pêşkêşî bikin, an jî nivîs çawa bi rêkûpêk were şekil kirin
  * **Spas dikim!**
 
- ### Çavkanî
- * [mobiletto-cli li ser GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli li ser npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Naverok
+ * [Çavkanî](#Çavkanî)
+ * [Piştgirî û Fînanse](#Piştgirî-û-Fona)
  * [Sazkirin û bikaranîn](#Sazkirin-û-bikaranîna)
  * [pakêta npm](#npm-pakêt)
  * [Ji çavkaniyê](#Ji-çavkaniyê)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Pel jêbirin](# Pelên jêbirin)
  * [Metadata Binêre](#View-metadata)
  * [Rêveberên neynikê](#Mirror-directories)
+
+ ### Çavkanî
+ * [mobiletto-cli li ser GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli li ser npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Piştgirî û Fînanse
+ Ez hewl didim ku bibim pêşdebirek nermalava çavkaniya vekirî ya profesyonel. Ez tê de dixebitim
+ pîşesaziya nermalava gelek salan, min dest bi pargîdaniyên serfiraz kir û wan firot pargîdaniyên gelemperî.
+ Di van demên dawî de min karê xwe winda kir, û bi rastî jî tu karekî din li ber destê min nîn e
+
+ Ji ber vê yekê ez ê hewl bidim ku nermalava alîkar binivîsim û bibînim ka ew kar dike
+
+ Heke hûn ji karanîna vê nermalavê kêfê digirin, ez ê ji dil jî spasdar bim
+ herî piçûk [beşdariya mehane bi rêya Patreon](https://www.patreon.com/cobbzilla)
+
+ *Spas dikim!*
 
  ## Sazkirin û bikaranîn
  Hûn dikarin `mobiletto-cli` bi npm an rasterast ji çavkaniyê saz bikin û bimeşînin.

@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto, Amazon S3, Backblaze B2 ve yerel dosya sistemlerine bağlantıları destekler.
 
  # Bunu başka bir dilde oku
- Bu README.md belgesi [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) aracılığıyla şu dile çevrildi:
+ Bu README.md belgesi [hokeylization](https://github.com/cobbzilla/hokeylization) aracılığıyla şu dile çevrildi:
  **[Google Çeviri tarafından desteklenen her dil](https://cloud.google.com/translate/docs/languages)!**
 
  Mükemmel olmadığına eminim ama umarım hiç yoktan iyidir!
@@ -50,11 +50,9 @@ mobiletto-cli
  * lütfen daha iyi bir çeviri veya metnin nasıl düzgün biçimlendirilmesi gerektiği konusunda bir öneride bulunun
  * **Teşekkürler!**
 
- ### Kaynak
- * [GitHub'da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
- * [npm'de mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
-
  # İçindekiler
+ * [Kaynak](#Kaynak)
+ * [Destek ve Finansman](#Destek-ve-Finansman)
  * [Kurulum ve kullanım](#Kurulum ve kullanım)
  * [npm paketi](#npm paketi)
  * [Kaynaktan](#Kaynaktan)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Dosyaları sil](#Dosyaları sil)
  * [Meta verileri görüntüle](#Meta verileri görüntüle)
  * [Yansıtma dizinleri](#Ayna dizinleri)
+
+ ### Kaynak
+ * [GitHub'da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
+ * [npm'de mobiletto-cli](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Destek ve Finansman
+ Profesyonel bir açık kaynaklı yazılım geliştiricisi olmaya çalışıyorum. çalışıyorum
+ yazılım sektöründe uzun yıllar başarılı şirketler kurdum ve bunları halka açık şirketlere sattım.
+ Son zamanlarda işimi kaybettim ve sıralanmış başka işim yok
+
+ Bu yüzden yararlı bir yazılım yazmayı deneyeceğim ve işe yarayıp yaramadığını göreceğim.
+
+ Bu yazılımı kullanmaktan hoşlanıyorsanız, içtenlikle minnettar olurum.
+ en küçük [Patreon aracılığıyla aylık katkı](https://www.patreon.com/cobbzilla)
+
+ *Teşekkürler!*
 
  ## Kurulum ve kullanım
  `mobiletto-cli` aracılığıyla veya doğrudan kaynaktan yükleyebilir ve çalıştırabilirsiniz.

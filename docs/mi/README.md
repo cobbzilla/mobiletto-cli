@@ -6,7 +6,7 @@ mobiletto-cli
  Ka tautoko a Mobiletto i nga hononga ki Amazon S3, Backblaze B2, me nga punaha konae a rohe.
 
  # Panuitia tenei ki tetahi atu reo
- Kua whakamaoritia tenei tuhinga README.md, ma te [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), ki roto
+ Kua whakamaoritia tenei tuhinga README.md, ma te [hokeylization](https://github.com/cobbzilla/hokeylization), ki roto
  **[nga reo katoa e tautokohia ana e Google Translate](https://cloud.google.com/translate/docs/languages)!**
 
  E mohio ana ahau ehara i te mea tino tika, engari ko taku tumanako he pai ake i te kore!
@@ -50,11 +50,9 @@ mobiletto-cli
  * tuku mai he whakaaro mo te whakamaoritanga pai ake, me pehea ranei te whakatakotoranga tika o te tuhinga
  * **Mauruuru!**
 
- ### Puna
- * [mobiletto-cli i GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli i runga npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Ihirangi
+ * [Putake](#Source)
+ * [Tautoko me te Putea](#Tautoko-me-Pūtea)
  * [Tāuta me te whakamahi](#Tāuta-me-whakamahi)
  * [npm package](#npm-package)
  * [Mai i te puna](#Mai-puna)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Muku kōnae](#Muku-kōnae)
  * [Tirohia nga raraungameta](#Tirohia-metadata)
  * [Whakaata Whaiaronga](#Mirror-directories)
+
+ ### Puna
+ * [mobiletto-cli i GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli i runga npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Tautoko me te Putea
+ Kei te ngana ahau ki te noho hei kaiwhakawhanake rorohiko puna tuwhera ngaio. I mahi ahau i roto
+ te ahumahi rorohiko mo nga tau maha, kua timata ahau i nga kamupene angitu me te hoko atu ki nga kamupene a te iwi.
+ No tata nei ka ngaro taku mahi, a karekau he mahi ke atu i te rarangi
+
+ Na ka ngana ahau ki te tuhi i nga raupaparorohiko awhina me te kite mena ka mahi tera
+
+ Mena he pai ki a koe te whakamahi i tenei rorohiko, ka tino mihi ahau mo te
+ iti rawa [koha-marama ma Patreon](https://www.patreon.com/cobbzilla)
+
+ *Mauruuru!*
 
  ## Te whakauru me te whakamahi
  Ka taea e koe te whakauru me te whakahaere `mobiletto-cli` ma te npm mai i te puna ranei.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Whaiaronga whakaata
- He nui ake te whakaata i te take motuhake o `cp` , he tono motokoto motuhake e takai ana i te
+ He nui ake te whakaata i te take motuhake o `cp` , he tono moowhiti motuhake e takai ana i te
  mahi kape; ka haere tonu ahakoa ka puta he hapa, ka whai i nga tatauranga angitu me nga hapa.
 
  Hei whakaata i nga mea katoa mai i te conn1 ki te conn2:

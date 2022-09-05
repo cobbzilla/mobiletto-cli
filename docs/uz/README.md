@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto Amazon S3, Backblaze B2 va mahalliy fayl tizimlariga ulanishni qo'llab-quvvatlaydi.
 
  # Buni boshqa tilda o'qing
- Ushbu README.md hujjati [ `hokeylization` ](https://github.com/cobbzilla/hokeylization) orqali tarjima qilingan
+ Ushbu README.md hujjati [hokeylization](https://github.com/cobbzilla/hokeylization) orqali tarjima qilingan.
  **[Google Translate tomonidan qo‘llab-quvvatlanadigan barcha tillar](https://cloud.google.com/translate/docs/languages)!**
 
  Ishonchim komilki, bu mukammal emas, lekin umid qilamanki, bu hech narsadan yaxshiroq!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Yaxshiroq tarjima bo'yicha taklif yoki matnni qanday qilib to'g'ri formatlash kerakligini taklif qiling
  * **Rahmat!**
 
- ### Manba
- * [GitHub-da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Tarkib
+ * [Manba](#Manba)
+ * [Yordam va moliyalashtirish](#Yordam va moliyalashtirish)
  * [O'rnatish va foydalanish](#O'rnatish va foydalanish)
  * [npm paketi](#npm-paket)
  * [Manbadan](#Manbadan)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Fayllarni o'chirish](#Delete-fayllar)
  * [Metamaʼlumotlarni koʻrish](#Metamaʼlumotlarni koʻrish)
  * [Oyna kataloglari](#Mirror-kataloglar)
+
+ ### Manba
+ * [GitHub-da mobiletto-cli](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Qo'llab-quvvatlash va moliyalashtirish
+ Men professional ochiq kodli dasturiy ta'minot ishlab chiqaruvchisi bo'lishga harakat qilaman. Men ishlaganman
+ ko'p yillar davomida dasturiy ta'minot sanoatida men muvaffaqiyatli kompaniyalarni ishga tushirdim va ularni ommaviy kompaniyalarga sotdim.
+ Yaqinda men ishimni yo'qotdim va boshqa ishim yo'q
+
+ Shuning uchun men foydali dasturiy ta'minot yozishga harakat qilaman va bu ishlayotganligini tekshiraman
+
+ Agar siz ushbu dasturiy ta'minotdan foydalanishni yoqtirsangiz, men hattoki uchun chin dildan minnatdor bo'laman
+ eng kichik [Patreon orqali oylik hissa](https://www.patreon.com/cobbzilla)
+
+ *Rahmat!*
 
  ## O'rnatish va foydalanish
  Siz " `mobiletto-cli` npm orqali yoki to'g'ridan-to'g'ri manbadan o'rnatishingiz va ishga tushirishingiz mumkin.
@@ -278,7 +292,7 @@ mobiletto-cli
 
     mo mirror conn1 conn2
 
- Pastki katalogni aks ettirish uchun:
+ Kichik katalogni aks ettirish uchun:
 
     mo mirror conn1/some/subdir conn2
 

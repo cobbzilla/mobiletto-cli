@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ṣe atilẹyin awọn asopọ si Amazon S3, Backblaze B2, ati awọn eto faili agbegbe.
 
  # Ka eyi ni ede miiran
- Iwe README.md yii ti jẹ itumọ, nipasẹ [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), sinu
+ Iwe README.md yii ti ni itumọ, nipasẹ [hokeylization](https://github.com/cobbzilla/hokeylization), sinu
  **[gbogbo ede ni atilẹyin nipasẹ Google Tumọ](https://cloud.google.com/translate/docs/languages)!**
 
  Mo ni idaniloju pe ko pe, ṣugbọn Mo nireti pe o dara ju ohunkohun lọ!
@@ -50,11 +50,9 @@ mobiletto-cli
  * Fi inurere funni ni imọran itumọ ti o dara julọ, tabi bi o ṣe yẹ ki ọrọ naa ṣe tito daradara
  * **E dupe!**
 
- ### Orisun
- * [mobiletto-cli lori GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli lori npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Awọn akoonu
+ * [Orisun](#Orisun)
+ * [Atilẹyin ati Ifowopamọ](#Atilẹyin-ati-Ifunwo)
  * [Fifi sori ẹrọ ati lilo](#Fifi sori-ati-lilo)
  * [npm package](#npm-package)
  * [Lati orisun](#Lati orisun)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Paarẹ awọn faili](#Parẹ-faili)
  * [Wo metadata](#Wo-metadata)
  * [Awọn ilana digi](#Digi-directories)
+
+ ### Orisun
+ * [mobiletto-cli lori GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli lori npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Atilẹyin ati igbeowosile
+ Mo ngbiyanju lati jẹ oludasilẹ sọfitiwia orisun ṣiṣi ọjọgbọn. Mo ti ṣiṣẹ ninu
+ ile-iṣẹ sọfitiwia fun ọpọlọpọ ọdun, Mo ti bẹrẹ awọn ile-iṣẹ aṣeyọri ati ta wọn si awọn ile-iṣẹ gbangba.
+ Laipẹ Mo padanu iṣẹ mi, ati pe Emi ko ni iṣẹ miiran ti o laini gaan
+
+ Nitorinaa Emi yoo gbiyanju kikọ sọfitiwia iranlọwọ ati rii boya iyẹn ṣiṣẹ
+
+ Ti o ba gbadun lilo sọfitiwia yii, Emi yoo dupẹ lọwọ rẹ fun paapaa awọn
+ ti o kere julọ [ilowosi oṣooṣu nipasẹ Patreon](https://www.patreon.com/cobbzilla)
+
+ *E dupe!*
 
  ## Fifi sori ẹrọ ati lilo
  O le fi sori ẹrọ ati ṣiṣe `mobiletto-cli` nipasẹ npm tabi taara lati orisun.
@@ -271,7 +285,7 @@ mobiletto-cli
     mo meta conn1/some/file.txt
 
  ### Awọn ilana Digi
- Mirroring jẹ diẹ sii ju kan pataki nla ti `cp` , o jẹ kan lọtọ mobiletto pipaṣẹ ti o murasilẹ awọn
+ Mirroring jẹ diẹ sii ju a pataki nla ti `cp` , o jẹ kan lọtọ mobiletto pipaṣẹ ti o murasilẹ awọn
  iṣẹ daakọ; o tẹsiwaju paapaa nigbati awọn aṣiṣe ba waye, ati orin kika awọn aṣeyọri ati awọn aṣiṣe.
 
  Lati digi ohun gbogbo lati conn1 sinu conn2:

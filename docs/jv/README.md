@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto ndhukung sambungan menyang Amazon S3, Backblaze B2, lan sistem file lokal.
 
  # Waca iki ing basa liya
- Dokumen README.md iki wis diterjemahake, liwat [ `hokeylization` ](https://github.com/cobbzilla/hokeylization), menyang
+ Dokumen README.md iki wis diterjemahake, liwat [hokeylization](https://github.com/cobbzilla/hokeylization), menyang
  **[saben basa didhukung Google Terjemahan](https://cloud.google.com/translate/docs/languages)!**
 
  Aku yakin ora sampurna, nanging muga-muga luwih apik tinimbang ora ana!
@@ -50,11 +50,9 @@ mobiletto-cli
  * nyuwun saran terjemahan sing luwih apik, utawa carane teks kudu diformat kanthi bener
  **Matur nuwun!**
 
- ### Sumber
- * [mobiletto-cli ing GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli ing npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Isi
+ * [Sumber](#Sumber)
+ * [Dhukungan lan Pendanaan](#Support-and-Funding)
  * [Pasang lan panggunaan](#Installation-and-usage)
  * [paket npm](paket #npm)
  * [Saka sumber](#Saka-sumber)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Busak file](#Busak-berkas)
  * [Deleng metadata](#View-metadata)
  * [Direktori pangilon](#Direktori-Mirror)
+
+ ### Sumber
+ * [mobiletto-cli ing GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli ing npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Dhukungan lan Pendanaan
+ Aku nyoba dadi pangembang piranti lunak sumber terbuka profesional. Aku wis kerja ing
+ industri lunak kanggo akèh taun, Aku wis miwiti perusahaan sukses lan didol menyang perusahaan umum.
+ Bubar iki aku kelangan pegaweyan, lan aku ora duwe gaweyan liyane
+
+ Dadi aku bakal nyoba nulis piranti lunak sing migunani lan ndeleng manawa bisa digunakake
+
+ Yen sampeyan seneng nggunakake piranti lunak iki, aku bakal ngucapke matur nuwun kanthi tulus kanggo
+ paling cilik [kontribusi saben wulan liwat Patreon](https://www.patreon.com/cobbzilla)
+
+ *Matur nuwun!*
 
  ## Instalasi lan panggunaan
  Sampeyan bisa nginstal lan mbukak `mobiletto-cli` liwat npm utawa langsung saka sumber.

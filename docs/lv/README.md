@@ -6,7 +6,7 @@ mobiletto-cli
  Mobiletto atbalsta savienojumus ar Amazon S3, Backblaze B2 un vietējām failu sistēmām.
 
  # Lasiet to citā valodā
- Šis README.md dokuments ir tulkots, izmantojot [ `hokeylization` ](https://github.com/cobbzilla/hokeylization)
+ Šis README.md dokuments ir tulkots, izmantojot [hokeylization](https://github.com/cobbzilla/hokeylization)
  **[Visas valodas, ko atbalsta Google tulkotājs](https://cloud.google.com/translate/docs/languages)!**
 
  Esmu pārliecināts, ka tas nav ideāls, bet es ceru, ka tas ir labāk nekā nekas!
@@ -50,11 +50,9 @@ mobiletto-cli
  * laipni piedāvājiet ieteikumu par labāku tulkojumu vai kā pareizi formatēt tekstu
  * **Paldies!**
 
- ### Avots
- * [mobiletto-cli vietnē GitHub](https://github.com/cobbzilla/mobiletto-cli)
- * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
-
  # Saturs
+ * [Avots](#Avots)
+ * [Atbalsts un finansējums](#Support-and-Funding)
  * [Instalēšana un lietošana](#Installation-and-usage)
  * [npm pakotne](#npm-package)
  * [No avota](#No avota)
@@ -71,6 +69,22 @@ mobiletto-cli
  * [Dzēst failus](#Delete-files)
  * [Skatīt metadatus](#View-metadata)
  * [Spoguļot direktorijus](#Mirror-directories)
+
+ ### Avots
+ * [mobiletto-cli vietnē GitHub](https://github.com/cobbzilla/mobiletto-cli)
+ * [mobiletto-cli on npm](https://www.npmjs.com/package/mobiletto-cli)
+
+ ## Atbalsts un finansējums
+ Es cenšos būt profesionāls atvērtā pirmkoda programmatūras izstrādātājs. Esmu strādājis
+ programmatūras industrijā jau daudzus gadus esmu dibinājis veiksmīgus uzņēmumus un pārdevis tos valsts uzņēmumiem.
+ Nesen es zaudēju darbu, un man īsti nav citu darbu
+
+ Tāpēc es mēģināšu uzrakstīt noderīgu programmatūru un pārbaudīt, vai tā darbojas
+
+ Ja jums patīk izmantot šo programmatūru, es būtu patiesi pateicīgs pat par
+ mazākais [ikmēneša ieguldījums, izmantojot Patreon](https://www.patreon.com/cobbzilla)
+
+ *Paldies!*
 
  ## Uzstādīšana un lietošana
  Varat instalēt un palaist `mobiletto-cli` izmantojot npm vai tieši no avota.
