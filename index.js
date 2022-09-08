@@ -15,7 +15,7 @@ const SUB_COMMAND_HELP = COMMANDS.map(c => {
 const HELP_PREFIX = '__~_help_~__';
 
 const VERSION = require('./package.json').version;
-const MOBILETTO_VERSION = require(`${__dirname}/../mobiletto/node_modules/mobiletto/package.json`).version
+const MOBILETTO_VERSION = require(`${__dirname}/../mobiletto/package.json`).version
 
 const program = new commander.Command()
     .command('mo')
