@@ -1,6 +1,6 @@
 {
   "name": "mobiletto-cli",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "CLI for mobiletto",
   "main": "index.js",
   "keywords": [
@@ -41,7 +41,7 @@
     "commander": "^9.4.0",
     "conf": "^10.2.0",
     "enquirer": "^2.3.6",
-    "mobiletto": "^1.1.18",
+    "mobiletto": "^1.1.20",
     "randomstring": "^1.2.2"
   }
 }
