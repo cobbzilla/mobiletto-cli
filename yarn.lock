@@ -2869,10 +2869,10 @@ mimic-fn@^3.0.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-3.1.0.tgz#65755145bbf3e36954b949c16450427451d5ca74"
   integrity sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ==
 
-mobiletto@^1.1.16:
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/mobiletto/-/mobiletto-1.1.16.tgz#a71ce725428455b22c29b29cf21f472a46284903"
-  integrity sha512-LL6A95Zuf1EEeykhsWMFBAbrnAQ05pnjoSmXA1jTTEQnU903KCS3G1FLbjtaKgPONUaRljH9hkzpiSyt8vpiOw==
+mobiletto@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/mobiletto/-/mobiletto-1.1.17.tgz#552ac159a0f5dbffed9875839c915837e89b34cf"
+  integrity sha512-qlNw9z4yyBBJ1FQQQt2GRLGxa6jLTDvjLgcy30oGA4BdlcBQL1/DdZJiUM0AF90xulQ9oFNl4IovQT1jjzXQeg==
   dependencies:
     "@aws-sdk/client-s3" "^3.150.0"
     "@aws-sdk/lib-storage" "^3.150.0"
