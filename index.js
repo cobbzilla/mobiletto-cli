@@ -15,7 +15,17 @@ const SUB_COMMAND_HELP = COMMANDS.map(c => {
 const HELP_PREFIX = '__~_help_~__';
 
 const VERSION = require('./package.json').version;
-const MOBILETTO_VERSION = require(`${__dirname}/../mobiletto/package.json`).version
+let MOBILETTO_VERSION
+try {
+    MOBILETTO_VERSION = require(`${__dirname}/node_modules/mobiletto/package.json`).version
+} catch (e) {
+    try {
+        MOBILETTO_VERSION = require(`${__dirname}/../mobiletto/package.json`).version
+    } catch (e2) {
+        console.warn(chalk.yellowBright(`mobiletto version could not be determined`))
+        MOBILETTO_VERSION = 'unknown'
+    }
+}
 
 const program = new commander.Command()
     .command('mo')
