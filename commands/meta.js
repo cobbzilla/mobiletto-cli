@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 const commander = require('commander')
-const {mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 const chalk = require("chalk");
+const { logger } = require("../logger")
+const { mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 
 const program = new commander.Command()
 
@@ -20,12 +21,12 @@ const cmd_meta = program.command('meta')
                 .then((meta) => {
                         if (meta) {
                             if (opts.verbose) {
-                                console.log(JSON.stringify(meta, null, 2))
+                                logger.info(JSON.stringify(meta, null, 2))
                             } else {
-                                console.log(JSON.stringify(meta))
+                                logger.info(JSON.stringify(meta))
                             }
                         } else {
-                            if (opts.verbose) { console.log(chalk.yellowBright('Metadata not found')) }
+                            if (opts.verbose) { logger.info(chalk.yellowBright('Metadata not found')) }
                         }
                     },
                     (err) => {

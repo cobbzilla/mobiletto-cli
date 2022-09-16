@@ -2,6 +2,7 @@
 const commander = require('commander')
 const chalk = require('chalk')
 const { connect, mountAndPath, handleCliError, cleanup } = require('../connections')
+const { logger } = require("../logger")
 
 const program = new commander.Command()
 
@@ -21,12 +22,12 @@ const cmd_ls = program.command('ls')
                     .then((results) => {
                             if (results) {
                                 if (opts.verbose) {
-                                    results.forEach(r => console.log(JSON.stringify(r, null, 2)))
+                                    results.forEach(r => logger.info(JSON.stringify(r, null, 2)))
                                 } else {
-                                    results.forEach(r => console.log(JSON.stringify(r)))
+                                    results.forEach(r => logger.info(JSON.stringify(r)))
                                 }
                             } else {
-                                if (opts.verbose) { console.log(chalk.yellowBright('No results found')) }
+                                if (opts.verbose) { logger.info(chalk.yellowBright('No results found')) }
                             }
                         },
                         (err) => {

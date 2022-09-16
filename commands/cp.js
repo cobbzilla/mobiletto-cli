@@ -6,6 +6,7 @@ const randomstring = require('randomstring')
 const commander = require('commander')
 const { M_FILE } = require('mobiletto')
 const chalk = require("chalk")
+const logger = require('../logger').logger
 const { mountAndPath, handleCliError, connect, CliError, cleanup } = require("../connections")
 
 const program = new commander.Command()
@@ -19,53 +20,53 @@ const copyAcross = (fromConn, fromPath, toConn, toPath, verbose, force) => (obj)
             const destFullPath = toPath +
                 (toPath.endsWith('/') || toPath.includes('.') ? '' : '/') +
                 (toPath.includes('.') ? '' : (destName.startsWith('/') ? destName.substring(1) : destName))
-            if (verbose) { console.log(`cp: determined destName='${destName}' and destFullPath='${destFullPath}' from source path='${fromPath}', target path='${toPath}'`)}
+            if (verbose) { logger.info(`cp: determined destName='${destName}' and destFullPath='${destFullPath}' from source path='${fromPath}', target path='${toPath}'`)}
 
             const file = os.tmpdir() + '/' + randomstring.generate(20) + '.' + Date.now() + '.mo'
             const writer = fs.createWriteStream(file)
-            if (verbose) { console.log(`cp: writing source ${obj.name} -> temp ${file}`) }
+            if (verbose) { logger.info(`cp: writing source ${obj.name} -> temp ${file}`) }
             fromConn.read(obj.name,
                 (chunk) => writer.write(chunk),
                 () => {
                     writer.close((err) => {
                         if (err) {
                             const message = `cp: error closing temp file ${file}`
-                            if (verbose) { console.error(chalk.redBright(message + `: ${err}`)) }
+                            if (verbose) { logger.error(chalk.redBright(message + `: ${err}`)) }
                             if (force) return
                             throw new CliError(message, err)
                         }
-                        if (verbose) { console.log(`cp: FINISHED writing ${obj.name} -> temp ${file} (file closed successfully)`) }
+                        if (verbose) { logger.info(`cp: FINISHED writing ${obj.name} -> temp ${file} (file closed successfully)`) }
                     })
                 })
                 .then(
                     async () => {
                         // read from temp file -> write to mirror
-                        if (verbose) { console.log(`cp: writing temp ${file} -> target ${destFullPath}`) }
+                        if (verbose) { logger.info(`cp: writing temp ${file} -> target ${destFullPath}`) }
                         const reader = fs.createReadStream(file)
                         try {
                             await toConn.write(destFullPath, reader)
                         } catch (e) {
                             const message = `cp: error copying file to ${destFullPath}`
-                            if (verbose) { console.log(chalk.redBright(message + `: ${e}`)) }
+                            if (verbose) { logger.error(chalk.redBright(message + `: ${e}`)) }
                             if (force) return
                             throw new CliError(message, e)
                         }
                     },
                     (err) => {
                         const message = `cp: error copying file to ${destFullPath}`
-                        if (verbose) { console.log(chalk.redBright(message + `: ${err}`)) }
+                        if (verbose) { logger.error(chalk.redBright(message + `: ${err}`)) }
                         if (force) return
                         throw new CliError(message, err)
                     })
                 .finally(async () => {
                     fs.rm(file, (err) => {
-                        if (err) { console.error(chalk.redBright(`Error deleting temp file: ${file}: ${err}`)) }
+                        if (err) { logger.error(chalk.redBright(`Error deleting temp file: ${file}: ${err}`)) }
                     })
                     await cleanup()
                 })
         } catch (e) {
             if (verbose) {
-                console.error(chalk.redBright(`Unexpected error copying file ${obj.name}: ${e}`))
+                logger.error(chalk.redBright(`Unexpected error copying file ${obj.name}: ${e}`))
             }
             if (!force) throw e
         }
@@ -94,20 +95,20 @@ const cmd_cp = program.command('cp')
             }
             const copy = copyAcross(fromConn, fromMobi.path, toConn, toMobi.path, verbose, opts.force)
             if (opts.recursive) {
-                if (verbose) { console.log(`cp: starting recursive copy: ${from} -> ${to}`) }
+                if (verbose) { logger.info(`cp: starting recursive copy: ${from} -> ${to}`) }
                 await fromConn.list(fromMobi.path, {recursive: true, visitor: copy})
             } else {
-                if (verbose) { console.log(`cp: determining metadata for single file copy: ${from} -> ${to}`) }
+                if (verbose) { logger.info(`cp: determining metadata for single file copy: ${from} -> ${to}`) }
                 const meta = await fromConn.metadata(fromMobi.path)
                 if (meta.type !== M_FILE) {
-                    program.error(chalk.redBright(`'${fromMobi.path}' is not a file. Use the -r / --recursive option to copy directories`))
+                    logger.error(chalk.redBright(`'${fromMobi.path}' is not a file. Use the -r / --recursive option to copy directories`))
                     return
                 }
-                if (verbose) { console.log(`cp: copying single file: ${from} -> ${to} metadata=${JSON.stringify(meta)}`) }
+                if (verbose) { logger.info(`cp: copying single file: ${from} -> ${to} metadata=${JSON.stringify(meta)}`) }
                 await copy(meta)
             }
         } catch (e) {
-            if (opts.verbose) { console.log(chalk.redBright(`cp: unexpected error: ${e}`)) }
+            if (opts.verbose) { logger.error(chalk.redBright(`cp: unexpected error: ${e}`)) }
             handleCliError(e, program)
         }
     })

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const commander = require('commander')
-const {mountAndPath, connect, handleCliError, cleanup } = require("../connections");
+const { logger } = require("../logger")
+const { mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 const chalk = require("chalk");
 
 const program = new commander.Command()
@@ -26,7 +27,7 @@ const cmd_rm = program.command('rm')
                             } else {
                                 removedFiles = removed
                             }
-                            console.log(chalk.greenBright('Removed: ') + chalk.whiteBright(removedFiles))
+                            logger.info(chalk.greenBright('Removed: ') + chalk.whiteBright(removedFiles))
                         }
                     },
                     (err) => { if (err) { handleCliError(err, program) } })

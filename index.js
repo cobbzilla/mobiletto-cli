@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const commander = require('commander')
 const chalk = require('chalk')
+const logger = require('./logger').logger
 
 const { handleCliError } = require("./connections")
 
@@ -22,7 +23,7 @@ try {
     try {
         MOBILETTO_VERSION = require(`${__dirname}/../mobiletto/package.json`).version
     } catch (e2) {
-        console.warn(chalk.yellowBright(`mobiletto version could not be determined`))
+        logger.warn(chalk.yellowBright(`mobiletto version could not be determined`))
         MOBILETTO_VERSION = 'unknown'
     }
 }

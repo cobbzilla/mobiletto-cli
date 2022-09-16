@@ -2,6 +2,7 @@
 const fs = require('fs')
 const commander = require('commander')
 const chalk = require('chalk')
+const logger = require('../logger').logger
 const {
     CONNECT_FIELDS, FIELD_TYPE_VALIDATORS,
     registerConnection, connectionNames, getConnection,
@@ -66,7 +67,7 @@ async function _createConn (config, options) {
     try {
         await registerConnection(config.name, config, options.force)
         await cleanup()
-        console.log(`Connection '${config.name}' successfully registered`)
+        logger.info(chalk.greenBright(`Connection '${config.name}' successfully registered`))
     } catch (e) {
         handleCliError(e, program)
     }
@@ -111,25 +112,25 @@ async function createConnection (json, options) {
 }
 
 function listConnections () {
-    console.log(chalk.whiteBright(connectionNames().toString().replaceAll(',','\n')))
+    logger.info(chalk.whiteBright(connectionNames().toString().replaceAll(',','\n')))
 }
 
 function dumpConnection (name, verbose) {
     const output = verbose
         ? JSON.stringify(getConnection(name), null, 2)
         : JSON.stringify(getConnection(name))
-    console.log(chalk.whiteBright(output))
+    logger.info(chalk.whiteBright(output))
 }
 
 function rmConnection (name, force) {
     removeConnection(name, force)
-    console.log(chalk.greenBright('Removed: ') + chalk.whiteBright(name))
+    logger.info(chalk.greenBright('Removed: ') + chalk.whiteBright(name))
 }
 
 function rmAllConnections () {
     const names = connectionNames()
     removeAllConnections()
-    console.log(chalk.greenBright('Removed:\n') + names.toString().replaceAll(',','\n'))
+    logger.info(chalk.greenBright('Removed:\n') + names.toString().replaceAll(',','\n'))
 }
 
 const cmd_connect = program.command('connect')

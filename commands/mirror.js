@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const commander = require('commander')
 const chalk = require('chalk')
+const { logger } = require("../logger")
 const { mountAndPath, connect, handleCliError, cleanup } = require("../connections");
 
 const program = new commander.Command()
@@ -23,7 +24,7 @@ const cmd_cp = program.command('cp')
             }
             toConn.mirror(fromConn, toMobi.path, fromMobi.path)
                 .then((results) => {
-                    console.log(chalk.whiteBright('Mirror completed') + '\n' +
+                    logger.info(chalk.whiteBright('Mirror completed') + '\n' +
                         chalk.greenBright('success: ') + results.success + '\n' +
                         (results.errors > 0 ? chalk.redBright('errors: ') : chalk.whiteBright('errors: ')) +
                         results.errors + '\n')
