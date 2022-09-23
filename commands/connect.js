@@ -113,25 +113,25 @@ async function createConnection (json, options) {
 
 function listConnections () {
     const names = connectionNames();
-    process.stdout.write(chalk.whiteBright(names.toString().replaceAll(',','\n')))
+    process.stdout.write(chalk.whiteBright(names.toString().replaceAll(',','\n') + '\n'))
 }
 
 function dumpConnection (name, verbose) {
     const output = verbose
         ? JSON.stringify(getConnection(name), null, 2)
         : JSON.stringify(getConnection(name))
-    process.stdout.write(chalk.whiteBright(output))
+    process.stdout.write(chalk.whiteBright(output) + '\n')
 }
 
 function rmConnection (name, force) {
     removeConnection(name, force)
-    process.stdout.write(chalk.greenBright('Removed: ') + chalk.whiteBright(name))
+    process.stdout.write(chalk.greenBright('Removed: ') + chalk.whiteBright(name) + '\n')
 }
 
 function rmAllConnections () {
     const names = connectionNames()
     removeAllConnections()
-    process.stdout.write(chalk.greenBright('Removed:\n') + names.toString().replaceAll(',','\n'))
+    process.stdout.write(chalk.greenBright('Removed:\n') + names.toString().replaceAll(',','\n') + '\n')
 }
 
 const cmd_connect = program.command('connect')

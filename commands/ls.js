@@ -22,12 +22,12 @@ const cmd_ls = program.command('ls')
                     .then((results) => {
                             if (results) {
                                 if (opts.verbose) {
-                                    results.forEach(r => process.stdout.write(JSON.stringify(r, null, 2)))
+                                    results.forEach(r => process.stdout.write(JSON.stringify(r, null, 2) + '\n'))
                                 } else {
-                                    results.forEach(r => process.stdout.write(JSON.stringify(r)))
+                                    results.forEach(r => process.stdout.write(JSON.stringify(r) + '\n'))
                                 }
                             } else {
-                                if (opts.verbose) { process.stdout.write(chalk.yellowBright('No results found')) }
+                                if (opts.verbose) { process.stdout.write(chalk.yellowBright('No results found\n')) }
                             }
                         },
                         (err) => {
