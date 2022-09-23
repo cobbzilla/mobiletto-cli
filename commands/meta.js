@@ -21,12 +21,12 @@ const cmd_meta = program.command('meta')
                 .then((meta) => {
                         if (meta) {
                             if (opts.verbose) {
-                                logger.info(JSON.stringify(meta, null, 2))
+                                process.stdout.write(JSON.stringify(meta, null, 2))
                             } else {
-                                logger.info(JSON.stringify(meta))
+                                process.stdout.write(JSON.stringify(meta))
                             }
                         } else {
-                            if (opts.verbose) { logger.info(chalk.yellowBright('Metadata not found')) }
+                            if (opts.verbose) { process.stdout.write(chalk.yellowBright('Metadata not found')) }
                         }
                     },
                     (err) => {

@@ -20,28 +20,28 @@ const copyAcross = (fromConn, fromPath, toConn, toPath, verbose, force) => (obj)
             const destFullPath = toPath +
                 (toPath.endsWith('/') || toPath.includes('.') ? '' : '/') +
                 (toPath.includes('.') ? '' : (destName.startsWith('/') ? destName.substring(1) : destName))
-            if (verbose) { logger.info(`cp: determined destName='${destName}' and destFullPath='${destFullPath}' from source path='${fromPath}', target path='${toPath}'`)}
+            if (verbose) { process.stdout.write(`cp: determined destName='${destName}' and destFullPath='${destFullPath}' from source path='${fromPath}', target path='${toPath}'`)}
 
             const file = os.tmpdir() + '/' + randomstring.generate(20) + '.' + Date.now() + '.mo'
             const writer = fs.createWriteStream(file)
-            if (verbose) { logger.info(`cp: writing source ${obj.name} -> temp ${file}`) }
+            if (verbose) { process.stdout.write(`cp: writing source ${obj.name} -> temp ${file}`) }
             fromConn.read(obj.name,
                 (chunk) => writer.write(chunk),
                 () => {
                     writer.close((err) => {
                         if (err) {
                             const message = `cp: error closing temp file ${file}`
-                            if (verbose) { logger.error(chalk.redBright(message + `: ${err}`)) }
+                            if (verbose) { process.stdout.write(chalk.redBright(message + `: ${err}`)) }
                             if (force) return
                             throw new CliError(message, err)
                         }
-                        if (verbose) { logger.info(`cp: FINISHED writing ${obj.name} -> temp ${file} (file closed successfully)`) }
+                        if (verbose) { process.stdout.write(`cp: FINISHED writing ${obj.name} -> temp ${file} (file closed successfully)`) }
                     })
                 })
                 .then(
                     async () => {
                         // read from temp file -> write to mirror
-                        if (verbose) { logger.info(`cp: writing temp ${file} -> target ${destFullPath}`) }
+                        if (verbose) { process.stdout.write(`cp: writing temp ${file} -> target ${destFullPath}`) }
                         const reader = fs.createReadStream(file)
                         try {
                             await toConn.write(destFullPath, reader)
@@ -95,16 +95,16 @@ const cmd_cp = program.command('cp')
             }
             const copy = copyAcross(fromConn, fromMobi.path, toConn, toMobi.path, verbose, opts.force)
             if (opts.recursive) {
-                if (verbose) { logger.info(`cp: starting recursive copy: ${from} -> ${to}`) }
+                if (verbose) { process.stdout.write(`cp: starting recursive copy: ${from} -> ${to}`) }
                 await fromConn.list(fromMobi.path, {recursive: true, visitor: copy})
             } else {
-                if (verbose) { logger.info(`cp: determining metadata for single file copy: ${from} -> ${to}`) }
+                if (verbose) { process.stdout.write(`cp: determining metadata for single file copy: ${from} -> ${to}`) }
                 const meta = await fromConn.metadata(fromMobi.path)
                 if (meta.type !== M_FILE) {
                     logger.error(chalk.redBright(`'${fromMobi.path}' is not a file. Use the -r / --recursive option to copy directories`))
                     return
                 }
-                if (verbose) { logger.info(`cp: copying single file: ${from} -> ${to} metadata=${JSON.stringify(meta)}`) }
+                if (verbose) { process.stdout.write(`cp: copying single file: ${from} -> ${to} metadata=${JSON.stringify(meta)}`) }
                 await copy(meta)
             }
         } catch (e) {

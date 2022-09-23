@@ -24,7 +24,7 @@ const cmd_cp = program.command('cp')
             }
             toConn.mirror(fromConn, toMobi.path, fromMobi.path)
                 .then((results) => {
-                    logger.info(chalk.whiteBright('Mirror completed') + '\n' +
+                    process.stdout.write(chalk.whiteBright('Mirror completed') + '\n' +
                         chalk.greenBright('success: ') + results.success + '\n' +
                         (results.errors > 0 ? chalk.redBright('errors: ') : chalk.whiteBright('errors: ')) +
                         results.errors + '\n')

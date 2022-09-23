@@ -1,6 +1,6 @@
 {
   "name": "mobiletto-cli",
-  "version": "1.1.23",
+  "version": "1.1.24",
   "description": "CLI for mobiletto",
   "main": "index.js",
   "keywords": [
