@@ -285,7 +285,7 @@ To view metadata:
 
 ### Mirror directories
 Mirroring is more than a special case of `cp`, it is a separate mobiletto command that wraps the
-copy operation; it continues even when errors occur, and track a count of successes and errors.
+copy operation; it continues even when errors occur, and counts the number of successes and errors.
 
 To mirror everything from conn1 into conn2:
 
