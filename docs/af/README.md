@@ -23,7 +23,7 @@ mobiletto-cli
  [🇮🇹 Italiaans](../it/README.md)
  [🇯🇵 Japannees](../ja/README.md)
  [🇰🇷 Koreaans](../ko/README.md)
- [🇮🇳 Maranthi](../mr/README.md)
+ [🇮🇳 Marathi](../mr/README.md)
  [🇵🇱 Pools](../pl/README.md)
  [🇧🇷 Portugees](../pt/README.md)
  [🇷🇺 Russies](../ru/README.md)

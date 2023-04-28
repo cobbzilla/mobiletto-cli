@@ -23,7 +23,7 @@ mobiletto-cli
  [🇮🇹 taliančina](../it/README.md)
  [🇯🇵 japončina](../ja/README.md)
  [🇰🇷 kórejčina](../ko/README.md)
- [🇮🇳 Maranthi](../mr/README.md)
+ [🇮🇳 Marathi](../mr/README.md)
  [🇵🇱 poľština](../pl/README.md)
  [🇧🇷 portugalčina](../pt/README.md)
  [🇷🇺 ruština](../ru/README.md)
