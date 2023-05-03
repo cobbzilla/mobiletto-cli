@@ -41,7 +41,7 @@
     "commander": "^9.4.0",
     "conf": "^10.2.0",
     "enquirer": "^2.3.6",
-    "mobiletto": "^1.1.38",
+    "mobiletto": "^1.1.39",
     "randomstring": "^1.2.2",
     "winston": "^3.8.2"
   }
